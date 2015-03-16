@@ -1,0 +1,35 @@
+baseurl = "https://mailsquad.net/fr"
+publishdir = "../../html/fr"
+staticdir = "../static"
+canonifyurls = false
+
+title = "Marketing email pour les agences et professionnels du Web"
+
+[permalinks]
+  blogue = "/blogue/:year/:month/:slug/"
+
+[[menu.top]]
+	name = "Fonctionnalités"
+	identifier = "fonctionnalites"
+	url = "/fonctionnalites/agences"
+	weight = 1
+[[menu.top]]
+	name = "Prix"
+	identifier = "prix"
+	url = "/prix"
+	weight = 2
+[[menu.top]]
+	name = "Support"
+	identifier = "support"
+	url = "/support"
+	weight = 3
+[[menu.top]]
+	name = "Contact"
+	identifier = "contact"
+	url = "/contact"
+	weight = 4
+[[menu.top]]
+	name = "Blogue"
+	identifier = "blogue"
+	url = "/blogue"
+	weight = 5

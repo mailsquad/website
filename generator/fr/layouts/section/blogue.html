@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+    <title>Les dernières nouvelles de Mailsquad - Le blogue</title>
+
+    <meta name="description" content="">
+
+{{ partial "header.html" . }}
+{{ partial "topnav.html" . }}
+
+<section class="content-3 bg-clouds">
+  
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-1">
+                   <img src="/common-files/icons/Chat@2x.png" width="50" height="50" alt="Blogue de Mailquad">
+            </div>
+            <div class="col-sm-11">
+                <h3>Les dernières nouvelles de Mailsquad</h3>
+            </div>
+            
+        </div>
+    </div>
+
+</section>
+
+<section class="blog-1">
+
+    <div class="container" style="padding-top: 75px">
+        <div class="row">
+
+            <div class="col-sm-3 links">
+                <div class="tags">
+                    <h6>Catégories</h6>
+                    <ul>
+                        {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+                             <li><a href="/categories/{{ $name | urlize }}">{{ $name }}</a></li>
+                        {{ end }}
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-9">
+
+                {{ range first 10 .Data.Pages }}
+                      {{ .Render "summary" }}
+                {{ end }}
+
+            </div>
+        </div>
+    </div>
+
+</section>
+
+{{ partial "footernav.html" . }}
+{{ partial "footer.html" . }}
+
+</body>
+</html>

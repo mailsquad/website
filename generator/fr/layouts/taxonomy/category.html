@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+    <title>Tous les articles reliés à {{.Title}} - Le blogue de Mailsquad</title>
+
+    <meta name="description" content="">
+
+{{ partial "header.html" . }}
+{{ partial "topnav.html" . }}
+
+<section class="content-3 bg-clouds">
+  
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-1">
+                   <img src="/common-files/icons/Chat@2x.png" width="50" height="50" alt="Blogue de Mailquad">
+            </div>
+            <div class="col-sm-11">
+                <h3>Les dernières nouvelles de Mailsquad</h3>
+            </div>
+            
+        </div>
+    </div>
+
+</section>
+
+<section class="blog-1">
+   
+    <div class="title" style="padding-top: 60px; padding-bottom: 15px">
+        <div class="container">
+            <h3>Tous les articles reliés à {{.Title}}</h3>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3 links">
+                <div class="tags">
+                    <h6>Catégories</h6>
+                    <ul>
+                        {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+                             <li><a href="/categories/{{ $name | urlize }}">{{ $name }}</a></li>
+                        {{ end }}
+                    </ul>
+                </div>
+              
+            </div>
+            <div class="col-sm-9">
+                
+					      
+                {{ range .Data.Pages }}
+                	<p>{{ .Date.Format "2-01-2006" }} - <a href='{{ .Permalink }}'>{{ .Title }}</a></p>
+                {{ end }}
+
+
+            </div>
+        </div>
+    </div>
+</section>
+
+{{ partial "footernav.html" . }}
+{{ partial "footer.html" . }}
+
+</body>
+</html>

@@ -1,0 +1,54 @@
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <link rel="alternate" href="{{.Permalink}}" hreflang="fr-ca" />
+    <link href="/index.xml" rel="alternate" type="application/rss+xml" title="Blogue - Mailsquad" />
+
+    <link rel="stylesheet" href="/flat-ui/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="/flat-ui/css/flat-ui.css">
+    <link rel="stylesheet" href="/common-files/css/icon-font.css">
+    <link rel="stylesheet" href="/common-files/css/animations.css">
+    <link rel="stylesheet" href="/common-files/css/stb.css">
+    <link rel="stylesheet" href="/common-files/css/rrssb.css" />
+
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" 
+      type="image/png" 
+      href="/img/mailsquad_icon.png">
+
+</head>
+<body>
+<script type="text/javascript">
+    var stb = {
+        hascolsed: 'false',
+        hide_mobile: 1,
+        cookieLife: 30,
+        triggerHeight: 50,
+        stbElement: ''
+    };
+</script>
+<div id="scrolltriggered" style="width: 325px; right:10px;">
+    <div id="inscroll">
+        <a href="#close" id="closebox">x</a>
+        <h5>Inscription à l'infolettre</h5>
+        <p>Restez informé des dernières tendances du marketing par courriel</p>
+        <ul>
+            <li><span>Trucs et astuces</span></li>
+            <li><span>Nouvelles du blogue</span></li>
+            <li><span>Matériel promotionnel</span></li>
+        </ul>
+        <form action="https://api.inboxroute.com/subscription/542020b63ecbb00002000002" method="post" id="stbContactForm">
+            <div class="input-group">
+                <input type="email" class="form-control" name="email" id="email" placeholder="votre@email.com" required>
+                <input type="hidden" name="submitted" id="submitted" value="false" />
+                <span class="input-group-btn">
+                    <button class="btn" type="submit">
+                        <span class="fui-arrow-right"></span>
+                    </button>
+                </span>
+            </div>
+        </form>
+        <p id="stbMsgArea"></p>
+    </div>
+</div>
+<div class="page-wrapper">
