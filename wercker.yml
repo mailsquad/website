@@ -3,8 +3,12 @@ box: centos:7
 build:
   steps:
     - script:
-       name: Build docker image
+       name: Install docker
        code: |
          sudo yum install docker
+
+    - script:
+       name: Build docker image
+       code: |
          sudo service docker start
          sudo docker build -t mailsquad/website .
