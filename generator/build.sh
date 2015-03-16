@@ -1,6 +1,8 @@
 #!/bin/sh
 
 rm -rf ../html/*
+cp robots.txt ../html/
+cp sitemap-index.xml ../html/
 
 cd fr
 hugo
@@ -13,7 +15,6 @@ rm -rf node_modules
 rm -rf less
 rm Gruntfile.js
 rm package.json
-mv robots.txt ../
 mv style.css ../
 mv video-js.css ../
 mv ui-kit ../
@@ -29,7 +30,6 @@ rm -rf node_modules
 rm -rf less
 rm Gruntfile.js
 rm package.json
-rm -rf robots.txt
 rm -rf style.css
 rm -rf video-js.css
 rm -rf ui-kit
