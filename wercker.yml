@@ -1,8 +1,8 @@
 box: ubuntu
 
 build:
-	steps:
-		-script:
-			name: Build docker image
-			code: |
-				docker build -t mailsquad/website .
+  steps:
+    - script:
+       name: Build docker image
+       code: |
+         docker build -t mailsquad/website .
