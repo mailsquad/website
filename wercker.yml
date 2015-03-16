@@ -1,15 +1,9 @@
-box: jpetazzo/dind
+box: wercker-labs/docker
 
 build:
   steps:
-    # - script:
-    #    name: Install docker
-    #    code: |
-    #      sudo yum -y install docker
 
     - script:
        name: Build docker image
        code: |
-         #sudo docker -d
-         #sudo systemctl docker start
          docker build -t mailsquad/website .
