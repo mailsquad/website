@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogue de Mailquad - Marketing email pour les agences et professionnels du Web </title>
+    <link>https://mailsquad.net/fr/</link>
+    <language>fr</language>
+    <author>Mailsquad</author>
+    <updated>Sat, 21 Feb 2015 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Nouveautés du mois de février 2015</title>
+      <link>https://mailsquad.net/fr/blogue/2015/02/nouveautes-du-mois-de-fevrier-2015/</link>
+      <pubDate>Sat, 21 Feb 2015 00:00:00 UTC</pubDate>
+      
+      <guid>https://mailsquad.net/fr/blogue/2015/02/nouveautes-du-mois-de-fevrier-2015/</guid>
+      <description>&lt;p&gt;En résumé :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Exportation des données&lt;/li&gt;
+&lt;li&gt;Statut d&amp;rsquo;un contact&lt;/li&gt;
+&lt;li&gt;Rapport des rebonds&lt;/li&gt;
+&lt;li&gt;Pages de renvoi d&amp;rsquo;une liste&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Voici le contenu intégral de notre infolettre du mois de février 2015.
+&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;style&gt;@media only screen and (max-width: 600px) {
+  table[class=&amp;ldquo;body&amp;rdquo;] img { width: auto !important; height: auto !important; }
+  table[class=&amp;ldquo;body&amp;rdquo;] center { min-width: 0px !important; }
+  table[class=&amp;ldquo;body&amp;rdquo;] .container { width: 95% !important; }
+  table[class=&amp;ldquo;body&amp;rdquo;] .row2 { width: 100% !important; display: block !important; }
+  table[class=&amp;ldquo;body&amp;rdquo;] .wrapper { display: block !important; padding-right: 0px !important; }
+  table[class=&amp;ldquo;body&amp;rdquo;] .columns, table[class=&amp;ldquo;body&amp;rdquo;] .column { table-layout: fixed !important; float: none !important; width: 100% !important; padding-right: 0px !important; padding-left: 0px !important; display: block !important; }
+  table[class=&amp;ldquo;body&amp;rdquo;] .wrapper.first .columns, table[class=&amp;ldquo;body&amp;rdquo;] .wrapper.first .column { display: table !important; }
+  table[class=&amp;ldquo;body&amp;rdquo;] table.columns td, table[class=&amp;ldquo;body&amp;rdquo;] table.column td { width: 100% !important; }
+  table[class=&amp;ldquo;body&amp;rdquo;] .columns td.one, table[class=&amp;ldquo;body&amp;rdquo;] .column td.one { width: 8.333333% !important; }
+  table[class=&amp;ldquo;body&amp;rdquo;] .columns td.two, table[class=&amp;ldquo;body&amp;rdquo;] .column td.two { width: 16.666666% !important; }
+  table[class=&amp;ldquo;body&amp;rdquo;] .columns td.three, table[class=&amp;ldquo;body&amp;rdquo;] .column td.three { width: 25% !important; }
+  table[class=&amp;ldquo;body&amp;rdquo;] .columns td.four, table[class=&amp;ldquo;body&amp;rdquo;] .column td.four { width: 33.333333% !important; }
+  table[class=&amp;ldquo;body&amp;rdquo;] .columns td.five, table[class=&amp;ldquo;body&amp;rdquo;] .column td.five { width: 41.666666% !important; }
+  table[class=&amp;ldquo;body&amp;rdquo;] .columns td.six, table[class=&amp;ldquo;body&amp;rdquo;] .column td.six { width: 50% !important; }
+  table[class=&amp;ldquo;body&amp;rdquo;] .columns td.seven, table[class=&amp;ldquo;body&amp;rdquo;] .column td.seven { width: 58.333333% !important; }
+  table[class=&amp;ldquo;body&amp;rdquo;] .columns td.eight, table[class=&amp;ldquo;body&amp;rdquo;] .column td.eight { width: 66.666666% !important; }
+  table[class=&amp;ldquo;body&amp;rdquo;] .columns td.nine, table[class=&amp;ldquo;body&amp;rdquo;] .column td.nine { width: 75% !important; }
+  table[class=&amp;ldquo;body&amp;rdquo;] .columns td.ten, table[class=&amp;ldquo;body&amp;rdquo;] .column td.ten { width: 83.333333% !important; }
+  table[class=&amp;ldquo;body&amp;rdquo;] .columns td.eleven, table[class=&amp;ldquo;body&amp;rdquo;] .column td.eleven { width: 91.666666% !important; }
+  table[class=&amp;ldquo;body&amp;rdquo;] .columns td.twelve, table[class=&amp;ldquo;body&amp;rdquo;] .column td.twelve { width: 100% !important; }
+  table[class=&amp;ldquo;body&amp;rdquo;] td.offset-by-one, table[class=&amp;ldquo;body&amp;rdquo;] td.offset-by-two, table[class=&amp;ldquo;body&amp;rdquo;] td.offset-by-three, table[class=&amp;ldquo;body&amp;rdquo;] td.offset-by-four, table[class=&amp;ldquo;body&amp;rdquo;] td.offset-by-five, table[class=&amp;ldquo;body&amp;rdquo;] td.offset-by-six, table[class=&amp;ldquo;body&amp;rdquo;] td.offset-by-seven, table[class=&amp;ldquo;body&amp;rdquo;] td.offset-by-eight, table[class=&amp;ldquo;body&amp;rdquo;] td.offset-by-nine, table[class=&amp;ldquo;body&amp;rdquo;] td.offset-by-ten, table[class=&amp;ldquo;body&amp;rdquo;] td.offset-by-eleven { padding-left: 0px !important; }
+  table[class=&amp;ldquo;body&amp;rdquo;] table.columns td.expander { width: 1px !important; }
+  table[class=&amp;ldquo;body&amp;rdquo;] .right-text-pad, table[class=&amp;ldquo;body&amp;rdquo;] .text-pad-right { padding-left: 10px !important; }
+  table[class=&amp;ldquo;body&amp;rdquo;] .left-text-pad, table[class=&amp;ldquo;body&amp;rdquo;] .text-pad-left { padding-right: 10px !important; }
+  table[class=&amp;ldquo;body&amp;rdquo;] .hide-for-small, table[class=&amp;ldquo;body&amp;rdquo;] .show-for-desktop { display: none !important; }
+  table[class=&amp;ldquo;body&amp;rdquo;] .show-for-small, table[class=&amp;ldquo;body&amp;rdquo;] .hide-for-desktop { display: inherit !important; }
+}&lt;/style&gt;&lt;/head&gt;&lt;/p&gt;
+
+&lt;div class=&#34;ng-scope&#34; style=&#34;min-width: 100%; margin: 0px; padding: 0px; width: 100% !important; color: rgb(34, 34, 34); font-family: Helvetica, Arial, sans-serif; font-weight: normal; text-align: left; line-height: 150%; font-size: 14px; background-color: rgb(247, 247, 247);&#34;&gt;
+&lt;table class=&#34;body&#34; style=&#34;border-spacing: 0px; border-collapse: collapse; padding: 0px; vertical-align: top; text-align: left; height: 100%; width: 100%; color: rgb(34, 34, 34); font-family: Helvetica, Arial, sans-serif; font-weight: normal; margin: 0px; line-height: 150%; font-size: 14px;&#34;&gt;
+&lt;tbody&gt;&lt;tr style=&#34;padding: 0px; vertical-align: top; text-align: left;&#34;&gt;
+&lt;td class=&#34;center&#34; align=&#34;center&#34; valign=&#34;top&#34; style=&#34;word-break: break-word; border-collapse: collapse !important; padding: 20px 0px; vertical-align: top; text-align: center; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; margin: 0px; line-height: 150%; font-size: 14px;&#34;&gt;
+&lt;center style=&#34;width: 100%; min-width: 580px;&#34;&gt;
+&lt;table id=&#34;pre-header&#34; class=&#34;container&#34; style=&#34;border-spacing: 0px; border-collapse: collapse; padding: 0px; vertical-align: top; text-align: inherit; width: 580px; margin: 0px auto;&#34;&gt;
+&lt;tbody&gt;&lt;tr class=&#34;row2&#34; style=&#34;padding: 0px; vertical-align: top; text-align: left;&#34;&gt;
+&lt;td class=&#34;wrapper&#34; style=&#34;word-break: break-word; border-collapse: collapse !important; padding: 10px 20px 0px 0px; vertical-align: top; text-align: left; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; margin: 0px; line-height: 150%; font-size: 14px; position: relative;&#34;&gt;
+
+&lt;/td&gt;
+&lt;td class=&#34;wrapper last&#34; style=&#34;word-break: break-word; border-collapse: collapse !important; padding: 10px 0px 0px; vertical-align: top; text-align: left; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; margin: 0px; line-height: 150%; font-size: 14px; position: relative;&#34;&gt;
+
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;table class=&#34;row2&#34; style=&#34;border-spacing: 0px; border-collapse: collapse; padding: 0px; vertical-align: top; text-align: left; width: 100%; position: relative;&#34;&gt;
+&lt;tbody&gt;&lt;tr style=&#34;padding: 0px; vertical-align: top; text-align: left;&#34;&gt;
+&lt;td class=&#34;wrapper last&#34; style=&#34;word-break: break-word; border-collapse: collapse !important; padding: 10px 0px 0px; vertical-align: top; text-align: left; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; margin: 0px; line-height: 150%; font-size: 14px; position: relative;&#34;&gt;
+&lt;table class=&#34;six columns&#34; style=&#34;border-spacing: 0px; border-collapse: collapse; padding: 0px; vertical-align: top; text-align: left; margin: 0px auto; width: 280px;&#34;&gt;
+&lt;tbody&gt;&lt;tr style=&#34;padding: 0px; vertical-align: top; text-align: left;&#34;&gt;
+&lt;td class=&#34;center text-pad&#34; style=&#34;word-break: break-word; border-collapse: collapse !important; padding: 0px 10px 10px; vertical-align: top; text-align: center; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; margin: 0px; line-height: 150%; font-size: 14px;&#34;&gt;
+&lt;center style=&#34;width: 100%; min-width: 280px;&#34;&gt;
+&lt;img height=&#34;60&#34; width=&#34;231&#34; class=&#34;center&#34; src=&#34;http://assets.inboxroute.com/templates/54500ca14074830002000007/welcome_logo.png&#34; style=&#34;outline: none; text-decoration: none; width: auto; max-width: 100%; float: none; clear: both; display: block; margin: 0px auto;&#34;&gt;
+&lt;/center&gt;
+&lt;/td&gt;
+&lt;td class=&#34;expander&#34; style=&#34;word-break: break-word; border-collapse: collapse !important; padding: 0px !important; vertical-align: top; text-align: left; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; margin: 0px; line-height: 150%; font-size: 14px; visibility: hidden; width: 0px;&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;table id=&#34;main-body&#34; class=&#34;container&#34; style=&#34;border-spacing: 0px; border-collapse: collapse; padding: 0px; vertical-align: top; text-align: inherit; width: 580px; margin: 0px auto; background-color: rgb(255, 255, 255);&#34;&gt;
+&lt;tbody&gt;&lt;tr style=&#34;padding: 0px; vertical-align: top; text-align: left;&#34;&gt;
+&lt;td style=&#34;word-break: break-word; border-collapse: collapse !important; padding: 0px; vertical-align: top; text-align: left; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; margin: 0px; line-height: 150%; font-size: 14px;&#34;&gt;
+
+&lt;table class=&#34;row2&#34; style=&#34;border-spacing: 0px; border-collapse: collapse; padding: 0px; vertical-align: top; text-align: left; width: 100%; position: relative; display: block;&#34;&gt;
+&lt;tbody&gt;&lt;tr style=&#34;padding: 0px; vertical-align: top; text-align: left;&#34;&gt;
+&lt;td class=&#34;wrapper last&#34; style=&#34;word-break: break-word; border-collapse: collapse !important; padding: 10px 0px 0px; vertical-align: top; text-align: left; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; margin: 0px; line-height: 150%; font-size: 14px; position: relative;&#34;&gt;
+
+&lt;table class=&#34;twelve columns&#34; style=&#34;border-spacing: 0px; border-collapse: collapse; padding: 0px; vertical-align: top; text-align: left; margin: 0px auto; width: 580px;&#34;&gt;
+&lt;tbody&gt;&lt;tr style=&#34;padding: 0px; vertical-align: top; text-align: left;&#34;&gt;
+&lt;td class=&#34;text-pad&#34; style=&#34;word-break: break-word; border-collapse: collapse !important; padding: 0px 10px 10px; vertical-align: top; text-align: left; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; margin: 0px; line-height: 150%; font-size: 14px;&#34;&gt;
+
+&lt;div style=&#34;font-family: Helvetica, Arial, sans-serif; font-weight: 200; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0);&#34;&gt;
+&lt;h1 style=&#34;color: rgb(78, 78, 78); font-family: Helvetica, Arial, sans-serif; font-weight: bold; padding: 0px; margin: 0px; text-align: center; line-height: 1.3; word-break: normal; font-size: 32px;&#34;&gt;&lt;span style=&#34;font-weight: normal;&#34;&gt;Quoi de neuf chez MailSquad?&lt;/span&gt;&lt;/h1&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;/td&gt;
+&lt;td class=&#34;expander&#34; style=&#34;word-break: break-word; border-collapse: collapse !important; padding: 0px !important; vertical-align: top; text-align: left; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; margin: 0px; line-height: 150%; font-size: 14px; visibility: hidden; width: 0px;&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;&lt;/p&gt;
+
+&lt;table class=&#34;row2&#34; style=&#34;border-spacing: 0px; border-collapse: collapse; padding: 0px; vertical-align: top; text-align: left; width: 100%; position: relative; display: block;&#34;&gt;
+&lt;tbody&gt;&lt;tr style=&#34;padding: 0px; vertical-align: top; text-align: left;&#34;&gt;
+&lt;td class=&#34;wrapper last&#34; style=&#34;word-break: break-word; border-collapse: collapse !important; padding: 10px 0px 0px; vertical-align: top; text-align: left; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; margin: 0px; line-height: 150%; font-size: 14px; position: relative;&#34;&gt;
+
+&lt;table class=&#34;twelve columns&#34; style=&#34;border-spacing: 0px; border-collapse: collapse; padding: 0px; vertical-align: top; text-align: left; margin: 0px auto; width: 580px;&#34;&gt;
+&lt;tbody&gt;&lt;tr style=&#34;padding: 0px; vertical-align: top; text-align: left;&#34;&gt;
+&lt;td style=&#34;word-break: break-word; border-collapse: collapse !important; padding: 0px 0px 10px; vertical-align: top; text-align: left; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; margin: 0px; line-height: 150%; font-size: 14px;&#34;&gt;
+
+&lt;div class=&#34;ibr-image-div&#34; style=&#34;font-family: Helvetica, Arial, sans-serif; font-weight: 200; color: rgb(0, 0, 0);&#34;&gt;&lt;img ibr-image-height=&#34;200&#34; ibr-image-width=&#34;580&#34; src=&#34;http://assets.inboxroute.com/campaigns/54d3e91713b830000300000b/54d429f1458e2c0003000002&#34; width=&#34;580&#34; height=&#34;242&#34; style=&#34;outline: none; text-decoration: none; width: auto; max-width: 100%; float: left; clear: both; display: block;&#34;&gt;&lt;/div&gt;&lt;/td&gt;
+&lt;td class=&#34;expander&#34; style=&#34;word-break: break-word; border-collapse: collapse !important; padding: 0px !important; vertical-align: top; text-align: left; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; margin: 0px; line-height: 150%; font-size: 14px; visibility: hidden; width: 0px;&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;table class=&#34;row2&#34; style=&#34;border-spacing: 0px; border-collapse: collapse; padding: 0px; vertical-align: top; text-align: left; width: 100%; position: relative; display: block;&#34;&gt;
+&lt;tbody&gt;&lt;tr style=&#34;padding: 0px; vertical-align: top; text-align: left;&#34;&gt;
+&lt;td class=&#34;wrapper last&#34; style=&#34;word-break: break-word; border-collapse: collapse !important; padding: 10px 0px 0px; vertical-align: top; text-align: left; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; margin: 0px; line-height: 150%; font-size: 14px; position: relative;&#34;&gt;
+
+&lt;table class=&#34;twelve columns&#34; style=&#34;border-spacing: 0px; border-collapse: collapse; padding: 0px; vertical-align: top; text-align: left; margin: 0px auto; width: 580px;&#34;&gt;
+&lt;tbody&gt;&lt;tr style=&#34;padding: 0px; vertical-align: top; text-align: left;&#34;&gt;
+&lt;td class=&#34;text-pad&#34; style=&#34;word-break: break-word; border-collapse: collapse !important; padding: 0px 10px 10px; vertical-align: top; text-align: left; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; margin: 0px; line-height: 150%; font-size: 14px;&#34;&gt;
+
+&lt;div style=&#34;font-family: Helvetica, Arial, sans-serif; font-weight: 200; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0);&#34;&gt;
+&lt;h6 style=&#34;color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; padding: 0px; margin: 0px; text-align: center; line-height: 1.3; word-break: normal; font-size: 20px;&#34;&gt;&lt;/h6&gt;&lt;h4 style=&#34;color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; padding: 0px; margin: 0px; text-align: center; line-height: 1.3; word-break: normal; font-size: 28px;&#34;&gt;Venez nous dire bonjour au WAQ 2015&lt;/h4&gt;&lt;br&gt;&lt;p style=&#34;margin: 0px 0px 10px; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; padding: 0px; text-align: left; line-height: 150%; font-size: 14px;&#34;&gt;Jean-François fera un présentation sur &lt;a href=&#34;https://golang.org/&#34; target=&#34;_blank&#34; style=&#34;color: rgb(43, 166, 203); text-decoration: none;&#34;&gt;Google Go&lt;/a&gt;, le langage qui propulse le backend de MailSquad! C&#39;est donc un rendez-vous le vendredi 20 mars 2015 à 11h15. Plus d&#39;informations sur le &lt;a href=&#34;http://webaquebec.org/activite/google-go-les-langages-de-programmation-en-emergence-pour-lere-du-cloud-computing/&#34; target=&#34;_blank&#34; style=&#34;color: rgb(43, 166, 203); text-decoration: none;&#34;&gt;site officiel du WAQ 20015&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;/td&gt;
+&lt;td class=&#34;expander&#34; style=&#34;word-break: break-word; border-collapse: collapse !important; padding: 0px !important; vertical-align: top; text-align: left; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; margin: 0px; line-height: 150%; font-size: 14px; visibility: hidden; width: 0px;&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;table class=&#34;row2&#34; style=&#34;border-spacing: 0px; border-collapse: collapse; padding: 0px; vertical-align: top; text-align: left; width: 100%; position: relative; display: block;&#34;&gt;
+&lt;tbody&gt;&lt;tr style=&#34;padding: 0px; vertical-align: top; text-align: left;&#34;&gt;
+&lt;td class=&#34;wrapper last&#34; style=&#34;word-break: break-word; border-collapse: collapse !important; padding: 10px 0px 0px; vertical-align: top; text-align: left; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; margin: 0px; line-height: 150%; font-size: 14px; position: relative;&#34;&gt;
+
+&lt;table class=&#34;twelve columns&#34; style=&#34;border-spacing: 0px; border-collapse: collapse; padding: 0px; vertical-align: top; text-align: left; margin: 0px auto; width: 580px;&#34;&gt;
+&lt;tbody&gt;&lt;tr style=&#34;padding: 0px; vertical-align: top; text-align: left;&#34;&gt;
+&lt;td class=&#34;text-pad&#34; style=&#34;word-break: break-word; border-collapse: collapse !important; padding: 0px 10px 10px; vertical-align: top; text-align: left; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; margin: 0px; line-height: 150%; font-size: 14px;&#34;&gt;
+
+&lt;div style=&#34;font-family: Helvetica, Arial, sans-serif; font-weight: 200; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0);&#34;&gt;
+&lt;h3 style=&#34;color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; padding: 0px; margin: 0px; text-align: center; line-height: 1.3; word-break: normal; font-size: 32px;&#34;&gt;&lt;font color=&#34;#808080&#34; style=&#34;font-weight: normal;&#34;&gt;Nouvelles fonctionnalités&lt;/font&gt;&lt;/h3&gt;
+&lt;/div&gt;
+
+&lt;/td&gt;
+&lt;td class=&#34;expander&#34; style=&#34;word-break: break-word; border-collapse: collapse !important; padding: 0px !important; vertical-align: top; text-align: left; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; margin: 0px; line-height: 150%; font-size: 14px; visibility: hidden; width: 0px;&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;table class=&#34;row2&#34; style=&#34;border-spacing: 0px; border-collapse: collapse; padding: 0px; vertical-align: top; text-align: left; width: 100%; position: relative; display: block;&#34;&gt;
+&lt;tbody&gt;&lt;tr style=&#34;padding: 0px; vertical-align: top; text-align: left;&#34;&gt;
+&lt;td class=&#34;wrapper&#34; style=&#34;word-break: break-word; border-collapse: collapse !important; padding: 10px 20px 0px 0px; vertical-align: top; text-align: left; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; margin: 0px; line-height: 150%; font-size: 14px; position: relative;&#34;&gt;
+&lt;table class=&#34;five columns&#34; style=&#34;border-spacing: 0px; border-collapse: collapse; padding: 0px; vertical-align: top; text-align: left; margin: 0px auto; width: 230px;&#34;&gt;
+&lt;tbody&gt;&lt;tr style=&#34;padding: 0px; vertical-align: top; text-align: left;&#34;&gt;
+&lt;td class=&#34;text-pad-left&#34; style=&#34;word-break: break-word; border-collapse: collapse !important; padding: 0px 0px 10px 10px; vertical-align: top; text-align: left; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; margin: 0px; line-height: 150%; font-size: 14px;&#34;&gt;
+
+&lt;div class=&#34;ibr-image-div&#34; style=&#34;font-family: Helvetica, Arial, sans-serif; font-weight: 200; color: rgb(0, 0, 0);&#34;&gt;&lt;img ibr-image-height=&#34;160&#34; src=&#34;http://assets.inboxroute.com/campaigns/54d3e91713b830000300000b/54e682c5aaebfe0003000004&#34; width=&#34;220&#34; height=&#34;160&#34; style=&#34;outline: none; text-decoration: none; width: auto; max-width: 100%; float: left; clear: both; display: block;&#34;&gt;&lt;/div&gt;&lt;/td&gt;
+&lt;td class=&#34;expander&#34; style=&#34;word-break: break-word; border-collapse: collapse !important; padding: 0px !important; vertical-align: top; text-align: left; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; margin: 0px; line-height: 150%; font-size: 14px; visibility: hidden; width: 0px;&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/td&gt;
+&lt;td class=&#34;wrapper last&#34; style=&#34;word-break: break-word; border-collapse: collapse !important; padding: 10px 0px 0px; vertical-align: top; text-align: left; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; margin: 0px; line-height: 150%; font-size: 14px; position: relative;&#34;&gt;
+&lt;table class=&#34;seven columns&#34; style=&#34;border-spacing: 0px; border-collapse: collapse; padding: 0px; vertical-align: top; text-align: left; margin: 0px auto; width: 330px;&#34;&gt;
+&lt;tbody&gt;&lt;tr style=&#34;padding: 0px; vertical-align: top; text-align: left;&#34;&gt;
+&lt;td class=&#34;text-pad&#34; style=&#34;word-break: break-word; border-collapse: collapse !important; padding: 0px 10px 10px; vertical-align: top; text-align: left; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; margin: 0px; line-height: 150%; font-size: 14px;&#34;&gt;
+&lt;h5 style=&#34;color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; padding: 0px; margin: 0px; text-align: left; line-height: 1.3; word-break: normal; font-size: 24px; background-color: rgba(0, 0, 0, 0);&#34;&gt;Exportation des données&lt;/h5&gt;
+&lt;div style=&#34;font-family: Helvetica, Arial, sans-serif; font-weight: 200; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0);&#34;&gt;Vous pouvez maintenant exporter les données de vos listes de contact ainsi que les statistiques d&#39;envoi d&#39;une campagne en format CSV (Excel).&lt;p style=&#34;margin: 0px 0px 10px; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; padding: 0px; text-align: left; line-height: 150%; font-size: 14px;&#34;&gt;&lt;br&gt;&lt;a href=&#34;http://support.mailsquad.com/support/solutions/articles/5000559804-comment-exporter-les-contacts-d-une-liste-&#34; target=&#34;_blank&#34; style=&#34;color: rgb(43, 166, 203); text-decoration: none;&#34;&gt;Plus de détails »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td class=&#34;expander&#34; style=&#34;word-break: break-word; border-collapse: collapse !important; padding: 0px !important; vertical-align: top; text-align: left; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; margin: 0px; line-height: 150%; font-size: 14px; visibility: hidden; width: 0px;&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;table class=&#34;row2&#34; style=&#34;border-spacing: 0px; border-collapse: collapse; padding: 0px; vertical-align: top; text-align: left; width: 100%; position: relative; display: block;&#34;&gt;
+&lt;tbody&gt;&lt;tr style=&#34;padding: 0px; vertical-align: top; text-align: left;&#34;&gt;
+&lt;td class=&#34;wrapper&#34; style=&#34;word-break: break-word; border-collapse: collapse !important; padding: 10px 20px 0px 0px; vertical-align: top; text-align: left; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; margin: 0px; line-height: 150%; font-size: 14px; position: relative;&#34;&gt;
+&lt;table class=&#34;seven columns&#34; style=&#34;border-spacing: 0px; border-collapse: collapse; padding: 0px; vertical-align: top; text-align: left; margin: 0px auto; width: 330px;&#34;&gt;
+&lt;tbody&gt;&lt;tr style=&#34;padding: 0px; vertical-align: top; text-align: left;&#34;&gt;
+&lt;td class=&#34;text-pad&#34; style=&#34;word-break: break-word; border-collapse: collapse !important; padding: 0px 10px 10px; vertical-align: top; text-align: left; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; margin: 0px; line-height: 150%; font-size: 14px;&#34;&gt;
+&lt;h5 style=&#34;color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; padding: 0px; margin: 0px; text-align: left; line-height: 1.3; word-break: normal; font-size: 24px; background-color: rgba(0, 0, 0, 0);&#34;&gt;Statut d&#39;un contact&lt;/h5&gt;
+&lt;div style=&#34;font-family: Helvetica, Arial, sans-serif; font-weight: 200; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0);&#34;&gt;&lt;p style=&#34;margin: 0px 0px 10px; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; padding: 0px; text-align: left; line-height: 150%; font-size: 14px;&#34;&gt;Un contact s&#39;est désabonné de votre liste d&#39;envoi par erreur? C&#39;est maintenant possible de mettre à jour le statut d’un contact, mais assurez-vous d&#39;avoir son consentement.&lt;/p&gt;&lt;p style=&#34;margin: 0px 0px 10px; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; padding: 0px; text-align: left; line-height: 150%; font-size: 14px;&#34;&gt;&lt;a href=&#34;http://support.mailsquad.com/solution/articles/5000563727-comment-changer-le-statut-d-un-contact-&#34; target=&#34;_blank&#34; style=&#34;color: rgb(43, 166, 203); text-decoration: none;&#34;&gt;Plus de détails »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td class=&#34;expander&#34; style=&#34;word-break: break-word; border-collapse: collapse !important; padding: 0px !important; vertical-align: top; text-align: left; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; margin: 0px; line-height: 150%; font-size: 14px; visibility: hidden; width: 0px;&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/td&gt;
+&lt;td class=&#34;wrapper last&#34; style=&#34;word-break: break-word; border-collapse: collapse !important; padding: 10px 0px 0px; vertical-align: top; text-align: left; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; margin: 0px; line-height: 150%; font-size: 14px; position: relative;&#34;&gt;
+&lt;table class=&#34;five columns&#34; style=&#34;border-spacing: 0px; border-collapse: collapse; padding: 0px; vertical-align: top; text-align: left; margin: 0px auto; width: 230px;&#34;&gt;
+&lt;tbody&gt;&lt;tr style=&#34;padding: 0px; vertical-align: top; text-align: left;&#34;&gt;
+&lt;td class=&#34;text-pad-right&#34; style=&#34;word-break: break-word; border-collapse: collapse !important; padding: 0px 10px 10px 0px; vertical-align: top; text-align: left; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; margin: 0px; line-height: 150%; font-size: 14px;&#34;&gt;
+
+&lt;div class=&#34;ibr-image-div&#34; style=&#34;font-family: Helvetica, Arial, sans-serif; font-weight: 200; color: rgb(0, 0, 0);&#34;&gt;&lt;img ibr-image-height=&#34;160&#34; src=&#34;http://assets.inboxroute.com/campaigns/54d3e91713b830000300000b/54e683d2aaebfe0003000007&#34; width=&#34;220&#34; height=&#34;160&#34; style=&#34;outline: none; text-decoration: none; width: auto; max-width: 100%; float: left; clear: both; display: block;&#34;&gt;&lt;/div&gt;&lt;/td&gt;
+&lt;td class=&#34;expander&#34; style=&#34;word-break: break-word; border-collapse: collapse !important; padding: 0px !important; vertical-align: top; text-align: left; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; margin: 0px; line-height: 150%; font-size: 14px; visibility: hidden; width: 0px;&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;table class=&#34;row2&#34; style=&#34;border-spacing: 0px; border-collapse: collapse; padding: 0px; vertical-align: top; text-align: left; width: 100%; position: relative; display: block;&#34;&gt;
+&lt;tbody&gt;&lt;tr style=&#34;padding: 0px; vertical-align: top; text-align: left;&#34;&gt;
+&lt;td class=&#34;wrapper&#34; style=&#34;word-break: break-word; border-collapse: collapse !important; padding: 10px 20px 0px 0px; vertical-align: top; text-align: left; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; margin: 0px; line-height: 150%; font-size: 14px; position: relative;&#34;&gt;
+&lt;table class=&#34;five columns&#34; style=&#34;border-spacing: 0px; border-collapse: collapse; padding: 0px; vertical-align: top; text-align: left; margin: 0px auto; width: 230px;&#34;&gt;
+&lt;tbody&gt;&lt;tr style=&#34;padding: 0px; vertical-align: top; text-align: left;&#34;&gt;
+&lt;td class=&#34;text-pad-left&#34; style=&#34;word-break: break-word; border-collapse: collapse !important; padding: 0px 0px 10px 10px; vertical-align: top; text-align: left; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; margin: 0px; line-height: 150%; font-size: 14px;&#34;&gt;
+
+&lt;div class=&#34;ibr-image-div&#34; style=&#34;font-family: Helvetica, Arial, sans-serif; font-weight: 200; color: rgb(0, 0, 0);&#34;&gt;&lt;img ibr-image-height=&#34;160&#34; src=&#34;http://assets.inboxroute.com/campaigns/54d3e91713b830000300000b/54e684d5aaebfe0003000009&#34; width=&#34;220&#34; height=&#34;160&#34; style=&#34;outline: none; text-decoration: none; width: auto; max-width: 100%; float: left; clear: both; display: block;&#34;&gt;&lt;/div&gt;&lt;/td&gt;
+&lt;td class=&#34;expander&#34; style=&#34;word-break: break-word; border-collapse: collapse !important; padding: 0px !important; vertical-align: top; text-align: left; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; margin: 0px; line-height: 150%; font-size: 14px; visibility: hidden; width: 0px;&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/td&gt;
+&lt;td class=&#34;wrapper last&#34; style=&#34;word-break: break-word; border-collapse: collapse !important; padding: 10px 0px 0px; vertical-align: top; text-align: left; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; margin: 0px; line-height: 150%; font-size: 14px; position: relative;&#34;&gt;
+&lt;table class=&#34;seven columns&#34; style=&#34;border-spacing: 0px; border-collapse: collapse; padding: 0px; vertical-align: top; text-align: left; margin: 0px auto; width: 330px;&#34;&gt;
+&lt;tbody&gt;&lt;tr style=&#34;padding: 0px; vertical-align: top; text-align: left;&#34;&gt;
+&lt;td class=&#34;text-pad&#34; style=&#34;word-break: break-word; border-collapse: collapse !important; padding: 0px 10px 10px; vertical-align: top; text-align: left; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; margin: 0px; line-height: 150%; font-size: 14px;&#34;&gt;
+&lt;h5 style=&#34;color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; padding: 0px; margin: 0px; text-align: left; line-height: 1.3; word-break: normal; font-size: 24px; background-color: rgba(0, 0, 0, 0);&#34;&gt;&lt;p style=&#34;margin: 0px 0px 10px; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; padding: 0px; text-align: left; line-height: 150%; font-size: 14px;&#34;&gt;&lt;span style=&#34;font-size: 24px; line-height: 1.3;&#34;&gt;Rapport des rebonds&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;/h5&gt;
+&lt;div style=&#34;font-family: Helvetica, Arial, sans-serif; font-weight: 200; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0);&#34;&gt;&lt;p style=&#34;margin: 0px 0px 10px; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; padding: 0px; text-align: left; line-height: 150%; font-size: 14px;&#34;&gt;Nous avons ajouté un nouveau rapport qui vous permet de consulter les rebonds suite à l&#39;envoi d&#39;une campagne. Le nouveau rapport vous permet de filtrer les rebonds temporaires des rebonds permanents.&lt;/p&gt;&lt;p style=&#34;margin: 0px 0px 10px; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; padding: 0px; text-align: left; line-height: 150%; font-size: 14px;&#34;&gt;&lt;a href=&#34;http://support.mailsquad.com/solution/articles/5000559052-rebonds-d-une-campagne&#34; target=&#34;_blank&#34; style=&#34;color: rgb(43, 166, 203); text-decoration: none;&#34;&gt;Plus de détails »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td class=&#34;expander&#34; style=&#34;word-break: break-word; border-collapse: collapse !important; padding: 0px !important; vertical-align: top; text-align: left; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; margin: 0px; line-height: 150%; font-size: 14px; visibility: hidden; width: 0px;&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;table class=&#34;row2&#34; style=&#34;border-spacing: 0px; border-collapse: collapse; padding: 0px; vertical-align: top; text-align: left; width: 100%; position: relative; display: block;&#34;&gt;
+&lt;tbody&gt;
+&lt;tr style=&#34;padding: 0px; vertical-align: top; text-align: left;&#34;&gt;
+&lt;td class=&#34;wrapper last center&#34; style=&#34;word-break: break-word; border-collapse: collapse !important; padding: 10px 0px 0px; vertical-align: top; text-align: center; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; margin: 0px; line-height: 150%; font-size: 14px; position: relative;&#34;&gt;
+&lt;center style=&#34;width: 100%; min-width: 580px;&#34;&gt;
+&lt;table class=&#34;twelve columns&#34; style=&#34;border-spacing: 0px; border-collapse: collapse; padding: 0px; vertical-align: top; text-align: left; margin: 0px auto; width: 580px;&#34;&gt;
+&lt;tbody&gt;
+&lt;tr style=&#34;padding: 0px; vertical-align: top; text-align: left;&#34;&gt;
+&lt;td style=&#34;word-break: break-word; border-collapse: collapse !important; padding: 0px 0px 10px; vertical-align: top; text-align: left; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; margin: 0px; line-height: 150%; font-size: 14px;&#34;&gt;
+&lt;table class=&#34;twelve columns&#34; style=&#34;border-spacing: 0px; border-collapse: collapse; padding: 0px; vertical-align: top; text-align: left; margin: 0px auto; width: 580px;&#34;&gt;
+&lt;tbody&gt;&lt;tr style=&#34;padding: 0px; vertical-align: top; text-align: left;&#34;&gt;
+&lt;td class=&#34;panel&#34; style=&#34;word-break: break-word; border-collapse: collapse !important; padding: 10px !important; vertical-align: top; text-align: left; color: white; font-family: Helvetica, Arial, sans-serif; font-weight: 200; margin: 0px; line-height: 150%; font-size: 14px; border: none; background: rgb(55, 189, 238);&#34;&gt;
+&lt;p style=&#34;margin: 0px 0px 10px; color: white; font-family: Helvetica, Arial, sans-serif; font-weight: 200; padding: 0px; text-align: left; line-height: 150%; font-size: 14px; background-color: rgba(0, 0, 0, 0);&#34;&gt;&lt;h5 style=&#34;color: white; font-family: Helvetica, Arial, sans-serif; font-weight: 200; padding: 0px; margin: 0px; text-align: center; line-height: 1.3; word-break: normal; font-size: 24px;&#34;&gt;SUR LE BLOGUE&lt;/h5&gt;Encore des questions sur la loi antipourriel canadienne (C-28)? On a tenté de simplifier ça pour vous. &lt;a href=&#34;https://mailsquad.com/blogue/2015/01/loi-anti-pourriel-canadienne---loi-c-28/&#34; target=&#34;_blank&#34; style=&#34;color: rgb(0, 0, 0) !important; text-decoration: none;&#34;&gt;Plus de détails&amp;nbsp;ici »&lt;/a&gt;&lt;/p&gt;                                                                   
+&lt;/td&gt;
+&lt;td class=&#34;expander&#34; style=&#34;word-break: break-word; border-collapse: collapse !important; padding: 0px !important; vertical-align: top; text-align: left; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; margin: 0px; line-height: 150%; font-size: 14px; visibility: hidden; width: 0px;&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/td&gt;
+&lt;td class=&#34;expander&#34; style=&#34;word-break: break-word; border-collapse: collapse !important; padding: 0px !important; vertical-align: top; text-align: left; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; margin: 0px; line-height: 150%; font-size: 14px; visibility: hidden; width: 0px;&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/center&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table class=&#34;row2&#34; style=&#34;border-spacing: 0px; border-collapse: collapse; padding: 0px; vertical-align: top; text-align: left; width: 100%; position: relative; display: block;&#34;&gt;
+&lt;tbody&gt;&lt;tr style=&#34;padding: 0px; vertical-align: top; text-align: left;&#34;&gt;
+&lt;td class=&#34;wrapper&#34; style=&#34;word-break: break-word; border-collapse: collapse !important; padding: 10px 20px 0px 0px; vertical-align: top; text-align: left; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; margin: 0px; line-height: 150%; font-size: 14px; position: relative;&#34;&gt;
+&lt;table class=&#34;seven columns&#34; style=&#34;border-spacing: 0px; border-collapse: collapse; padding: 0px; vertical-align: top; text-align: left; margin: 0px auto; width: 330px;&#34;&gt;
+&lt;tbody&gt;&lt;tr style=&#34;padding: 0px; vertical-align: top; text-align: left;&#34;&gt;
+&lt;td class=&#34;text-pad&#34; style=&#34;word-break: break-word; border-collapse: collapse !important; padding: 0px 10px 10px; vertical-align: top; text-align: left; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; margin: 0px; line-height: 150%; font-size: 14px;&#34;&gt;
+&lt;h5 style=&#34;color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; padding: 0px; margin: 0px; text-align: left; line-height: 1.3; word-break: normal; font-size: 24px; background-color: rgba(0, 0, 0, 0);&#34;&gt;Personnaliser un courriel&lt;/h5&gt;
+&lt;div style=&#34;font-family: Helvetica, Arial, sans-serif; font-weight: 200; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0);&#34;&gt;Vous pouvez maintenant personnaliser vos courriels en utilisant des variables qui seront remplacées lors de l&#39;envoi avec les informations de vos contacts. Ceci est un premier pas vers des courriels complètement personnalisables, des nouveautés à venir bientôt!&lt;br&gt;&lt;br&gt;&lt;p style=&#34;margin: 0px 0px 10px; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; padding: 0px; text-align: left; line-height: 150%; font-size: 14px;&#34;&gt;&lt;a href=&#34;http://support.mailsquad.com/solution/articles/5000554495-personnalisation-d-un-envoi&#34; target=&#34;_blank&#34; style=&#34;color: rgb(43, 166, 203); text-decoration: none;&#34;&gt;Plus de détails »&lt;/a&gt;&lt;br&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td class=&#34;expander&#34; style=&#34;word-break: break-word; border-collapse: collapse !important; padding: 0px !important; vertical-align: top; text-align: left; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; margin: 0px; line-height: 150%; font-size: 14px; visibility: hidden; width: 0px;&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/td&gt;
+&lt;td class=&#34;wrapper last&#34; style=&#34;word-break: break-word; border-collapse: collapse !important; padding: 10px 0px 0px; vertical-align: top; text-align: left; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; margin: 0px; line-height: 150%; font-size: 14px; position: relative;&#34;&gt;
+&lt;table class=&#34;five columns&#34; style=&#34;border-spacing: 0px; border-collapse: collapse; padding: 0px; vertical-align: top; text-align: left; margin: 0px auto; width: 230px;&#34;&gt;
+&lt;tbody&gt;&lt;tr style=&#34;padding: 0px; vertical-align: top; text-align: left;&#34;&gt;
+&lt;td class=&#34;text-pad-right&#34; style=&#34;word-break: break-word; border-collapse: collapse !important; padding: 0px 10px 10px 0px; vertical-align: top; text-align: left; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; margin: 0px; line-height: 150%; font-size: 14px;&#34;&gt;
+
+&lt;div class=&#34;ibr-image-div&#34; style=&#34;font-family: Helvetica, Arial, sans-serif; font-weight: 200; color: rgb(0, 0, 0);&#34;&gt;&lt;img ibr-image-height=&#34;160&#34; src=&#34;http://assets.inboxroute.com/campaigns/54d3e91713b830000300000b/54e6885f3a990c0003000003&#34; width=&#34;220&#34; height=&#34;160&#34; style=&#34;outline: none; text-decoration: none; width: auto; max-width: 100%; float: left; clear: both; display: block;&#34;&gt;&lt;/div&gt;&lt;/td&gt;
+&lt;td class=&#34;expander&#34; style=&#34;word-break: break-word; border-collapse: collapse !important; padding: 0px !important; vertical-align: top; text-align: left; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; margin: 0px; line-height: 150%; font-size: 14px; visibility: hidden; width: 0px;&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;table class=&#34;row2&#34; style=&#34;border-spacing: 0px; border-collapse: collapse; padding: 0px; vertical-align: top; text-align: left; width: 100%; position: relative; display: block;&#34;&gt;
+&lt;tbody&gt;&lt;tr style=&#34;padding: 0px; vertical-align: top; text-align: left;&#34;&gt;
+&lt;td class=&#34;wrapper&#34; style=&#34;word-break: break-word; border-collapse: collapse !important; padding: 10px 20px 0px 0px; vertical-align: top; text-align: left; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; margin: 0px; line-height: 150%; font-size: 14px; position: relative;&#34;&gt;
+&lt;table class=&#34;five columns&#34; style=&#34;border-spacing: 0px; border-collapse: collapse; padding: 0px; vertical-align: top; text-align: left; margin: 0px auto; width: 230px;&#34;&gt;
+&lt;tbody&gt;&lt;tr style=&#34;padding: 0px; vertical-align: top; text-align: left;&#34;&gt;
+&lt;td class=&#34;text-pad-left&#34; style=&#34;word-break: break-word; border-collapse: collapse !important; padding: 0px 0px 10px 10px; vertical-align: top; text-align: left; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; margin: 0px; line-height: 150%; font-size: 14px;&#34;&gt;
+
+&lt;div class=&#34;ibr-image-div&#34; style=&#34;font-family: Helvetica, Arial, sans-serif; font-weight: 200; color: rgb(0, 0, 0);&#34;&gt;&lt;img ibr-image-height=&#34;160&#34; src=&#34;http://assets.inboxroute.com/campaigns/54d3e91713b830000300000b/54e685cfaaebfe000300000a&#34; width=&#34;220&#34; height=&#34;160&#34; style=&#34;outline: none; text-decoration: none; width: auto; max-width: 100%; float: left; clear: both; display: block;&#34;&gt;&lt;/div&gt;&lt;/td&gt;
+&lt;td class=&#34;expander&#34; style=&#34;word-break: break-word; border-collapse: collapse !important; padding: 0px !important; vertical-align: top; text-align: left; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; margin: 0px; line-height: 150%; font-size: 14px; visibility: hidden; width: 0px;&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/td&gt;
+&lt;td class=&#34;wrapper last&#34; style=&#34;word-break: break-word; border-collapse: collapse !important; padding: 10px 0px 0px; vertical-align: top; text-align: left; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; margin: 0px; line-height: 150%; font-size: 14px; position: relative;&#34;&gt;
+&lt;table class=&#34;seven columns&#34; style=&#34;border-spacing: 0px; border-collapse: collapse; padding: 0px; vertical-align: top; text-align: left; margin: 0px auto; width: 330px;&#34;&gt;
+&lt;tbody&gt;&lt;tr style=&#34;padding: 0px; vertical-align: top; text-align: left;&#34;&gt;
+&lt;td class=&#34;text-pad&#34; style=&#34;word-break: break-word; border-collapse: collapse !important; padding: 0px 10px 10px; vertical-align: top; text-align: left; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; margin: 0px; line-height: 150%; font-size: 14px;&#34;&gt;
+&lt;h5 style=&#34;color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; padding: 0px; margin: 0px; text-align: left; line-height: 1.3; word-break: normal; font-size: 24px; background-color: rgba(0, 0, 0, 0);&#34;&gt;Pages de renvoi d&#39;une liste&lt;/h5&gt;
+&lt;div style=&#34;font-family: Helvetica, Arial, sans-serif; font-weight: 200; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0);&#34;&gt;Vous pouvez maintenant rediriger un abonné suite à un abonnement, la confirmation de son abonnement et le désabonnement. Il est possible de paramétrer une redirection pour chacune de vos listes.&lt;br&gt;&lt;br&gt;&lt;p style=&#34;margin: 0px 0px 10px; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; padding: 0px; text-align: left; line-height: 150%; font-size: 14px;&#34;&gt;&lt;a href=&#34;http://support.mailsquad.com/support/solutions/articles/5000557398&#34; target=&#34;_blank&#34; style=&#34;color: rgb(43, 166, 203); text-decoration: none;&#34;&gt;Plus de détails »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;td class=&#34;expander&#34; style=&#34;word-break: break-word; border-collapse: collapse !important; padding: 0px !important; vertical-align: top; text-align: left; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; margin: 0px; line-height: 150%; font-size: 14px; visibility: hidden; width: 0px;&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;table class=&#34;row2&#34; style=&#34;border-spacing: 0px; border-collapse: collapse; padding: 0px; vertical-align: top; text-align: left; width: 100%; position: relative; display: block;&#34;&gt;
+&lt;tbody&gt;
+&lt;tr style=&#34;padding: 0px; vertical-align: top; text-align: left;&#34;&gt;
+&lt;td class=&#34;wrapper last center&#34; style=&#34;word-break: break-word; border-collapse: collapse !important; padding: 10px 0px 0px; vertical-align: top; text-align: center; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; margin: 0px; line-height: 150%; font-size: 14px; position: relative;&#34;&gt;
+&lt;center style=&#34;width: 100%; min-width: 580px;&#34;&gt;
+&lt;table class=&#34;twelve columns&#34; style=&#34;border-spacing: 0px; border-collapse: collapse; padding: 0px; vertical-align: top; text-align: left; margin: 0px auto; width: 580px;&#34;&gt;
+&lt;tbody&gt;
+&lt;tr style=&#34;padding: 0px; vertical-align: top; text-align: left;&#34;&gt;
+&lt;td style=&#34;word-break: break-word; border-collapse: collapse !important; padding: 0px 0px 10px; vertical-align: top; text-align: left; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; margin: 0px; line-height: 150%; font-size: 14px;&#34;&gt;
+
+&lt;/td&gt;
+&lt;td class=&#34;expander&#34; style=&#34;word-break: break-word; border-collapse: collapse !important; padding: 0px !important; vertical-align: top; text-align: left; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; margin: 0px; line-height: 150%; font-size: 14px; visibility: hidden; width: 0px;&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/center&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table class=&#34;row2&#34; style=&#34;border-spacing: 0px; border-collapse: collapse; padding: 0px; vertical-align: top; text-align: left; width: 100%; position: relative; display: block;&#34;&gt;
+&lt;tbody&gt;&lt;tr style=&#34;padding: 0px; vertical-align: top; text-align: left;&#34;&gt;
+&lt;td class=&#34;wrapper last&#34; style=&#34;word-break: break-word; border-collapse: collapse !important; padding: 10px 0px 0px; vertical-align: top; text-align: left; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; margin: 0px; line-height: 150%; font-size: 14px; position: relative;&#34;&gt;
+
+&lt;table class=&#34;twelve columns&#34; style=&#34;border-spacing: 0px; border-collapse: collapse; padding: 0px; vertical-align: top; text-align: left; margin: 0px auto; width: 580px;&#34;&gt;
+&lt;tbody&gt;&lt;tr style=&#34;padding: 0px; vertical-align: top; text-align: left;&#34;&gt;
+&lt;td class=&#34;text-pad&#34; style=&#34;word-break: break-word; border-collapse: collapse !important; padding: 0px 10px 10px; vertical-align: top; text-align: left; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; margin: 0px; line-height: 150%; font-size: 14px;&#34;&gt;
+
+
+
+&lt;/td&gt;
+&lt;td class=&#34;expander&#34; style=&#34;word-break: break-word; border-collapse: collapse !important; padding: 0px !important; vertical-align: top; text-align: left; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; margin: 0px; line-height: 150%; font-size: 14px; visibility: hidden; width: 0px;&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;table class=&#34;row2&#34; style=&#34;border-spacing: 0px; border-collapse: collapse; padding: 0px; vertical-align: top; text-align: left; width: 100%; position: relative; display: block;&#34;&gt;
+&lt;tbody&gt;&lt;tr style=&#34;padding: 0px; vertical-align: top; text-align: left;&#34;&gt;
+&lt;td class=&#34;wrapper last center&#34; style=&#34;word-break: break-word; border-collapse: collapse !important; padding: 10px 0px 0px; vertical-align: top; text-align: center; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; margin: 0px; line-height: 150%; font-size: 14px; position: relative;&#34;&gt;
+&lt;center style=&#34;width: 100%; min-width: 580px;&#34;&gt;
+&lt;table class=&#34;twelve columns&#34; style=&#34;border-spacing: 0px; border-collapse: collapse; padding: 0px; vertical-align: top; text-align: left; margin: 0px auto; width: 580px;&#34;&gt;
+&lt;tbody&gt;&lt;tr style=&#34;padding: 0px; vertical-align: top; text-align: left;&#34;&gt;
+&lt;td class=&#34;text-pad signature&#34; style=&#34;word-break: break-word; border-collapse: collapse !important; padding: 0px 10px 10px; vertical-align: top; text-align: left; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; margin: 0px; line-height: 150%; font-size: 14px;&#34;&gt;
+&lt;img height=&#34;40&#34; src=&#34;http://assets.inboxroute.com/templates/54500ca14074830002000007/nous_sommes_la_pour_aider.png&#34; class=&#34;center&#34; style=&#34;outline: none; text-decoration: none; width: auto; max-width: 100%; float: none; clear: both; display: block; margin: 0px auto;&#34;&gt;
+&lt;/td&gt;
+&lt;td class=&#34;expander&#34; style=&#34;word-break: break-word; border-collapse: collapse !important; padding: 0px !important; vertical-align: top; text-align: left; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; margin: 0px; line-height: 150%; font-size: 14px; visibility: hidden; width: 0px;&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/center&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;table class=&#34;row2&#34; style=&#34;border-spacing: 0px; border-collapse: collapse; padding: 0px; vertical-align: top; text-align: left; width: 100%; position: relative; display: block;&#34;&gt;
+&lt;tbody&gt;&lt;tr style=&#34;padding: 0px; vertical-align: top; text-align: left;&#34;&gt;
+&lt;td class=&#34;wrapper offset-by-one&#34; style=&#34;word-break: break-word; border-collapse: collapse !important; padding: 10px 20px 0px 50px; vertical-align: top; text-align: left; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; margin: 0px; line-height: 150%; font-size: 14px; position: relative;&#34;&gt;
+&lt;table class=&#34;five columns&#34; style=&#34;border-spacing: 0px; border-collapse: collapse; padding: 0px; vertical-align: top; text-align: left; margin: 0px auto; width: 230px;&#34;&gt;
+&lt;tbody&gt;&lt;tr style=&#34;padding: 0px; vertical-align: top; text-align: left;&#34;&gt;
+&lt;td class=&#34;text-pad&#34; style=&#34;word-break: break-word; border-collapse: collapse !important; padding: 0px 10px 10px; vertical-align: top; text-align: left; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; margin: 0px; line-height: 150%; font-size: 14px;&#34;&gt;
+Email&lt;br&gt;&lt;a href=&#34;mailto:hello@mailsquad.com&#34; target=&#34;_blank&#34; style=&#34;color: rgb(43, 166, 203); text-decoration: none;&#34;&gt;hello@mailsquad.com&lt;/a&gt;
+&lt;/td&gt;
+&lt;td class=&#34;expander&#34; style=&#34;word-break: break-word; border-collapse: collapse !important; padding: 0px !important; vertical-align: top; text-align: left; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; margin: 0px; line-height: 150%; font-size: 14px; visibility: hidden; width: 0px;&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/td&gt;
+&lt;td class=&#34;wrapper last&#34; style=&#34;word-break: break-word; border-collapse: collapse !important; padding: 10px 0px 0px; vertical-align: top; text-align: left; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; margin: 0px; line-height: 150%; font-size: 14px; position: relative;&#34;&gt;
+&lt;table class=&#34;six columns&#34; style=&#34;border-spacing: 0px; border-collapse: collapse; padding: 0px; vertical-align: top; text-align: left; margin: 0px auto; width: 280px;&#34;&gt;
+&lt;tbody&gt;&lt;tr style=&#34;padding: 0px; vertical-align: top; text-align: left;&#34;&gt;
+&lt;td class=&#34;text-pad&#34; style=&#34;word-break: break-word; border-collapse: collapse !important; padding: 0px 10px 10px; vertical-align: top; text-align: left; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; margin: 0px; line-height: 150%; font-size: 14px;&#34;&gt;
+Téléphone&lt;br&gt;&lt;a href=&#34;tel:418-476-7936&#34; target=&#34;_blank&#34; style=&#34;color: rgb(43, 166, 203); text-decoration: none;&#34;&gt;418-476-7936&lt;/a&gt;
+&lt;/td&gt;
+&lt;td class=&#34;expander&#34; style=&#34;word-break: break-word; border-collapse: collapse !important; padding: 0px !important; vertical-align: top; text-align: left; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: 200; margin: 0px; line-height: 150%; font-size: 14px; visibility: hidden; width: 0px;&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;&lt;table id=&#34;footer&#34; class=&#34;container&#34; style=&#34;border-spacing: 0px; border-collapse: collapse; padding: 0px; vertical-align: top; text-align: inherit; width: 580px; margin: 0px auto;&#34;&gt;
+&lt;tbody&gt;&lt;tr style=&#34;padding: 0px; vertical-align: top; text-align: left;&#34;&gt;
+&lt;td style=&#34;word-break: break-word; border-collapse: collapse !important; padding: 0px; vertical-align: top; text-align: left; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: lighter; margin: 0px; line-height: 150%; font-size: 10px;&#34;&gt;
+&lt;table class=&#34;row2&#34; style=&#34;border-spacing: 0px; border-collapse: collapse; padding: 0px; vertical-align: top; text-align: left; width: 100%; position: relative; display: block;&#34;&gt;
+&lt;tbody&gt;&lt;tr style=&#34;padding: 0px; vertical-align: top; text-align: left;&#34;&gt;
+&lt;td class=&#34;wrapper last&#34; style=&#34;word-break: break-word; border-collapse: collapse !important; padding: 10px 0px 0px; vertical-align: top; text-align: left; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-weight: lighter; margin: 0px; line-height: 150%; font-size: 10px; position: relative;&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/center&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Google Go au WAQ 2015: une conférence de l&#39;un des fondateurs de MailSquad.</title>
+      <link>https://mailsquad.net/fr/blogue/2015/01/google-go-au-waq-2015-une-conference-de-lun-des-fondateurs-de-mailsquad/</link>
+      <pubDate>Mon, 19 Jan 2015 00:00:00 UTC</pubDate>
+      
+      <guid>https://mailsquad.net/fr/blogue/2015/01/google-go-au-waq-2015-une-conference-de-lun-des-fondateurs-de-mailsquad/</guid>
+      <description>&lt;p&gt;Nous sommes heureux d’annoncer que Jean-François Nadeau, cofondateur et directeur R&amp;amp;D de MailSquad présentera à la 5e édition de l’évènement &lt;a href=&#34;http://webaquebec.org/&#34;&gt;Le Web à Québec&lt;/a&gt; le 20 mars 2015.&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;
+En plus d’être le langage principal derrière l’API de MailSquad, Google Go est présentement en pleine explosion de popularité dans la communauté des développeurs web à l&amp;rsquo;international.&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;
+Cette conférence permettra donc de présenter Google Go à la communauté web de la ville de Québec en plus de bénéficier d’un retour d’expérience chez MailSquad, où nous utilisons le langage depuis plus d’un an.&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;
+Pour plus d’informations sur la conférence et pour l’achat de billets, veuillez consulter la &lt;a href=&#34;http://webaquebec.org/activite/google-go-les-langages-de-programmation-en-emergence-pour-lere-du-cloud-computing&#34;&gt;page officielle de l’évènement&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Loi anti-pourriel canadienne - Loi C-28</title>
+      <link>https://mailsquad.net/fr/blogue/2015/01/loi-anti-pourriel-canadienne---loi-c-28/</link>
+      <pubDate>Thu, 15 Jan 2015 00:00:00 UTC</pubDate>
+      
+      <guid>https://mailsquad.net/fr/blogue/2015/01/loi-anti-pourriel-canadienne---loi-c-28/</guid>
+      <description>
+
+&lt;p&gt;Vous avez des questionnements sur l’étendue et les implications de la Loi canadienne
+anti-pourriel (LCAP) ? On tente de simplifier tout ça pour vous!&lt;/p&gt;
+
+&lt;h2 id=&#34;ce-que-vous-devez-savoir:02c3bfd42fa25a4ddccc5bd9b868e124&#34;&gt;Ce que vous devez savoir&lt;/h2&gt;
+
+&lt;p&gt;Depuis le 1er juillet 2014, tout message électronique commercial (courriel et texto) doit être conforme à la loi. C’est-à-dire que vous ne pouvez pas communiquer avec quelqu’un dans un but &lt;strong&gt;commercial&lt;/strong&gt; ou &lt;strong&gt;promotionnel&lt;/strong&gt; à moins d’avoir obtenu un &lt;strong&gt;consentement du destinataire au préalable&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://mailsquad.net/fr/img/blog/message_electronique_commercial.jpg&#34; alt=&#34;Alt text&#34; /&gt;
+&lt;/p&gt;
+
+&lt;h2 id=&#34;quelles-sont-les-sanctions-si-je-ne-me-conforme-pas:02c3bfd42fa25a4ddccc5bd9b868e124&#34;&gt;Quelles sont les sanctions si je ne me conforme pas?&lt;/h2&gt;
+
+&lt;p&gt;Pour les entreprises, l’amande peut atteindre jusqu’à 10 millions de dollars, tandis que pour les particuliers la sanction maximale est de 1 million de dollars.&lt;/p&gt;
+
+&lt;h2 id=&#34;quelles-sont-les-règles-à-respecter:02c3bfd42fa25a4ddccc5bd9b868e124&#34;&gt;Quelles sont les règles à respecter?&lt;/h2&gt;
+
+&lt;p&gt;Malgré que les exigences de la loi relèvent des bonnes pratiques qui existent dans l’industrie depuis déjà plusieurs années, chacune de vos communications doit maintenant obligatoirement contenir les trois éléments suivants:
+&lt;ol&gt;
+    &lt;li&gt;Le nom de votre organisation&lt;/li&gt;
+    &lt;li&gt;Votre adresse physique complète&lt;/li&gt;
+    &lt;li&gt;Une méthode de désabonnement&lt;/li&gt;
+&lt;/ol&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;div class=&#34;box&#34;&gt;
+Lorsque vous utilisez MailSquad, vous n’avez pas à vous soucier de la conformité de vos campagnes courriel, car &lt;a href=&#34;http://support.mailsquad.com/support/solutions/articles/5000517438&#34; target=&#34;_blank&#34;&gt;notre plateforme assure automatiquement la présence de ces éléments&lt;/a&gt;.
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;obtenir-le-consentement-qu-est-ce-que-cela-implique:02c3bfd42fa25a4ddccc5bd9b868e124&#34;&gt;Obtenir le consentement, qu’est-ce que cela implique?&lt;/h2&gt;
+
+&lt;p&gt;Il y a deux types de consentements, soit un consentement qui se veut &lt;strong&gt;implicite&lt;/strong&gt; telle une relation d’affaires ou bien un consentement &lt;strong&gt;explicite&lt;/strong&gt;, comme un formulaire d’abonnement sur un site web.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://mailsquad.net/fr/img/blog/consentement_validite.jpg&#34; alt=&#34;Alt text&#34; /&gt;
+&lt;/p&gt;
+
+&lt;h2 id=&#34;consentement-implicite-aussi-appelé-consentement-tacite:02c3bfd42fa25a4ddccc5bd9b868e124&#34;&gt;Consentement implicite (aussi appelé consentement tacite)&lt;/h2&gt;
+
+&lt;p&gt;Le consentement implicite est le plus difficile à gérer, car il englobe tout individu avec lequel vous avez une &lt;strong&gt;relation d’affaires ou privé en cours&lt;/strong&gt;. Sa durée de vie est généralement limitée à 24 mois.
+&lt;br&gt;
+&lt;br&gt;
+De plus, toute adresse courriel qui est publiée &lt;strong&gt;publiquement&lt;/strong&gt;, comme sur un site web par exemple ou une carte d’affaires, est considérée comme ayant un consentement implicite.
+&lt;br&gt;
+&lt;br&gt;
+&lt;div class=&#34;box&#34;&gt;
+    Nous recommandons fortement d’obtenir un consentement explicite auprès de vos destinataires, car vous aurez le fardeau de la preuve dans le cas d’une plainte.
+&lt;/div&gt;
+&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://mailsquad.net/fr/img/blog/consentement_explicite_vs_implicite.jpg&#34; alt=&#34;Alt text&#34; /&gt;
+&lt;/p&gt;
+
+&lt;h2 id=&#34;consentement-explicite:02c3bfd42fa25a4ddccc5bd9b868e124&#34;&gt;Consentement explicite&lt;/h2&gt;
+
+&lt;p&gt;Ce type de consentement ne laisse place à aucune ambigüité. Vous devez être en mesure de fournir une preuve écrite, électronique ou même audio du consentement et elle doit être vérifiable.
+&lt;br&gt;
+&lt;br&gt;
+&lt;div class=&#34;box&#34;&gt;Chez MailSquad on simplifie le processus et on applique le principe du “double opt-in” sans exception.&lt;/div&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;qu-est-ce-que-le-double-opt-in:02c3bfd42fa25a4ddccc5bd9b868e124&#34;&gt;Qu&amp;rsquo;est-ce que le “double opt-in” ?&lt;/h2&gt;
+
+&lt;p&gt;Lorsqu’un individu s’abonne à votre liste de contact, un courriel lui est automatiquement envoyé et nécessite la confirmation afin d’activer son abonnement. Lorsque ce dernier confirme son abonnement (clique sur le lien), le système enregistre la date, l’heure et son &lt;a href=&#34;http://fr.wikipedia.org/wiki/Adresse_IP&#34; target=&#34;_blank&#34;&gt;adresse IP&lt;/a&gt;. De cette façon, vous être certain d’être 100% conforme à la loi C-28!
+&lt;br&gt;
+&lt;br&gt;
+&lt;a href=&#34;https://mailsquad.com/contact/&#34;&gt;Si vous avez des questions, n’hésitez pas à nous contacter&lt;/a&gt;.
+&lt;br&gt;
+Nous sommes là pour vous aider!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Premier anniversaire de MailSquad, une rétrospective</title>
+      <link>https://mailsquad.net/fr/blogue/2014/12/premier-anniversaire-de-mailsquad-une-retrospective/</link>
+      <pubDate>Fri, 26 Dec 2014 00:00:00 UTC</pubDate>
+      
+      <guid>https://mailsquad.net/fr/blogue/2014/12/premier-anniversaire-de-mailsquad-une-retrospective/</guid>
+      <description>
+
+&lt;p&gt;L’aventure de MailSquad a débuté le 5 janvier 2014. Ce matin là, la seule chose que nous avions était une page blanche, du courage et beaucoup de motivation.&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;
+Alors, qu’est-ce qu’une petite équipe de seulement deux personnes peut accomplir en une année avec l’objectif de lancer un produit vers la fin de 2014?&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;
+Voici quelques statistiques qui devraient intéresser les passionnés du développement de produit :&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;
+&lt;img src=&#34;https://mailsquad.net/fr/img/mailsquad-2014-startup-en-revue.png&#34; alt=&#34;Alt text&#34; /&gt;
+&lt;/p&gt;
+
+&lt;h2 id=&#34;développement:9c55f1ae0c94320f7ea14fe9cdc9ae2f&#34;&gt;Développement :&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;230&lt;/strong&gt; fichiers source Golang&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;223&lt;/strong&gt; fichiers source TypeScript&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;28743&lt;/strong&gt; lignes de code Golang&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;22205&lt;/strong&gt; lignes de code TypeScript&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;8840&lt;/strong&gt; lignes de code HTML/Less&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;3017&lt;/strong&gt; « commits » Git&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;1662&lt;/strong&gt; tests unitaires automatisés&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;1600+&lt;/strong&gt; « builds » sur serveur intégration continue&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;produit-scrum:9c55f1ae0c94320f7ea14fe9cdc9ae2f&#34;&gt;Produit / SCRUM:&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;129&lt;/strong&gt; « user stories » réalisées&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;400+&lt;/strong&gt; correctifs réalisés lors des tests&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;50&lt;/strong&gt; itérations (fréquence hebdomadaire)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;800+&lt;/strong&gt; déploiements en test ou production&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;7000+&lt;/strong&gt; heures travaillées&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;opérationnel:9c55f1ae0c94320f7ea14fe9cdc9ae2f&#34;&gt;Opérationnel :&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;1&lt;/strong&gt; instance Google Compute Engine&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;3&lt;/strong&gt; dynos Heroku&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;45&lt;/strong&gt; entrées DNS sur AWS Route53&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;7&lt;/strong&gt; déploiements AWS CloudFront&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;100k+&lt;/strong&gt; fichiers sur 5 buckets AWS S3&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;3&lt;/strong&gt; BDs MongoDB&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;entreprise:9c55f1ae0c94320f7ea14fe9cdc9ae2f&#34;&gt;Entreprise :&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;30+&lt;/strong&gt; idées de noms&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;62&lt;/strong&gt; pages dans le plan d’affaires&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;22&lt;/strong&gt; systèmes externes utilisés&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;24&lt;/strong&gt; articles d’aide en ligne&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;3&lt;/strong&gt; articles de blogue&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;7&lt;/strong&gt; propositions de logo&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;1&lt;/strong&gt; site web&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Nouveautés du mois de novembre 2014</title>
+      <link>https://mailsquad.net/fr/blogue/2014/11/nouveautes-du-mois-de-novembre-2014/</link>
+      <pubDate>Sun, 30 Nov 2014 00:00:00 UTC</pubDate>
+      
+      <guid>https://mailsquad.net/fr/blogue/2014/11/nouveautes-du-mois-de-novembre-2014/</guid>
+      <description>&lt;p&gt;En résumé :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Version web de la campagne&lt;/li&gt;
+&lt;li&gt;Désabonnement manuel à travers les listes&lt;/li&gt;
+&lt;li&gt;Nouveaux gabarits basés sur le framework « Zurb Ink »&lt;/li&gt;
+&lt;li&gt;Nos prévisions du mois de décembre&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Visualiser le contenu de notre &lt;a href=&#34;http://app.mailsquad.com/web/campaigns/547f855c6430ab0002000004&#34;&gt;infolettre du mois de novembre 2014&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mailsquad finalise un premier financement</title>
+      <link>https://mailsquad.net/fr/blogue/2014/10/mailsquad-finalise-un-premier-financement/</link>
+      <pubDate>Wed, 01 Oct 2014 00:00:00 UTC</pubDate>
+      
+      <guid>https://mailsquad.net/fr/blogue/2014/10/mailsquad-finalise-un-premier-financement/</guid>
+      <description>&lt;p&gt;Nous sommes heureux d’annoncer la finalisation d’un premier financement en collaboration avec la SDE Lévis, Futurpreneur et la BDC.&lt;/p&gt;
+
+&lt;p&gt;Cet apport financier nous permettra notamment de débuter la commercialisation au Québec.&lt;/p&gt;
+
+&lt;p&gt;Nous remercions nos partenaires financiers de nous faire confiance et de nous aider dans la poursuite de notre vision.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mailsquad disponible en bêta privé</title>
+      <link>https://mailsquad.net/fr/blogue/2014/08/mailsquad-disponible-en-beta-prive/</link>
+      <pubDate>Sun, 24 Aug 2014 00:00:00 UTC</pubDate>
+      
+      <guid>https://mailsquad.net/fr/blogue/2014/08/mailsquad-disponible-en-beta-prive/</guid>
+      <description>&lt;p&gt;Nous sommes heureux d’annoncer la disponibilité de la première version de Mailsquad à nos clients partenaires.&lt;/p&gt;
+
+&lt;p&gt;Cette première version est une grande fierté pour les deux cofondateurs, Jean-François et Antoine. En effet, si nous remontons début janvier il n’y avait rien de concret à part une vision, de l’audace et une volonté de réussir.&lt;/p&gt;
+
+&lt;p&gt;Après seulement 8 mois de travail acharné, nous vous présentons donc notre produit en version bêta. Pendant cette période, nos clients partenaires peuvent envoyer gratuitement les campagnes courriels.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

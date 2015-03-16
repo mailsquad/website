@@ -1,0 +1,36 @@
+#scrolltriggered { display: none; position: fixed; z-index: 1000; bottom: -210px; background-color: #ffe14f; font-size: 12px; border: solid 3px #FFF; -webkit-box-shadow: 0px 0px 0px 10px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0px 0px 0px 10px rgba(0, 0, 0, 0.1); box-shadow: 0px 0px 0px 10px rgba(0, 0, 0, 0.1); color: #34495e; }
+#scrolltriggered #closebox { z-index: 1001; background: #aa9232; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; height: 20px; width: 20px; display: inline-block; position: absolute; top: 5px; right: 5px; text-align: center; font-size: 14px; line-height: 16px; text-decoration: none; color:#000000;}
+#scrolltriggered #closebox:hover { background: #bba137; }
+#scrolltriggered #inscroll { -webkit-box-shadow: inset 0px 0px 50px 10px #fad047; -moz-box-shadow: inset 0px 0px 50px 10px #fad047; box-shadow: inset 0px 0px 50px 10px #fad047; font-size: 12px; padding: 20px 20px 10px 20px; }
+#scrolltriggered #inscroll p { margin: 0 0 9px 0; line-height: 15px; font-size: 14px;}
+#scrolltriggered #inscroll strong { font-weight: bold; }
+#scrolltriggered #inscroll h5 { font-size: 20px; font-weight: normal; margin: 0 0 10px 0; }
+#scrolltriggered #inscroll h5 span {  }
+#scrolltriggered #inscroll form { margin: 10px 0 0; }
+#scrolltriggered #stbMsgArea { display: none; padding: 10px 0 0; margin: 0; }
+
+#scrolltriggered #inscroll ul {
+      list-style: none;
+      margin: 14px 0 9px 0; 
+      padding: 0;
+    }
+
+#scrolltriggered #inscroll li:before {
+      content: "\e00a";
+      padding-right: 5px;
+      font-size:16px;
+      color:#2ecc71;
+      vertical-align : middle;
+    }
+
+#scrolltriggered #inscroll li {
+        font-family: 'Flat-UI-Icons';
+        font-size:14px;
+        font-weight: normal;
+        
+        span {
+            vertical-align: middle;
+            display: table-cell;
+        }
+        padding-bottom: 10px;
+    }
