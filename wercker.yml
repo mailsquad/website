@@ -1,15 +1,15 @@
-box: centos:7
+box: jpetazzo / dind
 
 build:
   steps:
-    - script:
-       name: Install docker
-       code: |
-         sudo yum -y install docker
+    # - script:
+    #    name: Install docker
+    #    code: |
+    #      sudo yum -y install docker
 
     - script:
        name: Build docker image
        code: |
-         sudo docker -d
+         #sudo docker -d
          #sudo systemctl docker start
-         sudo docker build -t mailsquad/website .
+         docker build -t mailsquad/website .
