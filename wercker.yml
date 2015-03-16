@@ -6,4 +6,10 @@ build:
     - script:
        name: Build docker image
        code: |
-         docker build -t mailsquad/website .
+         docker build -t mailsquad/website:${WERCKER_GIT_COMMIT:0:7} .
+
+    - script:
+       name: Deploy image to S3
+       code: |
+	     docker run -d -e SETTINGS_FLAVOR=s3 -e AWS_BUCKET=mailsquad-docker -e STORAGE_PATH=/registry -e AWS_KEY=$S3_KEY -e AWS_SECRET=$S3_SECRET -p 5000:5000 registry
+	     docker push localhost:5000/mailsquad/website
