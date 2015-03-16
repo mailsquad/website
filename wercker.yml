@@ -1,4 +1,4 @@
-box: jpetazzo / dind
+box: jpetazzo/dind
 
 build:
   steps:
