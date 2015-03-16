@@ -1,5 +1,6 @@
 #cloud-config
 #gcloud compute instances create website --image coreos --zone us-central1-b --machine-type f1-micro --metadata-from-file user-data=cloud-config.yaml
+#gcloud compute instances add-metadata website --zone us-central1-b --metadata-from-file user-data=cloud-config.yaml
 
 coreos:
   update:
@@ -16,11 +17,11 @@ coreos:
         Requires=docker.service
         [Service]
         TimeoutStartSec=0
-        ExecStartPre=-/usr/bin/docker kill website
-        ExecStartPre=-/usr/bin/docker rm website
+        ExecStartPre=-/usr/bin/docker kill mailsquad-website
+        ExecStartPre=-/usr/bin/docker rm mailsquad-website
         ExecStartPre=/usr/bin/docker pull mailsquad/website
         ExecStart=/usr/bin/docker run --name mailsquad-website -p 80:80 mailsquad/website
-        ExecStop=/usr/bin/docker stop website
+        ExecStop=/usr/bin/docker stop mailsquad-website
         User=core
         Restart=always
         [Install]
