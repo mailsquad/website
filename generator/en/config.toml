@@ -1,0 +1,6 @@
+baseurl = "https://mailsquad.net/en"
+publishdir = "../../html/en"
+staticdir = "../static"
+canonifyurls = false
+
+title = "Email marketing platform for agencies"
