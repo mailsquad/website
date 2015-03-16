@@ -10,5 +10,6 @@ build:
     - script:
        name: Build docker image
        code: |
+         sudo docker -d
          #sudo systemctl docker start
          sudo docker build -t mailsquad/website .
