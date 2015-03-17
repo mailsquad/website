@@ -1,55 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>{{.Title}} - MailSquad</title>
     <meta name="description" content="Email marketing platform for agencies">
-    <link rel="alternate" hreflang="fr" href="https://mailsquad.com/fr/" />
-{{ partial "header.html" . }}
-{{ partial "topnav.html" . }}
+    <link rel="alternate" hreflang="fr" href="https://mailsquad.com/fr/" /> {{ partial "header.html" . }} {{ partial "topnav.html" . }}
 
-<link href="/video-js.css" rel="stylesheet">
-<section class="header-8-sub">
-    
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-10 col-sm-offset-1">
-                <h1>A new email marketing platform made for agencies is coming soon...</h1>
-                <!-- <p class="lead" style="margin-top:30px">Subscribe to our mailing list to be notified.</p> -->
-              
+    <link href="/video-js.css" rel="stylesheet">
+    <section class="header-8-sub">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-10 col-sm-offset-1">
+                    <h1>A new email marketing platform made for Agencies is coming soon...</h1>
+                    <br><br>
+                    <img src="/img/screenshots/english.png" width="443" height="226">
+
+                </div>
             </div>
-        </div>
-    </div>
-</section>
 
-<!-- {{ partial "footernav.html" . }} -->
+            <div class="row" style="margin-top:40px;padding-bottom:20px">
+                <div class="col-sm-10 col-sm-offset-1">
+                    <h4>Sign up to get notified when we launch!</h4>
+                    <form action="https://api.inboxroute.com/subscription/55083a3939d8560003000001" method="post">
+                        <div class="input-group">
+                            <input type="hidden" name="lang" value="en">
+                            <input type="email" class="form-control" name="email" placeholder="your@email.com" required="">
+                            <span class="input-group-btn">
+                                    <button class="btn" type="submit">
+                                    <span class="fui-arrow-right"></span>
+                            </span>
+                        </div>
+                    </form>
+                    
+                </div>
+            </div>
+    </section>
+
+    <!-- {{ partial "footernav.html" . }} -->
 
     </div>
     <script src="/common-files/js/jquery-1.10.2.min.js"></script>
     <script src="/common-files/js/startup-kit.js"></script>
     <script src="/js/jquery.scrolldepth.min.js"></script>
     <script src="/common-files/js/jquery.cookie.js"></script>
-<!--     <script src="/common-files/js/stb_init.js"></script> -->
+    <!--     <script src="/common-files/js/stb_init.js"></script> -->
     <script src="/js/videojs.min.js"></script>
     <script>
-
-        jQuery(function() {
-            videojs('video', {}, function() {
-              this.ga();
-            });
-          jQuery.scrollDepth({
-             elements: ["#top3", "#commentcamarche", "#solution-marketing-courriel-marque-blanche", "#pourquoi", "#source-revenus", "#experience-client-personnalise", "#support"],
-             percentage: false,
-          });
+    jQuery(function() {
+        videojs('video', {}, function() {
+            this.ga();
         });
+        jQuery.scrollDepth({
+            elements: ["#top3", "#commentcamarche", "#solution-marketing-courriel-marque-blanche", "#pourquoi", "#source-revenus", "#experience-client-personnalise", "#support"],
+            percentage: false,
+        });
+    });
     </script>
     <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-      ga('create', 'UA-52189624-3', 'auto');
-      ga('send', 'pageview');
+    ga('create', 'UA-52189624-3', 'auto');
+    ga('send', 'pageview');
     </script>
-</body>
+    </body>
+
 </html>
