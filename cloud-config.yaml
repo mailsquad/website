@@ -1,5 +1,5 @@
 #cloud-config
-#gcloud compute instances create website --image coreos --zone us-central1-b --machine-type f1-micro --metadata-from-file user-data=cloud-config.yaml
+#gcloud compute instances create nginx-b --image coreos --zone us-central1-b --machine-type g1-small --metadata-from-file user-data=cloud-config.yaml
 #gcloud compute instances add-metadata website --zone us-central1-b --metadata-from-file user-data=cloud-config.yaml
 
 coreos:
@@ -24,5 +24,43 @@ coreos:
         ExecStop=/usr/bin/docker stop mailsquad-website
         User=core
         Restart=always
+        [Install]
+        WantedBy=multi-user.target
+
+    - name: logentries.service
+      command: start
+      content: |
+        [Unit]
+        Description=Logentries
+        After=docker.service
+        Requires=docker.service
+        [Service]
+        TimeoutStartSec=0
+        ExecStartPre=-/usr/bin/docker kill logentries
+        ExecStartPre=-/usr/bin/docker rm logentries
+        ExecStartPre=/usr/bin/docker pull logentries/docker-logentries
+        ExecStart=/usr/bin/docker run --name logentries -v /var/run/docker.sock:/var/run/docker.sock logentries/docker-logentries -t REPLACEME --no-stats -j -a host=`uname -n`
+        ExecStop=/usr/bin/docker stop logentries
+        User=core
+        Restart=always
+        [Install]
+        WantedBy=multi-user.target
+
+    - name: sdagent.service
+      command: start
+      content: |
+        [Unit]
+        Description=sdagent
+        After=systemd-journald.service
+        Requires=systemd-journald.service
+        [Service]
+        TimeoutStartSec=0
+        Type=oneshot
+        RemainAfterExit=true
+        ExecStartPre=/usr/bin/docker pull million12/serverdensity
+        ExecStart=-/usr/bin/docker run -dt --net=host --name sdagent --env="API_KEY=REPLACEME" --env="ACCOUNT_NAME=mailsquad" --env="GROUPNAME=coreos" million12/serverdensity
+        ExecStart=/usr/bin/docker start sdagent
+        ExecReload=/usr/bin/docker restart sdagent
+        ExecStop=/usr/bin/docker stop sdagent
         [Install]
         WantedBy=multi-user.target
