@@ -24,6 +24,10 @@ mv img ../
 mv font ../
 mv flat-ui ../
 mv common-files ../
+mv reveal ../
+mkdir ../waq15-golang
+mv waq15-golang/*.png ../waq15-golang
+mv waq15-golang/*.svg ../waq15-golang
 
 cd ../en
 rm -rf node_modules
@@ -39,5 +43,7 @@ rm -rf img
 rm -rf font
 rm -rf flat-ui
 rm -rf common-files
+rm -rf reveal
+rm -rf waq15-golang
 
 cd ../../generator

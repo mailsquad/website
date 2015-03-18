@@ -9,20 +9,20 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 		<meta name="description" content="Présentation sur Google Go par Jean-François Nadeau au Web à Québec 2015">
 
-		<link rel="stylesheet" href="reveal/reveal.css">
-		<link rel="stylesheet" href="reveal/solarized_dark.css">
-		<link rel="stylesheet" href="reveal/night.css" id="theme">
+		<link rel="stylesheet" href="/reveal/reveal.css">
+		<link rel="stylesheet" href="/reveal/solarized_dark.css">
+		<link rel="stylesheet" href="/reveal/night.css" id="theme">
 
 	</head>
 
 	<body>
 
 		<div style="position:fixed;bottom:15px;left: 15px;">
-			<img src="mailsquad.svg" height="50">
+			<img src="/waq15-golang/mailsquad.svg" height="50">
 		</div>
 
 		<div style="position:fixed;bottom:15px;right: 115px;">
-			<img src="waqlogo.png" height="80" width="80">
+			<img src="/waq15-golang/waqlogo.png" height="80" width="80">
 		</div>
 
 		<div class="reveal">
@@ -32,7 +32,7 @@
 				<section>
 					<h2>Google Go ou golang</h2>
 					<p>Pourquoi et comment?</p>
-					<img src="gopher.svg" width="200">
+					<img src="/waq15-golang/gopher.svg" width="200">
 					<br>
 					<br>
 					<h5>Jean-François Nadeau<br>20 mars, WAQ 2015</h5>
@@ -246,9 +246,9 @@ func main() {
 
     messages := make(chan string)
 
-    go func() { messages <- "allo" }()
+    go func() { messages &lt;- "allo" }()
 
-    msg := <-messages
+    msg := &lt;-messages
     fmt.Println(msg)
 }
 
@@ -494,9 +494,9 @@ func main() {
 
 		</div>
 
-		<script src="reveal/head.min.js"></script>
-		<script src="reveal/reveal.js"></script>
-		<script src="reveal/highlight.pack.js"></script>
+		<script src="/reveal/head.min.js"></script>
+		<script src="/reveal/reveal.js"></script>
+		<script src="/reveal/highlight.pack.js"></script>
 
 		<script>
 
@@ -505,8 +505,8 @@ func main() {
 				transition: 'linear',
 
 				dependencies: [
-					{ src: 'reveal/classList.js' },
-					{ src: 'reveal/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: '/reveal/classList.js' },
+					{ src: '/reveal/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
 				]
 			});
 

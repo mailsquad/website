@@ -1,0 +1,516 @@
+<!doctype html>
+<html lang="fr">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Google Go (golang) : Le langage de programmation en émergence pour l’ère du cloud computing</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta name="description" content="Présentation sur Google Go par Jean-François Nadeau au Web à Québec 2015">
+
+		<link rel="stylesheet" href="/reveal/reveal.css">
+		<link rel="stylesheet" href="/reveal/solarized_dark.css">
+		<link rel="stylesheet" href="/reveal/night.css" id="theme">
+
+	</head>
+
+	<body>
+
+		<div style="position:fixed;bottom:15px;left: 15px;">
+			<img src="/waq15-golang/mailsquad.svg" height="50">
+		</div>
+
+		<div style="position:fixed;bottom:15px;right: 115px;">
+			<img src="/waq15-golang/waqlogo.png" height="80" width="80">
+		</div>
+
+		<div class="reveal">
+
+			<div class="slides">
+
+				<section>
+					<h2>Google Go ou golang</h2>
+					<p>Pourquoi et comment?</p>
+					<img src="/waq15-golang/gopher.svg" width="200">
+					<br>
+					<br>
+					<h5>Jean-François Nadeau<br>20 mars, WAQ 2015</h5>
+				</section>
+
+				<section>
+					<h2>Qui suis-je?</h2>
+					<ul>
+						<li>Co-fondateur de <a href="https://mailsquad.com">MailSquad</a></li>
+						<li>A fait d'un peu de tout:
+							<table>
+								<tr>
+									<td>Ruby</td>
+									<td>2003 - Lektora</td>
+								</tr>
+								<tr>
+									<td>C++</td>
+									<td>2005 - Microsoft / IE7</td>
+								</tr>
+								<tr>
+									<td>Java</td>
+									<td>2007 - SSQ</td>
+								</tr>
+								<tr>
+									<td>C#</td>
+									<td>2009 - SQI</td>
+								</tr>
+								<tr>
+									<td>Golang / TypeScript</td>
+									<td>2014</td>
+								</tr>
+							
+							</table>
+						</li>
+					</ul>
+				</section>
+
+				<section>
+					
+					<h2>Historique de Golang</h2>
+					<ul>
+						<li>Déjà plus de <a href="http://blog.golang.org/5years">5 ans</a> (2009)</li>
+						<li><ul>
+							<li>Ken Thompson (Unix)</li>
+							<li>Rob Pike (Plan 9)</li>
+							<li>Robert Griesemer</li>
+						</ul></li>
+						<li>Problème: quantité de code C++ chez Google</li>
+						<li>Solution: inventer un langage à la "Google scale"</li>
+					</ul>
+
+				</section>
+
+				<section>
+					
+					<h2>Cas d'utilisations typiques</h2>
+					<ul>
+						<li>"Daemon" réseau (ex: API REST HTTP)</li>
+						<li>Langage système (ex: <a href="https://github.com/docker/docker">docker</a>)</li>
+						<li>Outil ligne de commande (ex: <a href="https://github.com/mongodb/mongo-tools">mongodb-tools</a>)</li>
+					</ul>
+
+				</section>
+
+				<section>
+					
+					<h2>Qui utilise?</h2>
+					<ul>
+						<li><a href="https://github.com/docker/docker">Docker</a></li>
+						<li><a href="https://github.com/coreos/etcd">CoreOS (etcd)</a></li>
+						<li><a href="https://github.com/juju/juju">Ubuntu (juju)</a></li>
+						<li><a href="http://www.shopify.ca/technology/8760937-shopify-open-sources-sarama-a-client-for-kafka-0-8-written-in-go">Shopify</a>, <a href="https://developers.soundcloud.com/blog/go-at-soundcloud">SoundCloud</a>, <a href="https://blog.cloudflare.com/go-at-cloudflare/">CloudFlare</a>, etc...</li>
+					</ul>
+
+				</section>
+
+				<section>
+					
+					<h2>Hello world!</h2>
+					<pre><code data-trim class="go">
+package main
+
+import "fmt"
+
+func main() {
+  msg := "Allo monde!"
+  fmt.Println(msg)
+}
+					</code></pre>
+
+					<ul>
+						<li>package - similaire Java / namespace C++ / C#</li>
+						<li>import - déclaration d'utilisation d'un package externe</li>
+						<li>func - déclaration d'une fonction</li>
+						<li>opérateur := - déclaration et assignement</li>
+						<li>fmt.Println - utilisation librairie standard</li>
+					</ul>
+
+				</section>
+
+				<section>
+					
+					<h2>Les particularités</h2>
+
+				</section>
+				
+				<section>
+					<h2>Des pointeurs comme en C</h2>
+					<pre><code data-trim class="go">
+type Structure struct {
+  nombre int
+}
+
+func utilisation(s *Structure) { 
+  copie := *s
+}
+					</code></pre>
+					<ul>
+						<li>Exactement pareil que en C</li>
+						<li>Assignement: copie par valeur</li>
+						<li>Sécuritaire (protection nil)</li>
+					</ul>
+
+				</section>
+
+				<section>
+					<h2>Interfaces</h2>
+					<pre><code data-trim class="go">
+type Parleur interface {
+  Parle() string
+}
+
+type Implementation struct {
+  msg string
+}
+
+func (i *Implementation) Parle() string { 
+  return i.msg
+}
+
+func FaitParler(p Parleur) {
+  fmt.Println(p.Parle())
+}
+					</code></pre>
+					<ul>
+						<li>Déclaration et implémentation dissociée</li>
+						<li>Seule façon de faire du polymorphisme</li>
+						<li>Utile: plusieurs petites interfaces</li>
+					</ul>
+
+				</section>
+
+				<section>
+						<h2>Composition vs héritage</h2>
+						<pre><code data-trim class="go">
+type Auto struct {
+  nbRoues int
+}
+
+type Ferrari struct {
+  Auto
+  moteur *Moteur
+}
+
+func (i *Auto) NbRoues() int { 
+  return i.nbRoues
+}
+
+func (i *Ferrari) Demarrer() { ...}
+
+func exemple(f *Ferrari) {
+  fmt.Println(f.NbRoues())
+  f.Demarrer()
+}
+					</code></pre>
+					<ul>
+						<li>Pas d'héritage, composition seulement</li>
+						<li>Public / Privée: Lettre majuscule est exportée seulement</li>
+						<li>Pas de surcharge de méthodes / fonctions</li>
+					</ul>
+
+				</section>
+
+
+				<section>
+						<h2>Gestion des erreurs</h2>
+						<pre><code data-trim class="go">
+func ManipulerFichier(nom string) (f *File, err error) {
+	
+ f, err = os.Open(nom)
+ if err != nil {
+     return
+ }
+
+ // Faire quelque chose avec f
+}
+						</code></pre>
+						<ul>
+							<li>Pas d'exception sauf fatale (panic sur pointeur nil)</li>
+							<li>On aime ou pas!</li>
+							<li>Le bon coté: forcer à considérer toutes les erreurs</li>
+							<li>Retour valeurs multiples est très utile</li>
+						</ul>
+
+				</section>
+
+				<section>
+						<h2>Goroutine et channel</h2>
+						<pre><code data-trim class="go">
+func main() {
+
+    messages := make(chan string)
+
+    go func() { messages <- "allo" }()
+
+    msg := <-messages
+    fmt.Println(msg)
+}
+
+						</code></pre>
+						<ul>
+							<li>Goroutine: thread léger géré par Go (2kb stack!)</li>
+							<li>Pas besoin de async I/O (epoll à l'interne)</li>
+							<li>Principes <a href="http://golang.org/doc/faq#csp">CSP</a> : éviter la mémoire partagée!</li>
+							<li>Plus d'infos: <a href="">Concurrency is not parallelism</a> de Rob Pike</li>
+						</ul>
+
+				</section>
+
+				<section>
+					
+					<h2>Cas pratiques</h2>
+
+				</section>
+
+				<section>
+					
+					<h2>Outils de développement</h2>
+					<ul>
+						<li>Meilleur combo: éditeur de texte avec plugin</li>
+						<li>Moi: <a href="http://www.sublimetext.com/">Sublime</a> + <a href="https://github.com/DisposaBoy/GoSublime">GoSublime</a></li>
+						<li>Débogage: retour du bon vieux printf</li>
+						<li>Autres: Atom, GoClipse, liteide, IntelliJ</li>
+					</ul>
+
+				</section>
+
+				<section>
+					
+					<h2>Quelques packages</h2>
+					<ul>
+						<table>
+							<tr>
+								<td>http (std)</td>
+								<td><a href="http://golang.org/pkg/net/http/">net/http</a>, <a href="https://golang.org/pkg/net/url/">net/url</a>, <a href="http://golang.org/pkg/crypto/tls/">crypto/tls</a> </td>
+							</tr>
+							<tr>
+								<td>json (std)</td>
+								<td><a href="http://golang.org/pkg/encoding/json/">encoding/json</a></td>
+							</tr>
+							<tr>
+								<td>html (std)</td>
+								<td><a href="http://golang.org/pkg/html/template/">html/template</a></td>
+							</tr>
+							<tr>
+								<td>crypto (std)</td>
+								<td><a href="http://golang.org/pkg/crypto/">crypto</a></td>
+							</tr>
+							<tr>
+								<td>compression (std)</td>
+								<td><a href="http://golang.org/pkg/compress/">compress</a></td>
+							</tr>
+							<tr>
+								<td>routeur http</td>
+								<td><a href="http://www.gorillatoolkit.org/pkg/mux">mux</a></td>
+							</tr>
+							<tr>
+								<td>persistance / bd</td>
+								<td><a href="http://golang.org/pkg/database/sql/">database/sql</a>, <a href="https://labix.org/mgo">mgo</a></td>
+							</tr>
+							<tr>
+								<td>vendoring / dépendances</td>
+								<td><a href="https://github.com/tools/godep">godep</a></td>
+							</tr>
+						</table>
+					</ul>
+
+				</section>
+
+				<section>
+
+					<h2>Go versus X,Y,Z?</h2>
+
+				</section>
+
+				<section>
+
+					<h2>Go vs Ruby/Python/Node.js</h2>
+					<h5>Plus</h5>
+					<ul>
+						<li>Typage statique</li>
+						<li>Performance et consommation de mémoire</li>
+						<li>Déploiement au plus simple</li>
+						<li>Vs Node.js: aync io sans callback hell</li>
+					</ul>
+
+
+				</section>
+
+				<section>
+
+					<h2>Go vs Ruby/Python/Node.js</h2>
+					<h5>Moins</h5>
+					<ul>
+						<li>Rien d'équivalent à RubyOnRails</li>
+					</ul>
+
+				</section>
+
+				<section>
+
+					<h2>Go vs .NET/Java</h2>
+					<h5>Plus</h5>
+					<ul>
+						<li>Aucune VM à gérer</li>
+						<li>Consommation mémoire: très efficace</li>
+						<li>Vs .NET: Linux, mais quoi réserve .NET Core?</li>
+					</ul>
+					
+				</section>
+
+				<section>
+
+					<h2>Go vs .NET/Java</h2>
+					<h5>Moins</h5>
+					<ul>
+						<li>Vs C#: pas la même optique du tout (LINQ, génériques, etc.)</li>
+						<li>Vs JVM: vaste choix de langages pour une même VM</li>
+					</ul>
+					
+				</section>
+
+				<section>
+
+					<h2>Go vs C/C++</h2>
+					<h5>Plus</h5>
+					<ul>
+						<li>Enfin une alternative viable</li>
+						<li>Support Android natif s'en vient</li>
+						<li>Chez Google: dl.google.com, <a href="https://talks.golang.org/2013/oscon-dl.slide#1">C++ à Go</a></li>
+					</ul>
+					
+				</section>
+
+				<section>
+
+					<h2>Go vs C/C++</h2>
+					<h5>Moins</h5>
+					<ul>
+						<li>GC obligatoire, mais 1.5, real time GC</li>
+						<li>Sera jamais aussi complet que C++</li>
+						<li>Mozilla Rust vs Golang: à voir</li>
+					</ul>
+					
+				</section>
+
+				<section>
+
+					<h2>Retour d'expérience chez  <a href="http://mailsquad.com">MailSquad</a></h2>
+					
+				</section>
+
+				<section>
+
+					<h2>Critères de sélection</h2>
+					<ul>
+						<li>Backend: API REST seulement (frontend: AngularJS)</li>
+						<li>Rapport productivité/performance: $$$ infrastructure</li>
+						<li>Support Linux et MacOS X</li>
+						<li>Esprit TDD et outils environnant</li>
+					</ul>
+					
+				</section>
+
+				<section>
+
+					<h2>Les choix</h2>
+					<table>
+						<tr>
+							<td>C#/.NET</td>
+							<td>excellent langage, mais manque de confiance par rapport à Linux</td>
+						</tr>
+						<tr>
+							<td>Java/JVM</td>
+							<td>très robuste mais JVM beaucoup trop gourmante en mémoire</td>
+						</tr>
+						<tr>
+							<td>Ruby/Python</td>
+							<td>langage agréable mais VM déficiente</td>
+						</tr>
+						<tr>
+							<td>Node.js</td>
+							<td>désolé, callbacks et promises n'est pas un cadeau</td>
+						</tr>
+						<tr>
+							<td>C/C++</td>
+							<td>gestion de mémoire et sécurité des pointeurs, jamais!</td>
+						</tr>
+						<tr>
+							<td>Rust</td>
+							<td>&lt; 1.0</td>
+						</tr>
+					
+					</table>
+					
+				</section>
+
+				<section>
+
+					<h2>Résultats</h2>
+					<ul>
+						<li>Encore très satisfait après 1 an, même devenu évangéliste!</li>
+						<li><strong>Ce que j'aime:</strong>
+							<ul>
+								<li>Compilation instantanée pour 28k lignes de code</li>
+								<li>Coût d'exploitation ridicule</li>
+								<li>Librairie standard surprenamment complète</li>
+								<li>go fmt: génial!</li>
+								<li>Jamais de surprise</li>
+							</ul>
+						</li>
+						<li><strong>Ce que j'aime moins:</strong>
+							<ul>
+								<li>Les génériques seraient utiles, mais on s'y fait</li>
+								<li>Gestion des erreurs: neutre</li>
+								<li>Défis de recrutement: à voir?</li>
+							</ul>
+						</li>
+					</ul>
+
+				</section>
+
+				<section>
+					
+					<h2>Osez Golang!</h2>
+					<ul>
+						<li>Livre: <a href="http://www.amazon.com/Programming-Go-Creating-Applications-Developers/dp/0321774639/">Programming in Go</a></li>
+						<li>Documentation: Sur le <a href="https://golang.org/pkg/">site de Go</a></li>
+						<li>Discussions: Groupe Google <a href="https://groups.google.com/forum/#!forum/golang-nuts">golang-nuts</a></li>
+						<li>Moi: <a href="mailto:jfnadeau@mailsquad.com">jfnadeau@mailsquad.com</a></li>
+					</ul>
+					<p><br></p>
+					<h5>Shameless plug!</h5>
+					<p>Vous utilisez MailChimp ou CampaignMonitor?<br>Allez voir <a href="https://mailsquad.com">MailSquad!</a></p>
+
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="/reveal/head.min.js"></script>
+		<script src="/reveal/reveal.js"></script>
+		<script src="/reveal/highlight.pack.js"></script>
+
+		<script>
+
+			Reveal.initialize({
+				history: true,
+				transition: 'linear',
+
+				dependencies: [
+					{ src: '/reveal/classList.js' },
+					{ src: '/reveal/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
