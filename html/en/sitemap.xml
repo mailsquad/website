@@ -3,13 +3,23 @@
   
   <url>
     <loc>https://mailsquad.com/en/</loc>
-    <lastmod>2015-03-18T00:00:00+00:00</lastmod>
+    <lastmod>2015-01-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://mailsquad.com/en/</loc>
-    <lastmod>2015-03-18T00:00:00+00:00</lastmod>
+    <loc>https://mailsquad.com/en/pricing/</loc>
+    <lastmod>2015-01-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mailsquad.com/en/contact/</loc>
+    <lastmod>2014-11-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mailsquad.com/en/support/</loc>
+    <lastmod>2014-11-20T00:00:00+00:00</lastmod>
   </url>
   
 </urlset>
