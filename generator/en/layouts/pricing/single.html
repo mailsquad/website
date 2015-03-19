@@ -1,0 +1,185 @@
+{{ partial "doctype.html" . }}
+{{ partial "header.html" . }}
+{{ partial "topnav.html" . }}
+
+{{ .Content }}
+
+{{ partial "footernav.html" . }}
+{{ partial "footer.html" . }}
+
+<script src="/flat-ui/js/jquery-ui-1.10.3.custom.min.js"></script>
+<script>
+
+    String.prototype.repeat = function(num) {
+      return new Array(num + 1).join(this);
+    };
+
+    // Add segments to a slider
+    $.fn.addSliderSegments = function (amount, orientation) {    
+      return this.each(function () {
+        if (orientation == "vertical") {
+          var output = ''
+            , i;
+          for (i = 1; i <= amount - 2; i++) {
+            output += '<div class="ui-slider-segment" style="top:' + 100 / (amount - 1) * i + '%;"></div>';
+          };
+          $(this).prepend(output);
+        } else {
+          var segmentGap = 100 / (amount - 1) + "%"
+            , segment = '<div class="ui-slider-segment" style="margin-left: ' + segmentGap + ';"></div>';
+          $(this).prepend(segment.repeat(amount - 2));
+        }
+      });
+    };
+
+  $("#slider-margin").slider({
+    min: 1,
+    max: 20,
+    value: 2,
+    orientation: "horizontal",
+    range: "min",
+    slide: function( event, ui ) {
+        $( "#margin,#marginl" ).text(  ui.value * 10 );
+
+        computeRevenu();
+        computePricingTable();
+      }
+  }).addSliderSegments(20);
+
+  $("#slider-clients").slider({
+    min: 1,
+    max: 20,
+    value: 2,
+    orientation: "horizontal",
+    range: "min",
+    slide: function( event, ui ) {
+        $( "#clients" ).text(  ui.value == 1 ? 1 : ui.value  * 5  );
+        computePricingTable();
+        computeRevenu();
+      }
+  }).addSliderSegments(20);
+
+  $("#slider-subscribers").slider({
+    min: 1,
+    max: 12,
+    value: 4,
+    orientation: "horizontal",
+    range: "min",
+    slide: function( event, ui ) {
+
+        var map = {
+            1 : "1 - 500",
+            2 : "501 - 1000",
+            3 : "1001 - 2500",
+            4 : "2501 - 5000",
+            5 : "5001 - 10000",
+            6 : "10001 - 15000",
+            7: "15001 - 25000",
+            8: "25001 - 50000",
+            9: "50001 - 60000",
+            10: "60001 - 75000",
+            11: "75001 - 85000",
+            12: "85001 - 100000",
+        };
+
+        $( "#subscribers" ).text(  map[ui.value]  );
+        computeRevenu();
+      }
+  }).addSliderSegments(12);
+
+    function computeRevenu() {
+
+        var discount = [11, 21, 41, 76, 100];
+
+        var clients = $( "#clients" ).text() * 1;
+
+        var perc;
+        for (perc = 0; perc < discount.length; ++perc) {
+            if (discount[perc] > clients) {
+                break;
+            }
+        }
+
+        perc = 1 - (perc/10);
+
+        var map = {
+                "1 - 500" : 9,
+                "501 - 1000" : 14,
+                "1001 - 2500" : 29,
+                "2501 - 5000" : 49,
+                "5001 - 10000" : 79,
+                "10001 - 15000" : 129,
+                "15001 - 25000" : 159,
+                "25001 - 50000" : 239,
+                "50001 - 60000" : 299,
+                "60001 - 75000" : 369,
+                "75001 - 85000" : 409,
+                "85001 - 100000" : 469,
+            };
+
+        var margin = $( "#margin" ).text() * 1;
+       
+        var subscribers = $( "#subscribers" ).text();
+        var clientPrice = map[subscribers]*((margin/100)+1);
+        var mqPrice = map[subscribers]*perc;
+
+        var total = clients * (clientPrice - mqPrice) * 12;
+        $("#revenue").text(formatPrice(total));
+    }
+
+    function computePricingTable() {
+
+        var price = [0, 9, 14, 29, 49, 79, 129, 159, 239, 299, 369, 409, 469];
+        var discount = [11, 21, 41, 76, 100];
+
+        var margin = $( "#margin" ).text()*1;
+        var clients = $( "#clients" ).text()*1;
+
+        var perc;
+        for (perc = 0; perc < discount.length; ++perc) {
+            if (discount[perc] > clients) {
+                break;
+            }
+        }
+
+        perc *= 10;
+
+        $(".pricing-table").find('tr').each(function (rowIndex, r) {
+
+            if (rowIndex > 0 && rowIndex <= 12) {
+
+                var clientPrice;
+                var mqPrice = mqPrice = price[rowIndex]*(1-(perc/100));
+
+                $(r).find("td").each(function (tdIndex, c) {
+
+                    switch(tdIndex) {
+                        case 1:
+                            clientPrice = price[rowIndex] * ((margin / 100)+1);
+                            $(c).text(formatPrice(clientPrice));
+                            break
+                        case 2:
+
+                            $(c).text(formatPrice(mqPrice));
+                            break
+                        case 3:
+                            $(c).text(formatPrice(clientPrice - mqPrice));
+                            break
+
+                    }
+                });
+            }
+        });
+    }
+
+    function formatPrice(price) {
+        return price.toFixed(2).replace(".", ",");
+    }
+
+    $(computeRevenu);
+    $(computePricingTable);
+
+</script>
+
+</body>
+</html>

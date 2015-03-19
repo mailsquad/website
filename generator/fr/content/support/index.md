@@ -9,5 +9,5 @@ aliases:
     - /support.html
 ---
  <div style="position: fixed; top: 100px; bottom: 0px; right: 0; left: 0;">
-      <iframe src="https://ibr.freshdesk.com/support/home" style="width: 100%; height: 100%; border: 0">
+      <iframe src="http://aide.mailsquad.com/support/home" style="width: 100%; height: 100%; border: 0">
  </iframe>

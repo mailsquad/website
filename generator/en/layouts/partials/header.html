@@ -1,8 +1,5 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-
-    <!-- <link href="/en/index.xml" rel="alternate" type="application/rss+xml" title="Blogue - Mailsquad" /> -->
-
     <link rel="stylesheet" href="/flat-ui/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="/flat-ui/css/flat-ui.css">
     <link rel="stylesheet" href="/common-files/css/icon-font.css">
@@ -29,21 +26,21 @@
 <div id="scrolltriggered" style="width: 325px; right:10px;">
     <div id="inscroll">
         <a href="#close" id="closebox">x</a>
-        <h5>Inscription à l'infolettre</h5>
-        <p>Restez informé des dernières tendances du marketing par courriel</p>
+        <h5>Subscribe to our Newsletter</h5>
+        <p>Stay informed on the latest email marketing trends</p>
         <ul>
-            <li><span>Trucs et astuces</span></li>
-            <li><span>Nouvelles du blogue</span></li>
-            <li><span>Matériel promotionnel</span></li>
+            <li><span>Tips and tricks</span></li>
+            <li><span>Latest Blog Post</span></li>
+            <li><span>Email templates and more</span></li>
         </ul>
         <form action="https://api.inboxroute.com/subscription/542020b63ecbb00002000002" method="post" id="stbContactForm">
             <div class="input-group">
-                <input type="email" class="form-control" name="email" id="email" placeholder="votre@email.com" required>
+                <input type="email" class="form-control" name="email" placeholder="your@email.com" required="">
                 <input type="hidden" name="submitted" id="submitted" value="false" />
+                <input type="hidden" name="lang" value="en">
                 <span class="input-group-btn">
-                    <button class="btn" type="submit">
+                        <button class="btn" type="submit">
                         <span class="fui-arrow-right"></span>
-                    </button>
                 </span>
             </div>
         </form>
