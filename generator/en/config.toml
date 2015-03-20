@@ -3,4 +3,20 @@ publishdir = "../../html/en"
 staticdir = "../static"
 canonifyurls = false
 
-title = "Email marketing platform for agencies"
+title = "Email marketing solution for agencies"
+
+[[menu.top]]
+	name = "Pricing"
+	identifier = "pricing"
+	url = "/pricing"
+	weight = 1
+[[menu.top]]
+	name = "Support"
+	identifier = "support"
+	url = "/support"
+	weight = 2
+[[menu.top]]
+	name = "Contact"
+	identifier = "contact"
+	url = "/contact"
+	weight = 3
