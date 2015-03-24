@@ -63,6 +63,11 @@
   </url>
   
   <url>
+    <loc>https://mailsquad.com/fr/fonctionnalites/infrastructure/</loc>
+    <lastmod>2014-11-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://mailsquad.com/fr/fonctionnalites/clients/</loc>
     <lastmod>2014-11-20T00:00:00+00:00</lastmod>
   </url>
@@ -73,12 +78,7 @@
   </url>
   
   <url>
-    <loc>https://mailsquad.com/fr/fonctionnalites/infrastructure/</loc>
-    <lastmod>2014-11-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mailsquad.com/fr/politiques/confidentialite/</loc>
+    <loc>https://mailsquad.com/fr/politiques/antipourriel/</loc>
     <lastmod>2014-11-20T00:00:00+00:00</lastmod>
   </url>
   
@@ -88,7 +88,7 @@
   </url>
   
   <url>
-    <loc>https://mailsquad.com/fr/politiques/antipourriel/</loc>
+    <loc>https://mailsquad.com/fr/politiques/confidentialite/</loc>
     <lastmod>2014-11-20T00:00:00+00:00</lastmod>
   </url>
   
