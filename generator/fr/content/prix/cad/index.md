@@ -7,8 +7,6 @@ menu:
     top:
         identifier: cad
         parent: 'prix'
-aliases: 
-    - /prix/cad.html
 ---
 
 <section class="price-2 v-center" style="padding-top:0px;padding-bottom:10px;">
