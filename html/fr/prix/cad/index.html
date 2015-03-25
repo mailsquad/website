@@ -3,7 +3,7 @@
 
 <head>
 
-	<title>Liste de prix pour les revendeurs de MailSquad - Forfait mensuel illimité ou paiement par envoi - Mailsquad</title>
+	<title>Liste de prix pour les revendeurs de MailSquad - Forfait mensuel illimité ou paiement par envoi CAD - Mailsquad</title>
     <meta name="description" content="Liste de prix pour les revendeurs de la plateforme de marketing courriel en marque blanche MailSquad.">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
@@ -138,9 +138,9 @@
                                 </tr>
                                 <tr>
                                     <td>1 - 500</td>
-                                    <td>9,60</td>
-                                    <td>8,00</td>
-                                    <td>1,60</td>
+                                    <td>10,80</td>
+                                    <td>9,00</td>
+                                    <td>1,80</td>
                                 </tr>
                                 <tr>
                                     <td>501 - 1000</td>
@@ -530,18 +530,18 @@
         perc = 1 - (perc/10);
 
         var map_plans_prices = {
-                "1 - 500" : 8,
-                "501 - 1000" : 12,
-                "1001 - 2500" : 25,
-                "2501 - 5000" : 40,
-                "5001 - 10000" : 65,
-                "10001 - 15000" : 105,
-                "15001 - 25000" : 129,
-                "25001 - 50000" : 209,
-                "50001 - 60000" : 275,
-                "60001 - 75000" : 315,
-                "75001 - 85000" : 350,
-                "85001 - 100000" : 399,
+                "1 - 500" : 9,
+                "501 - 1000" : 14,
+                "1001 - 2500" : 29,
+                "2501 - 5000" : 49,
+                "5001 - 10000" : 79,
+                "10001 - 15000" : 129,
+                "15001 - 25000" : 159,
+                "25001 - 50000" : 239,
+                "50001 - 60000" : 299,
+                "60001 - 75000" : 369,
+                "75001 - 85000" : 409,
+                "85001 - 100000" : 469,
             };
 
         var margin = $( "#margin" ).text() * 1;
@@ -556,7 +556,7 @@
 
     function computePricingTable() {
 
-        var map_price = [0, 8, 12, 25, 40, 65, 105, 129, 209, 275, 315, 350, 399];
+        var map_price = [0, 9, 14, 29, 49, 79, 129, 159, 239, 299, 369, 409, 469];
         var discount = [11, 21, 41, 76, 100];
 
         var margin = $( "#margin" ).text()*1;

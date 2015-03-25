@@ -2,6 +2,7 @@
 title: Liste de prix pour les revendeurs de MailSquad - Forfait mensuel illimité ou paiement par envoi CAD
 date: "2015-01-13"
 description: Liste de prix pour les revendeurs de la plateforme de marketing courriel en marque blanche MailSquad.
+type: prix-cad
 menu:
     top:
         identifier: cad
