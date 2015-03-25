@@ -1,13 +1,13 @@
 ---
-title: Liste de prix pour les revendeurs de MailSquad - Forfait mensuel illimité ou paiement par envoi
+title: Liste de prix pour les revendeurs de MailSquad - Forfait mensuel illimité ou paiement par envoi CAD
 date: "2015-01-13"
 description: Liste de prix pour les revendeurs de la plateforme de marketing courriel en marque blanche MailSquad.
 menu:
     top:
-        identifier: usd
+        identifier: cad
         parent: 'prix'
 aliases: 
-    - /prix.html
+    - /prix/cad.html
 ---
 
 <section class="price-2 v-center" style="padding-top:0px;padding-bottom:10px;">
@@ -51,9 +51,9 @@ aliases:
                                 </tr>
                                 <tr>
                                     <td>1 - 500</td>
-                                    <td>9,60</td>
-                                    <td>8,00</td>
-                                    <td>1,60</td>
+                                    <td>10,80</td>
+                                    <td>9,00</td>
+                                    <td>1,80</td>
                                 </tr>
                                 <tr>
                                     <td>501 - 1000</td>
