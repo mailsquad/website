@@ -98,27 +98,27 @@ menu:
                                 </tr>
                                 <tr>
                                     <td>50001 - 60000</td>
-                                    <td>358,80</td>
-                                    <td>299,00</td>
-                                    <td>59,80</td>
+                                    <td>370,80</td>
+                                    <td>309,00</td>
+                                    <td>61,80</td>
                                 </tr>
                                 <tr>
                                     <td>60001 - 75000</td>
-                                    <td>442,80</td>
-                                    <td>369,00</td>
-                                    <td>73,80</td>
+                                    <td>454,80</td>
+                                    <td>379,00</td>
+                                    <td>75,80</td>
                                 </tr>
                                 <tr>
                                     <td>75001 - 85000</td>
-                                    <td>490,80</td>
-                                    <td>409,00</td>
-                                    <td>81,80</td>
+                                    <td>502,80</td>
+                                    <td>419,00</td>
+                                    <td>83,80</td>
                                 </tr>
                                 <tr>
                                     <td>85001 - 100000</td>
-                                    <td>562,80</td>
-                                    <td>469,00</td>
-                                    <td>93,80</td>
+                                    <td>574,80</td>
+                                    <td>479,00</td>
+                                    <td>95,80</td>
                                 </tr>
                                  <tr>
                                     <td>Plus de 100 000</td>
@@ -138,6 +138,11 @@ menu:
                             <br>
                             Votre marge de profit est appliquée à chaque transaction. Il est possible de la paramétrer pour chaque client.
                         </div>
+                    </div>
+                </div>
+                <div style="margin-top: 15px;text-align:center;">
+                    <div style="margin-top:10px">
+                    Les prix ci-dessus sont en CAD. Nous supportons aussi les devises <a href="/prix/">USD</a> et <a href="/prix/eur/">EUR</a>.
                     </div>
                 </div>
             </div>
