@@ -1,13 +1,11 @@
 ---
-title: Liste de prix pour les revendeurs de MailSquad - Forfait mensuel illimité ou paiement par envoi
+title: Liste de prix pour les revendeurs de MailSquad - Forfait mensuel illimité ou paiement par envoi CAD
 date: "2015-01-13"
 description: Liste de prix pour les revendeurs de la plateforme de marketing courriel en marque blanche MailSquad.
 menu:
     top:
-        identifier: usd
+        identifier: eur
         parent: 'prix'
-aliases: 
-    - /prix.html
 ---
 
 <section class="price-2 v-center" style="padding-top:0px;padding-bottom:10px;">
@@ -51,75 +49,75 @@ aliases:
                                 </tr>
                                 <tr>
                                     <td>1 - 500</td>
-                                    <td>9,60</td>
-                                    <td>8,00</td>
-                                    <td>1,60</td>
+                                    <td>8,40</td>
+                                    <td>7,00</td>
+                                    <td>1,40</td>
                                 </tr>
                                 <tr>
                                     <td>501 - 1000</td>
-                                    <td>14,40</td>
-                                    <td>12,00</td>
-                                    <td>2,40</td>
+                                    <td>13,20</td>
+                                    <td>11,00</td>
+                                    <td>2,20</td>
                                 </tr>
                                 <tr>
                                     <td>1001 - 2500</td>
-                                    <td>30,00</td>
-                                    <td>25,00</td>
-                                    <td>5,00</td>
+                                    <td>27,60</td>
+                                    <td>23,00</td>
+                                    <td>4,60</td>
                                 </tr>
                                 <tr>
                                     <td>2501 - 5000</td>
-                                    <td>48,00</td>
-                                    <td>40,00</td>
-                                    <td>8,00</td>
+                                    <td>42,00</td>
+                                    <td>35,00</td>
+                                    <td>7,00</td>
                                 </tr>
                                 <tr>
                                     <td>5001 - 10000</td>
-                                    <td>78,00</td>
-                                    <td>65,00</td>
-                                    <td>13,00</td>
+                                    <td>70,80</td>
+                                    <td>59,00</td>
+                                    <td>11,80</td>
                                 </tr>
                                 <tr>
                                     <td>10001 - 15000</td>
-                                    <td>126,00</td>
-                                    <td>105,00</td>
-                                    <td>21,00</td>
+                                    <td>114,00</td>
+                                    <td>95,00</td>
+                                    <td>19,00</td>
                                 </tr>
                                 <tr>
                                     <td>15001 - 25000</td>
-                                    <td>154,80</td>
-                                    <td>129,00</td>
-                                    <td>25,80</td>
+                                    <td>142,80</td>
+                                    <td>119,00</td>
+                                    <td>23,80</td>
                                 </tr>
                                 <tr>
                                     <td>25001 - 50000</td>
-                                    <td>238,80</td>
-                                    <td>199,00</td>
-                                    <td>39,80</td>
+                                    <td>214,80</td>
+                                    <td>179,00</td>
+                                    <td>35,80</td>
                                 </tr>
                                 <tr>
                                     <td>50001 - 60000</td>
-                                    <td>310,80</td>
-                                    <td>259,00</td>
-                                    <td>51,80</td>
+                                    <td>282,00</td>
+                                    <td>235,00</td>
+                                    <td>47,00</td>
                                 </tr>
                                 <tr>
                                     <td>60001 - 75000</td>
-                                    <td>378,00</td>
-                                    <td>315,00</td>
-                                    <td>63,00</td>
+                                    <td>346,80</td>
+                                    <td>289,00</td>
+                                    <td>57,80</td>
                                 </tr>
                                 <tr>
                                     <td>75001 - 85000</td>
-                                    <td>420,00</td>
-                                    <td>350,00</td>
-                                    <td>70,00</td>
+                                    <td>382,80</td>
+                                    <td>319,00</td>
+                                    <td>63,80</td>
                                 </tr>
                                 <tr>
                                     <td>85001 - 100000</td>
-                                    <td>478,80</td>
-                                    <td>399,00</td>
-                                    <td>79,80</td>
+                                    <td>430,80</td>
+                                    <td>359,00</td>
+                                    <td>71,80</td>
                                 </tr>
                                  <tr>
                                     <td>Plus de 100 000</td>
@@ -134,7 +132,7 @@ aliases:
                                     <span class="currency">&cent;</span>1
                                     <span class="period">/ contact</span>
                                 </div>
-                                + <strong>$ 5 par campagne</strong>
+                                + <strong>&euro;&nbsp;5 par campagne</strong>
                             </div>
                             <br>
                             Votre marge de profit est appliquée à chaque transaction. Il est possible de la paramétrer pour chaque client.
@@ -143,7 +141,7 @@ aliases:
                 </div>
                 <div style="margin-top: 15px;text-align:center;">
                     <div style="margin-top:10px">
-                    Les prix ci-dessus sont en USD. Nous supportons aussi les devises <a href="/prix/eur/">EUR</a> et <a href="/prix/cad/">CAD</a>.
+                    Les prix ci-dessus sont en EUR. Nous supportons aussi les devises <a href="/prix/">USD</a> et <a href="/prix/cad/">CAD</a>.
                     </div>
                 </div>
             </div>
@@ -181,7 +179,7 @@ aliases:
                             </table>
                             <h2 style="font-size:14px">Abonnés moyens par client (<span id="subscribers">2501 - 5000</span>)</h2>
                             <div id="slider-subscribers" class="ui-slider"></div>
-                            <p style="margin-bottom:0px;padding-top:0px">Vous pourriez augmenter vos revenus de <span style="font-size:24px;color: #2c3e50;" id="revenue">960,00</span> / année</p>
+                            <p style="margin-bottom:0px;padding-top:0px">Vous pourriez augmenter vos revenus de <span style="font-size:24px;color: #2c3e50;" id="revenue">840,00</span> / année</p>
                         </div>
                     </div>
                 </div>
