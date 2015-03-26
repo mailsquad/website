@@ -132,7 +132,7 @@ menu:
                                     <span class="currency">&cent;</span>1
                                     <span class="period">/ contact</span>
                                 </div>
-                                + <strong>&euro;&nbsp;5 par campagne</strong>
+                                + <strong>5&nbsp;&euro; par campagne</strong>
                             </div>
                             <br>
                             Votre marge de profit est appliquée à chaque transaction. Il est possible de la paramétrer pour chaque client.
@@ -141,7 +141,7 @@ menu:
                 </div>
                 <div style="margin-top: 15px;text-align:center;">
                     <div style="margin-top:10px">
-                    Les prix ci-dessus sont en EUR. Nous supportons aussi les devises <a href="/prix/">USD</a> et <a href="/prix/cad/">CAD</a>.
+                    Les prix ci-dessus sont en EUR. Nous supportons aussi la devise <a href="/prix/cad/">CAD</a>.
                     </div>
                 </div>
             </div>

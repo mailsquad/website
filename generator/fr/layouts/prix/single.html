@@ -172,7 +172,7 @@
     }
 
     function formatPrice(price) {
-        return "&euro;&nbsp;" + price.toFixed(2).replace(".", ",");
+        return price.toFixed(2).replace(".", ",") + "&nbsp;&euro;";
     }
 
     $(computeRevenu);
