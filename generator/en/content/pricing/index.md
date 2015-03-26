@@ -7,7 +7,7 @@ menu:
         identifier: usd
         parent: 'pricing'
 aliases: 
-    - /pricing.html
+    - /pricing/usd/
 ---
 
 <section class="price-2 v-center" style="padding-top:0px;padding-bottom:10px;">

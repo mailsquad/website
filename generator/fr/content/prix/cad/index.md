@@ -142,7 +142,7 @@ menu:
                 </div>
                 <div style="margin-top: 15px;text-align:center;">
                     <div style="margin-top:10px">
-                    Les prix ci-dessus sont en CAD. Nous supportons aussi la devise <a href="/fr/prix/">EUR</a>.
+                    Les prix ci-dessus sont en CAD. Nous supportons aussi la devise <a href="/fr/prix/eur/">EUR</a>.
                     </div>
                 </div>
             </div>

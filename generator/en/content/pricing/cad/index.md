@@ -7,8 +7,6 @@ menu:
     top:
         identifier: cad
         parent: 'pricing'
-aliases: 
-    - /pricing.html
 ---
 
 <section class="price-2 v-center" style="padding-top:0px;padding-bottom:10px;">
@@ -142,7 +140,7 @@ aliases:
                     </div>
                     <div style="margin-top: 15px;text-align:center;">
                         <div style="margin-top:10px">
-                        Prices are in CAD. We also support <a href="/en/pricing/">USD</a> and <a href="/en/pricing/eur/">EUR</a> currencies.
+                        Prices are in CAD. We also support <a href="/en/pricing/usd/">USD</a> and <a href="/en/pricing/eur/">EUR</a> currencies.
                         </div>
                         <br>
                     </div>
