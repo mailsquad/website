@@ -133,7 +133,7 @@ menu:
                                     <span class="currency">&cent;</span>1
                                     <span class="period">/ contact</span>
                                 </div>
-                                + <strong>5$ de base</strong>
+                                + <strong>&euro;&nbsp;5 par campagne</strong>
                             </div>
                             <br>
                             Votre marge de profit est appliquée à chaque transaction. Il est possible de la paramétrer pour chaque client.

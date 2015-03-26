@@ -127,13 +127,13 @@ menu:
                             </table>
                         </div>
                         <div class="features-body">
-                            <h2 style="font-size:14px">Si vos clients n'envoient pas mensuellement, il est aussi possible de payer à l'envoi.</h2>
+                            <h2 style="font-size:14px">Si vos clients n'envoient pas sur une base mensuelle, il est aussi possible de payer à l'envoi.</h2>
                             <div class="title" style="width: 200px;margin-left: auto;margin-right: auto;color: #2c3e50;">
                                 <div class="price">
                                     <span class="currency">&cent;</span>1
                                     <span class="period">/ contact</span>
                                 </div>
-                                + <strong>5$ de base</strong>
+                                + <strong>5 $ par campagne</strong>
                             </div>
                             <br>
                             Votre marge de profit est appliquée à chaque transaction. Il est possible de la paramétrer pour chaque client.

@@ -2,9 +2,10 @@
 title: Pricing - MailSquad Resellers can go for Unlimited Monthly Plans or Pay as You Go
 date: "2015-01-13"
 description: Reseller pricing for MailSquad, our white-label email marketing solution.
+type: pricing-cad
 menu:
     top:
-        identifier: usd
+        identifier: cad
         parent: 'pricing'
 aliases: 
     - /pricing.html
@@ -136,16 +137,15 @@ aliases:
                                 </div>
                                 + <strong>$ 5 per campaign</strong>
                             </div>
-                            <br>
                             You decide what markup is applied on each transaction. Each of your customers can have a custom markup.
                         </div>
                     </div>
-                </div>
-                <div style="margin-top: 15px;text-align:center;">
-                    <div style="margin-top:10px">
-                    Prices are in USD. We also support <a href="/pricing/eur/">EUR</a> and <a href="/pricing/cad/">CAD</a> currencies.
+                    <div style="margin-top: 15px;text-align:center;">
+                        <div style="margin-top:10px">
+                        Prices are in CAD. We also support <a href="/pricing/">USD</a> and <a href="/pricing/eur/">EUR</a> currencies.
+                        </div>
+                        <br>
                     </div>
-                    <br>
                 </div>
             </div>
             <!-- Calculator -->
