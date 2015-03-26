@@ -123,7 +123,7 @@ aliases:
                                 </tr>
                                  <tr>
                                     <td>More than 100 000</td>
-                                    <td colspan="3"><a href="/contact/">Contact Us</a></td>
+                                    <td colspan="3"><a href="/en/contact/">Contact Us</a></td>
                                 </tr>             
                             </table>
                         </div>
@@ -143,7 +143,7 @@ aliases:
                 </div>
                 <div style="margin-top: 15px;text-align:center;">
                     <div style="margin-top:10px">
-                    Prices are in USD. We also support <a href="/pricing/eur/">EUR</a> and <a href="/pricing/cad/">CAD</a> currencies.
+                    Prices are in USD. We also support <a href="/en/pricing/eur/">EUR</a> and <a href="/en/pricing/cad/">CAD</a> currencies.
                     </div>
                     <br>
                 </div>

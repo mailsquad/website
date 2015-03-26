@@ -121,7 +121,7 @@ menu:
                                 </tr>
                                  <tr>
                                     <td>Plus de 100 000</td>
-                                    <td colspan="3"><a href="/contact/">Contactez-nous</a></td>
+                                    <td colspan="3"><a href="/fr/contact/">Contactez-nous</a></td>
                                 </tr>             
                             </table>
                         </div>
@@ -141,7 +141,7 @@ menu:
                 </div>
                 <div style="margin-top: 15px;text-align:center;">
                     <div style="margin-top:10px">
-                    Les prix ci-dessus sont en EUR. Nous supportons aussi la devise <a href="/prix/cad/">CAD</a>.
+                    Les prix ci-dessus sont en EUR. Nous supportons aussi la devise <a href="/fr/prix/cad/">CAD</a>.
                     </div>
                 </div>
             </div>
