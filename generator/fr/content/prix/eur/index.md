@@ -6,8 +6,6 @@ menu:
     top:
         identifier: eur
         parent: 'prix'
-aliases: 
-    - /prix/eur/
 ---
 
 <section class="price-2 v-center" style="padding-top:0px;padding-bottom:10px;">
