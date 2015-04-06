@@ -27,7 +27,7 @@ menu:
           <p>You can also reach us by email at <a href="mailto:hello@mailsquad.com">hello@mailsquad.com</a>.</p>
           <p>We answer your questions within 24 hours.</p>
           <div class="phone">
-              <big>418 476 7936</big>
+              <big>877 880 0321</big>
                 AVAILABLE FROM 9 AM TO 6 PM, EST
           </div>
         </div>
