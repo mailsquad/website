@@ -28,7 +28,7 @@ menu:
           <p>We answer your questions within 24 hours.</p>
           <div class="phone">
               <big>877 880 0321</big>
-                AVAILABLE FROM 9 AM TO 6 PM, EST
+                AVAILABLE FROM 9 AM TO 6 PM EASTERN TIME
           </div>
         </div>
       </div>
