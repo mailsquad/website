@@ -2,27 +2,13 @@
 {{ partial "header.html" . }}
 {{ partial "topnav.html" . }}
 
-<section class="content-3 bg-clouds">
-  
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-1">
-                   <img src="/common-files/icons/Chat@2x.png" width="50" height="50" alt="Blogue de Mailquad">
-            </div>
-            <div class="col-sm-11">
-                <h3>Les dernières nouvelles de Mailsquad</h3>
-            </div>
-            
-        </div>
-    </div>
 
-</section>
 
 <section class="blog-1">
    
     <div class="title" style="padding-top: 60px; padding-bottom: 15px">
         <div class="container">
-            <h1>{{.Title}}</h1>
+            <h3>{{.Title}}</h3>
             <div class="submitted">{{ .Date.Format "2-01-2006" }}</div>
         </div>
     </div>
