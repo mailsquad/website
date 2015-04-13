@@ -4444,3 +4444,28 @@ section * {
 .vjs-control-bar {
   display: block !important;
 }
+.blogpost p {
+  margin-bottom: 30px;
+}
+.blogpost h1,
+.blogpost h2,
+.blogpost h3,
+.blogpost h4 {
+  margin-top: 40px;
+  margin-bottom: 4px;
+  font-weight: normal !important;
+}
+.blogpost h1 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+.blogpost ul {
+  padding: 0px 0px 0px 20px;
+}
+.blogpost li {
+  font-size: 18.004px;
+  line-height: 1.722169;
+}
+.blog-1 .title {
+  padding-top: 30px !important;
+}

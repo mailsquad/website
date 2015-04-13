@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-	<title>Premier anniversaire de MailSquad, une rétrospective - Mailsquad</title>
-    <meta name="description" content="Qu’est-ce qu’une petite équipe de seulement deux personnes peut accomplir en une année?">
+	<title>Délivrabilité sous toutes ses facettes - partie 1 - Mailsquad</title>
+    <meta name="description" content="Démystifions les normes d’authentification email SPF et DKIM et pourquoi cela est important dans la délivrabilité de vos campagnes d’emailing.">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@mailsquad">
-    <meta name="twitter:title" content="Premier anniversaire de MailSquad, une rétrospective">
-    <meta name="twitter:description" content="Qu’est-ce qu’une petite équipe de seulement deux personnes peut accomplir en une année?">
-    <meta name="twitter:image" content="">
+    <meta name="twitter:title" content="Délivrabilité sous toutes ses facettes - partie 1">
+    <meta name="twitter:description" content="Démystifions les normes d’authentification email SPF et DKIM et pourquoi cela est important dans la délivrabilité de vos campagnes d’emailing.">
+    <meta name="twitter:image" content="https://mailsquad.com/img/blog/delivrabilite_spf_dkim_emailing.png">
 
-    <meta property="og:title" content="Premier anniversaire de MailSquad, une rétrospective">
+    <meta property="og:title" content="Délivrabilité sous toutes ses facettes - partie 1">
     <meta property="og:type"  content="article">
-    <meta property="og:image" content="">
+    <meta property="og:image" content="https://mailsquad.com/img/blog/delivrabilite_spf_dkim_emailing.png">
     <meta property="og:site_name" content="MailSquad">
-    <meta property="og:description" content="Qu’est-ce qu’une petite équipe de seulement deux personnes peut accomplir en une année?">
+    <meta property="og:description" content="Démystifions les normes d’authentification email SPF et DKIM et pourquoi cela est important dans la délivrabilité de vos campagnes d’emailing.">
     <meta property="og:locale" content="fr_FR">
 
     <link href="/fr/index.xml" rel="alternate" type="application/rss+xml" title="Blogue - Mailsquad" />
@@ -113,8 +113,8 @@
    
     <div class="title" style="padding-top: 60px; padding-bottom: 15px">
         <div class="container">
-            <h3>Premier anniversaire de MailSquad, une rétrospective</h3>
-            <div class="submitted">26-12-2014</div>
+            <h3>Délivrabilité sous toutes ses facettes - partie 1</h3>
+            <div class="submitted">13-04-2015</div>
         </div>
     </div>
     <div class="container">
@@ -127,70 +127,63 @@
                 <div class="blogpost">
                     
 
-<p>L’aventure de MailSquad a débuté le 5 janvier 2014. Ce matin là, la seule chose que nous avions était une page blanche, du courage et beaucoup de motivation.</p>
+<p>Dans ce billet, nous démystifions les <strong>normes d’authentification email</strong> et pourquoi cela est important dans la déliverabilité de vos campagnes d’emailing.</p>
 
-<p><br>
-Alors, qu’est-ce qu’une petite équipe de seulement deux personnes peut accomplir en une année avec l’objectif de lancer un produit vers la fin de 2014?</p>
+<p><em>Cette série de posts sur notre blogue vous permettra de démystifier toutes les facettes de la délivrabilité des emails.</em></p>
 
-<p><br>
-Voici quelques statistiques qui devraient intéresser les passionnés du développement de produit :</p>
-
-<p><br>
-<img src="/img/mailsquad-2014-startup-en-revue.png" alt="Alt text" />
+<p align="center">
+    <img src="/img/blog/delivrabilite_spf_dkim_emailing.png" alt="fdfg" width="470" width="394">
 </p>
 
-<h2 id="développement:9c55f1ae0c94320f7ea14fe9cdc9ae2f">Développement :</h2>
+<h1 id="délivrabilité-et-l-intérêt-des-normes-de-vérification-spf-et-dkim:6bfa645a9c3f426a1f59e950e2669532">Délivrabilité et l’intérêt des normes de vérification SPF et DKIM</h1>
+
+<p>Le spam représente selon les statistiques plus de 90% du routage global de emails de la planète. Les filtres anti-spam sont donc un mal nécessaire et une bonne connaissance de leur fonctionnement est toujours utile pour maximiser la délivrabilité des emails.</p>
+
+<h2 id="l-usurpation-d-identité-et-le-spam:6bfa645a9c3f426a1f59e950e2669532">L’usurpation d’identité et le spam</h2>
+
+<p>Les emails sont aussi vieux que l’internet et les inventeurs de ce merveilleux mode de communication ne pouvaient prévoir l’arrivée des spammeurs. Le protocole d’envoi email (SMTP) a malheureusement été conçu sans aucune contrainte de validation de l’identité de l’émetteur.</p>
+
+<p>Lorsque vous envoyez un email, votre FAI contacte le serveur de réception SMTP relié au domaine du destinataire. Ce serveur a alors la responsabilité de livrer le email dans la boîte de réception du destinataire.</p>
+
+<p>Pour usurper l’identité d’un tiers, les spammeurs n’ont qu’à indiquer comme émetteur n’importe quelle adresse email. Rien de plus compliqué! Alors, rien n’empêche un spammeur d’envoyer un email à votre ami et de lui faire croire qu’il provient bel et bien de vous.</p>
+
+<p>Évidemment, la détection d’une telle fraude est quelque chose qui doit être possible et la communauté a donc mis en place de nouvelles normes de vérification:</p>
 
 <ul>
-<li><strong>230</strong> fichiers source Golang</li>
-<li><strong>223</strong> fichiers source TypeScript</li>
-<li><strong>28743</strong> lignes de code Golang</li>
-<li><strong>22205</strong> lignes de code TypeScript</li>
-<li><strong>8840</strong> lignes de code HTML/Less</li>
-<li><strong>3017</strong> « commits » Git</li>
-<li><strong>1662</strong> tests unitaires automatisés</li>
-<li><strong>1600+</strong> « builds » sur serveur intégration continue</li>
+<li>La norme <strong>SPF</strong> pour « Sender Policy Framework »</li>
+<li>La norme <strong>DKIM</strong> pour « Domain Key Identified Mail »</li>
 </ul>
 
-<h2 id="produit-scrum:9c55f1ae0c94320f7ea14fe9cdc9ae2f">Produit / SCRUM:</h2>
+<h2 id="spf-restriction-des-adresses-ip-aux-vôtres:6bfa645a9c3f426a1f59e950e2669532">SPF: restriction des adresses IP aux vôtres</h2>
 
-<ul>
-<li><strong>129</strong> « user stories » réalisées</li>
-<li><strong>400+</strong> correctifs réalisés lors des tests</li>
-<li><strong>50</strong> itérations (fréquence hebdomadaire)</li>
-<li><strong>800+</strong> déploiements en test ou production</li>
-<li><strong>7000+</strong> heures travaillées</li>
-</ul>
+<p>Lorsque votre FAI entre en contact avec le serveur SMTP de votre destinataire, il le fait sous une adresse IP précise. La mécanique du SPF consiste à vérifier que cette adresse IP est bien autorisée à livrer des emails pour votre nom de domaine. Cette liste d’adresses IP autorisées pour votre domaine est spécifiée dans une entrée DNS qui est contrôlable que par vous.</p>
 
-<h2 id="opérationnel:9c55f1ae0c94320f7ea14fe9cdc9ae2f">Opérationnel :</h2>
+<p>Cette norme d’authentification est simple et efficace, mais ne protège pas totalement contre l’usurpation d’identité.</p>
 
-<ul>
-<li><strong>1</strong> instance Google Compute Engine</li>
-<li><strong>3</strong> dynos Heroku</li>
-<li><strong>45</strong> entrées DNS sur AWS Route53</li>
-<li><strong>7</strong> déploiements AWS CloudFront</li>
-<li><strong>100k+</strong> fichiers sur 5 buckets AWS S3</li>
-<li><strong>3</strong> BDs MongoDB</li>
-</ul>
+<h2 id="dkim-signature-électronique-pour-votre-domaine:6bfa645a9c3f426a1f59e950e2669532">DKIM : signature électronique pour votre domaine</h2>
 
-<h2 id="entreprise:9c55f1ae0c94320f7ea14fe9cdc9ae2f">Entreprise :</h2>
+<p>Le protocole DKIM est une forme de vérification de l’identité de l’émetteur basée sur des principes cryptographiques tel qu’utilisé lors des connexions sécurisées SSL. Ce protocole permet d’apposer une signature électronique au contenu de votre email à l’aide d’une clé privée que personne d’autre que vous ne possède.</p>
 
-<ul>
-<li><strong>30+</strong> idées de noms</li>
-<li><strong>62</strong> pages dans le plan d’affaires</li>
-<li><strong>22</strong> systèmes externes utilisés</li>
-<li><strong>24</strong> articles d’aide en ligne</li>
-<li><strong>3</strong> articles de blogue</li>
-<li><strong>7</strong> propositions de logo</li>
-<li><strong>1</strong> site web</li>
-</ul>
+<p>Le serveur SMTP de votre destinataire peut ensuite vérifier à la réception que cette signature correspond bien à la vôtre en utilisant votre clé publique qui est annoncée publiquement dans le DNS de votre nom de domaine.</p>
+
+<p>Cette forme d’authentification est très robuste, car elle permet aussi de valider que le contenu du email n’a pas été intercepté et modifié par un imposteur.</p>
+
+<h2 id="spf-dkim-et-vos-campagnes-d-emailing:6bfa645a9c3f426a1f59e950e2669532">SPF, DKIM et vos campagnes d’emailing</h2>
+
+<p>Comme vous pouvez le constater, tous ces protocoles d’authentification sont très techniques mais malheureusement inévitables pour assurer la délivrabilité optimale de vos newsletters.</p>
+
+<p>Par défaut, tous les emails envoyés par MailSquad sont signés avec notre clé DKIM privée et nos serveurs de routage SMTP sont tous bien configurés pour le protocole SPF. Une authentification de base est donc toujours présente.</p>
+
+<p>Par contre, nous encourageons toutes nos agences à faire un pas en avant en activant l’authentification avancée pour les domaines de leurs clients. Cela vous permet d’assurer l’identité directe des domaines de vos clients au lieu de partager une identité générique de base.</p>
+
+<p>Avez-vous des questions? Vous voulez activer l’authentification avancée pour vos clients? Nous sommes là pour vous aider!</p>
 
                 </div>
                 
                 <div style="margin-top:15px">
                     <ul class="rrssb-buttons clearfix">
                         <li class="rrssb-linkedin">
-                            <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fmailsquad.com%2ffr%2fblogue%2f2014%2f12%2fpremier-anniversaire-de-mailsquad-une-retrospective%2f&amp;title=Premier%20anniversaire%20de%20MailSquad%2c%20une%20r%c3%a9trospective&amp;summary=Premier%20anniversaire%20de%20MailSquad%2c%20une%20r%c3%a9trospective par MailSquad" class="popup">
+                            <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fmailsquad.com%2ffr%2fblogue%2f2015%2f04%2fdelivrabilite-vs-spf-et-dkim%2f&amp;title=D%c3%a9livrabilit%c3%a9%20sous%20toutes%20ses%20facettes%20-%20partie%201&amp;summary=D%c3%a9livrabilit%c3%a9%20sous%20toutes%20ses%20facettes%20-%20partie%201 par MailSquad" class="popup">
                                 <span class="rrssb-icon">
                                     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="28px" height="28px" viewBox="0 0 28 28" enable-background="new 0 0 28 28" xml:space="preserve">
                                         <path d="M25.424,15.887v8.447h-4.896v-7.882c0-1.979-0.709-3.331-2.48-3.331c-1.354,0-2.158,0.911-2.514,1.803
@@ -204,7 +197,7 @@ Voici quelques statistiques qui devraient intéresser les passionnés du dévelo
                             </a>
                         </li>
                         <li class="rrssb-twitter">
-                            <a href="http://twitter.com/home?status=Premier%20anniversaire%20de%20MailSquad%2c%20une%20r%c3%a9trospective%20par%20@Mailsquad%20https%3a%2f%2fmailsquad.com%2ffr%2fblogue%2f2014%2f12%2fpremier-anniversaire-de-mailsquad-une-retrospective%2f" class="popup">
+                            <a href="http://twitter.com/home?status=D%c3%a9livrabilit%c3%a9%20sous%20toutes%20ses%20facettes%20-%20partie%201%20par%20@Mailsquad%20https%3a%2f%2fmailsquad.com%2ffr%2fblogue%2f2015%2f04%2fdelivrabilite-vs-spf-et-dkim%2f" class="popup">
                                 <span class="rrssb-icon">
                                     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                          width="28px" height="28px" viewBox="0 0 28 28" enable-background="new 0 0 28 28" xml:space="preserve">
@@ -220,7 +213,7 @@ Voici quelques statistiques qui devraient intéresser les passionnés du dévelo
                             </a>
                         </li>
                         <li class="rrssb-googleplus">
-                        <a href="https://plus.google.com/share?url=https%3a%2f%2fmailsquad.com%2ffr%2fblogue%2f2014%2f12%2fpremier-anniversaire-de-mailsquad-une-retrospective%2f" class="popup">
+                        <a href="https://plus.google.com/share?url=https%3a%2f%2fmailsquad.com%2ffr%2fblogue%2f2015%2f04%2fdelivrabilite-vs-spf-et-dkim%2f" class="popup">
                             <span class="rrssb-icon">
                                 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="28px" height="28px" viewBox="0 0 28 28" enable-background="new 0 0 28 28" xml:space="preserve">
                                     <g>
@@ -245,7 +238,7 @@ Voici quelques statistiques qui devraient intéresser les passionnés du dévelo
                         </a>
                     </li>
                         <li class="rrssb-facebook">
-                            <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fmailsquad.com%2ffr%2fblogue%2f2014%2f12%2fpremier-anniversaire-de-mailsquad-une-retrospective%2f" class="popup">
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fmailsquad.com%2ffr%2fblogue%2f2015%2f04%2fdelivrabilite-vs-spf-et-dkim%2f" class="popup">
                                 <span class="rrssb-icon">
                                     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="28px" height="28px" viewBox="0 0 28 28" enable-background="new 0 0 28 28" xml:space="preserve">
                                         <path d="M27.825,4.783c0-2.427-2.182-4.608-4.608-4.608H4.783c-2.422,0-4.608,2.182-4.608,4.608v18.434
@@ -257,7 +250,7 @@ Voici quelques statistiques qui devraient intéresser les passionnés du dévelo
                             </a>
                         </li>
                         <li class="rrssb-email">
-                            <a href="mailto:?subject=Premier%20anniversaire%20de%20MailSquad%2c%20une%20r%c3%a9trospective&amp;body=https%3a%2f%2fmailsquad.com%2ffr%2fblogue%2f2014%2f12%2fpremier-anniversaire-de-mailsquad-une-retrospective%2f">
+                            <a href="mailto:?subject=D%c3%a9livrabilit%c3%a9%20sous%20toutes%20ses%20facettes%20-%20partie%201&amp;body=https%3a%2f%2fmailsquad.com%2ffr%2fblogue%2f2015%2f04%2fdelivrabilite-vs-spf-et-dkim%2f">
                                 <span class="rrssb-icon">
                                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="28px" height="28px" viewBox="0 0 28 28" enable-background="new 0 0 28 28" xml:space="preserve"><g><path d="M20.111 26.147c-2.336 1.051-4.361 1.401-7.125 1.401c-6.462 0-12.146-4.633-12.146-12.265 c0-7.94 5.762-14.833 14.561-14.833c6.853 0 11.8 4.7 11.8 11.252c0 5.684-3.194 9.265-7.399 9.3 c-1.829 0-3.153-0.934-3.347-2.997h-0.077c-1.208 1.986-2.96 2.997-5.023 2.997c-2.532 0-4.361-1.868-4.361-5.062 c0-4.749 3.504-9.071 9.111-9.071c1.713 0 3.7 0.4 4.6 0.973l-1.169 7.203c-0.388 2.298-0.116 3.3 1 3.4 c1.673 0 3.773-2.102 3.773-6.58c0-5.061-3.27-8.994-9.303-8.994c-5.957 0-11.175 4.673-11.175 12.1 c0 6.5 4.2 10.2 10 10.201c1.986 0 4.089-0.43 5.646-1.245L20.111 26.147z M16.646 10.1 c-0.311-0.078-0.701-0.155-1.207-0.155c-2.571 0-4.595 2.53-4.595 5.529c0 1.5 0.7 2.4 1.9 2.4 c1.441 0 2.959-1.828 3.311-4.087L16.646 10.068z"/></g></svg>
                                 </span>
