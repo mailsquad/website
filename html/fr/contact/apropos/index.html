@@ -193,6 +193,8 @@
                         </li>
                         <li><a href="/fr/prix/">Prix</a>
                         </li>
+                        <li><a href="/fr/contact/demander-une-demo/">Demander un démo</a>
+                        </li>
                     </ul>
                 </div>
                 <div class="col-sm-2">
@@ -279,6 +281,28 @@
       ga('create', 'UA-52189624-3', 'auto');
       ga('send', 'pageview');
     </script>
+
+<script>
+
+	$(function() {
+	
+		$('#demoform').submit(function(e) {
+
+			e.preventDefault();
+
+		    $.ajax({
+		        url: 'https://api.inboxroute.com/api/signup/demo',
+		        type: 'post',
+		        data: $('#demoform').serialize(),
+		        success: function(data) {
+		           $('#demoform').hide();
+		           $('#demoformsuccess').show();
+		        }
+	    	});
+		});
+	});
+
+</script>
 
 </body>
 </html>
