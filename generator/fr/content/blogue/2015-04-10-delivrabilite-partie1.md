@@ -18,7 +18,7 @@ Dans ce billet, nous démystifions les **normes d’authentification email** et 
 *Cette série de posts sur notre blogue vous permettra de démystifier toutes les facettes de la délivrabilité des emails.*
 
 <p align="center">
-	<img src="/img/blog/delivrabilite_spf_dkim_emailing.png" alt="fdfg" width="470" width="394">
+	<img src="/img/blog/delivrabilite_spf_dkim_emailing.png" alt="Normes d’authentification email SPF et DKIM et vos campagnes d’emailing" width="470" width="394">
 </p>
 
 # Délivrabilité et l’intérêt des normes de vérification SPF et DKIM
