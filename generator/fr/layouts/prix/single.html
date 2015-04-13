@@ -1,4 +1,15 @@
 {{ partial "doctype.html" . }}
+<link rel="alternate" href="https://mailsquad.com/en/pricing/usd/" hreflang="en" />
+<link rel="alternate" href="https://mailsquad.com/en/pricing/cad/" hreflang="en-ca" />
+<link rel="alternate" href="https://mailsquad.com/en/pricing/eur/" hreflang="en-fr" />
+<link rel="alternate" href="https://mailsquad.com/en/pricing/eur/" hreflang="en-be" />
+<link rel="alternate" href="https://mailsquad.com/en/pricing/eur/" hreflang="en-nl" />
+<link rel="alternate" href="https://mailsquad.com/en/pricing/eur/" hreflang="en-es" />
+<link rel="alternate" href="https://mailsquad.com/en/pricing/eur/" hreflang="en-at" />
+<link rel="alternate" href="https://mailsquad.com/en/pricing/eur/" hreflang="en-it" />
+<link rel="alternate" href="https://mailsquad.com/en/pricing/eur/" hreflang="en-lu" />
+<link rel="alternate" href="https://mailsquad.com/fr/prix/eur" hreflang="fr" />
+<link rel="alternate" href="https://mailsquad.com/fr/prix/cad" hreflang="fr-ca" />
 {{ partial "header.html" . }}
 {{ partial "topnav.html" . }}
 
@@ -39,7 +50,7 @@
     orientation: "horizontal",
     range: "min",
     slide: function( event, ui ) {
-        $( "#margin,#marginl" ).text(  ui.value * 10 );
+        $( "#margin,#marginl" ).html(  ui.value * 10 );
 
         computeRevenu();
         computePricingTable();
@@ -53,7 +64,7 @@
     orientation: "horizontal",
     range: "min",
     slide: function( event, ui ) {
-        $( "#clients" ).text(  ui.value == 1 ? 1 : ui.value  * 5  );
+        $( "#clients" ).html(  ui.value == 1 ? 1 : ui.value  * 5  );
         computePricingTable();
         computeRevenu();
       }
@@ -82,7 +93,7 @@
             12: "85001 - 100000",
         };
 
-        $( "#subscribers" ).text(  map_subscribers[ui.value]  );
+        $( "#subscribers" ).html(  map_subscribers[ui.value]  );
         computeRevenu();
       }
   }).addSliderSegments(12);
@@ -91,7 +102,7 @@
 
         var discount = [11, 21, 41, 76, 100];
 
-        var clients = $( "#clients" ).text() * 1;
+        var clients = $( "#clients" ).html() * 1;
 
         var perc;
         for (perc = 0; perc < discount.length; ++perc) {
@@ -103,37 +114,37 @@
         perc = 1 - (perc/10);
 
         var map_plans_prices = {
-                "1 - 500" : 8,
-                "501 - 1000" : 12,
-                "1001 - 2500" : 25,
-                "2501 - 5000" : 40,
-                "5001 - 10000" : 65,
-                "10001 - 15000" : 105,
-                "15001 - 25000" : 129,
-                "25001 - 50000" : 209,
-                "50001 - 60000" : 275,
-                "60001 - 75000" : 315,
-                "75001 - 85000" : 350,
-                "85001 - 100000" : 399,
+                "1 - 500" : 7,
+                "501 - 1000" : 11,
+                "1001 - 2500" : 23,
+                "2501 - 5000" : 35,
+                "5001 - 10000" : 59,
+                "10001 - 15000" : 95,
+                "15001 - 25000" : 119,
+                "25001 - 50000" : 179,
+                "50001 - 60000" : 235,
+                "60001 - 75000" : 289,
+                "75001 - 85000" : 319,
+                "85001 - 100000" : 359,
             };
 
-        var margin = $( "#margin" ).text() * 1;
+        var margin = $( "#margin" ).html() * 1;
        
-        var subscribers = $( "#subscribers" ).text();
+        var subscribers = $( "#subscribers" ).html();
         var clientPrice = map_plans_prices[subscribers]*((margin/100)+1);
         var mqPrice = map_plans_prices[subscribers]*perc;
 
         var total = clients * (clientPrice - mqPrice) * 12;
-        $("#revenue").text(formatPrice(total));
+        $("#revenue").html(formatPrice(total));
     }
 
     function computePricingTable() {
 
-        var map_price = [0, 8, 12, 25, 40, 65, 105, 129, 209, 275, 315, 350, 399];
+        var map_price = [0, 7, 11, 23, 35, 59, 95, 119, 179, 235, 289, 319, 359];
         var discount = [11, 21, 41, 76, 100];
 
-        var margin = $( "#margin" ).text()*1;
-        var clients = $( "#clients" ).text()*1;
+        var margin = $( "#margin" ).html()*1;
+        var clients = $( "#clients" ).html()*1;
 
         var perc;
         for (perc = 0; perc < discount.length; ++perc) {
@@ -156,14 +167,14 @@
                     switch(tdIndex) {
                         case 1:
                             clientPrice = map_price[rowIndex] * ((margin / 100)+1);
-                            $(c).text(formatPrice(clientPrice));
+                            $(c).html(formatPrice(clientPrice));
                             break
                         case 2:
 
-                            $(c).text(formatPrice(mqPrice));
+                            $(c).html(formatPrice(mqPrice));
                             break
                         case 3:
-                            $(c).text(formatPrice(clientPrice - mqPrice));
+                            $(c).html(formatPrice(clientPrice - mqPrice));
                             break
                     }
                 });
@@ -172,7 +183,7 @@
     }
 
     function formatPrice(price) {
-        return price.toFixed(2).replace(".", ",");
+        return price.toFixed(2).replace(".", ",") + "&nbsp;&euro;";
     }
 
     $(computeRevenu);

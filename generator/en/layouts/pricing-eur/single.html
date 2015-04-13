@@ -1,0 +1,194 @@
+{{ partial "doctype.html" . }}
+<link rel="alternate" href="https://mailsquad.com/en/pricing/usd/" hreflang="en" />
+<link rel="alternate" href="https://mailsquad.com/en/pricing/cad/" hreflang="en-ca" />
+<link rel="alternate" href="https://mailsquad.com/en/pricing/eur/" hreflang="en-fr" />
+<link rel="alternate" href="https://mailsquad.com/en/pricing/eur/" hreflang="en-be" />
+<link rel="alternate" href="https://mailsquad.com/en/pricing/eur/" hreflang="en-nl" />
+<link rel="alternate" href="https://mailsquad.com/en/pricing/eur/" hreflang="en-es" />
+<link rel="alternate" href="https://mailsquad.com/en/pricing/eur/" hreflang="en-at" />
+<link rel="alternate" href="https://mailsquad.com/en/pricing/eur/" hreflang="en-it" />
+<link rel="alternate" href="https://mailsquad.com/en/pricing/eur/" hreflang="en-lu" />
+<link rel="alternate" href="https://mailsquad.com/fr/prix/eur" hreflang="fr" />
+<link rel="alternate" href="https://mailsquad.com/fr/prix/cad" hreflang="fr-ca" />
+{{ partial "header.html" . }}
+{{ partial "topnav.html" . }}
+
+{{ .Content }}
+
+{{ partial "footernav.html" . }}
+{{ partial "footer.html" . }}
+
+<script src="/flat-ui/js/jquery-ui-1.10.3.custom.min.js"></script>
+<script>
+
+    String.prototype.repeat = function(num) {
+      return new Array(num + 1).join(this);
+    };
+
+    // Add segments to a slider
+    $.fn.addSliderSegments = function (amount, orientation) {    
+      return this.each(function () {
+        if (orientation == "vertical") {
+          var output = ''
+            , i;
+          for (i = 1; i <= amount - 2; i++) {
+            output += '<div class="ui-slider-segment" style="top:' + 100 / (amount - 1) * i + '%;"></div>';
+          };
+          $(this).prepend(output);
+        } else {
+          var segmentGap = 100 / (amount - 1) + "%"
+            , segment = '<div class="ui-slider-segment" style="margin-left: ' + segmentGap + ';"></div>';
+          $(this).prepend(segment.repeat(amount - 2));
+        }
+      });
+    };
+
+  $("#slider-margin").slider({
+    min: 1,
+    max: 20,
+    value: 2,
+    orientation: "horizontal",
+    range: "min",
+    slide: function( event, ui ) {
+        $( "#margin,#marginl" ).html(  ui.value * 10 );
+
+        computeRevenu();
+        computePricingTable();
+      }
+  }).addSliderSegments(20);
+
+  $("#slider-clients").slider({
+    min: 1,
+    max: 20,
+    value: 2,
+    orientation: "horizontal",
+    range: "min",
+    slide: function( event, ui ) {
+        $( "#clients" ).html(  ui.value == 1 ? 1 : ui.value  * 5  );
+        computePricingTable();
+        computeRevenu();
+      }
+  }).addSliderSegments(20);
+
+  $("#slider-subscribers").slider({
+    min: 1,
+    max: 12,
+    value: 4,
+    orientation: "horizontal",
+    range: "min",
+    slide: function( event, ui ) {
+
+        var map_subscribers = {
+            1 : "1 - 500",
+            2 : "501 - 1000",
+            3 : "1001 - 2500",
+            4 : "2501 - 5000",
+            5 : "5001 - 10000",
+            6 : "10001 - 15000",
+            7: "15001 - 25000",
+            8: "25001 - 50000",
+            9: "50001 - 60000",
+            10: "60001 - 75000",
+            11: "75001 - 85000",
+            12: "85001 - 100000",
+        };
+
+        $( "#subscribers" ).html(  map_subscribers[ui.value]  );
+        computeRevenu();
+      }
+  }).addSliderSegments(12);
+
+    function computeRevenu() {
+
+        var discount = [11, 21, 41, 76, 100];
+
+        var clients = $( "#clients" ).html() * 1;
+
+        var perc;
+        for (perc = 0; perc < discount.length; ++perc) {
+            if (discount[perc] > clients) {
+                break;
+            }
+        }
+
+        perc = 1 - (perc/10);
+
+        var map_plans_prices = {
+                "1 - 500" : 7,
+                "501 - 1000" : 11,
+                "1001 - 2500" : 23,
+                "2501 - 5000" : 35,
+                "5001 - 10000" : 59,
+                "10001 - 15000" : 95,
+                "15001 - 25000" : 119,
+                "25001 - 50000" : 179,
+                "50001 - 60000" : 235,
+                "60001 - 75000" : 289,
+                "75001 - 85000" : 319,
+                "85001 - 100000" : 359,
+            };
+
+        var margin = $( "#margin" ).html() * 1;
+       
+        var subscribers = $( "#subscribers" ).html();
+        var clientPrice = map_plans_prices[subscribers]*((margin/100)+1);
+        var mqPrice = map_plans_prices[subscribers]*perc;
+
+        var total = clients * (clientPrice - mqPrice) * 12;
+        $("#revenue").html(formatPrice(total));
+    }
+
+    function computePricingTable() {
+
+        var map_price = [0, 7, 11, 23, 35, 59, 95, 119, 179, 235, 289, 319, 359];
+        var discount = [11, 21, 41, 76, 100];
+
+        var margin = $( "#margin" ).html()*1;
+        var clients = $( "#clients" ).html()*1;
+
+        var perc;
+        for (perc = 0; perc < discount.length; ++perc) {
+            if (discount[perc] > clients) {
+                break;
+            }
+        }
+
+        perc *= 10;
+
+        $(".pricing-table").find('tr').each(function (rowIndex, r) {
+
+            if (rowIndex > 0 && rowIndex <= 12) {
+
+                var clientPrice;
+                var mqPrice = mqPrice = map_price[rowIndex]*(1-(perc/100));
+
+                $(r).find("td").each(function (tdIndex, c) {
+
+                    switch(tdIndex) {
+                        case 1:
+                            clientPrice = map_price[rowIndex] * ((margin / 100)+1);
+                            $(c).html(formatPrice(clientPrice));
+                            break
+                        case 2:
+
+                            $(c).html(formatPrice(mqPrice));
+                            break
+                        case 3:
+                            $(c).html(formatPrice(clientPrice - mqPrice));
+                            break
+                    }
+                });
+            }
+        });
+    }
+
+    function formatPrice(price) {
+        return "&euro;&nbsp;" + price.toFixed(2).replace(".", ",");
+    }
+
+    $(computeRevenu);
+    $(computePricingTable);
+
+</script>
+</body>
+</html>

@@ -16,9 +16,7 @@ rm -rf less
 rm Gruntfile.js
 rm package.json
 mv style.css ../
-mv video-js.css ../
 mv ui-kit ../
-mv videos ../
 mv js ../
 mv img ../
 mv font ../
@@ -35,9 +33,7 @@ rm -rf less
 rm Gruntfile.js
 rm package.json
 rm -rf style.css
-rm -rf video-js.css
 rm -rf ui-kit
-rm -rf videos
 rm -rf js
 rm -rf img
 rm -rf font

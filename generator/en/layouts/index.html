@@ -4,22 +4,18 @@
 <head>
     <title>{{.Title}} - MailSquad</title>
     <meta name="description" content="Email marketing solution for agencies">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <link rel="alternate" hreflang="fr" href="https://mailsquad.com/fr/" /> {{ partial "header.html" . }} {{ partial "topnav.html" . }}
-
-    <link href="/video-js.css" rel="stylesheet">
     <section class="header-8-sub">
         <div class="container">
             <div class="row">
                 <div class="col-sm-10 col-sm-offset-1">
                     <h1>Email marketing solution for Agencies</h1>
                     <p class="lead">Generate new revenue and foster customer loyalty</p>
-                    <video id="video" class="video-js vjs-default-skin js-video widescreen" width="auto" height="auto" style="width:100% !important; height:auto !important" controls
-                     preload="auto" width="886" height="452" poster="/img/screenshots/english.png"
-                     data-setup="{}">
-                     <source src="/videos/mailsquad_apercu.mp4" type='video/mp4'>
-                     <source src="/videos/mailsquad_apercu.ogv" type='video/ogg'>
-                     <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
-                    </video>
+                    <div id="video">
+                    <iframe width="640" height="360" src="https://www.youtube.com/embed/7nrVSLDID9w?rel=0&amp;showinfo=0&amp;origin=https://mailsquad.com" frameborder="0"></iframe>
+                    </div>
                     <br>
                     <div class="btns">
                         <a class="btn btn-primary btn-huge" href="https://app.mailsquad.com/login/signup?lang=en" onclick="ga(‘signup’, ‘signup-navigate’, '1');">
@@ -31,21 +27,15 @@
             </div>
         </div>
     </section>
-
     {{ partial "footernav.html" . }}
-
     </div>
     <script src="/common-files/js/jquery-1.10.2.min.js"></script>
     <script src="/common-files/js/startup-kit.js"></script>
     <script src="/js/jquery.scrolldepth.min.js"></script>
     <script src="/common-files/js/jquery.cookie.js"></script>
     <script src="/common-files/js/stb_init.js"></script>
-    <script src="/js/videojs.min.js"></script>
     <script>
     jQuery(function() {
-        videojs('video', {}, function() {
-            this.ga();
-        });
         jQuery.scrollDepth({
             elements: ["#top3", "#commentcamarche", "#solution-marketing-courriel-marque-blanche", "#pourquoi", "#source-revenus", "#experience-client-personnalise", "#support"],
             percentage: false,

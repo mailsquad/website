@@ -98,46 +98,51 @@ menu:
                                 </tr>
                                 <tr>
                                     <td>50001 - 60000</td>
-                                    <td>358,80</td>
-                                    <td>299,00</td>
-                                    <td>59,80</td>
+                                    <td>370,80</td>
+                                    <td>309,00</td>
+                                    <td>61,80</td>
                                 </tr>
                                 <tr>
                                     <td>60001 - 75000</td>
-                                    <td>442,80</td>
-                                    <td>369,00</td>
-                                    <td>73,80</td>
+                                    <td>454,80</td>
+                                    <td>379,00</td>
+                                    <td>75,80</td>
                                 </tr>
                                 <tr>
                                     <td>75001 - 85000</td>
-                                    <td>490,80</td>
-                                    <td>409,00</td>
-                                    <td>81,80</td>
+                                    <td>502,80</td>
+                                    <td>419,00</td>
+                                    <td>83,80</td>
                                 </tr>
                                 <tr>
                                     <td>85001 - 100000</td>
-                                    <td>562,80</td>
-                                    <td>469,00</td>
-                                    <td>93,80</td>
+                                    <td>574,80</td>
+                                    <td>479,00</td>
+                                    <td>95,80</td>
                                 </tr>
                                  <tr>
                                     <td>Plus de 100 000</td>
-                                    <td colspan="3"><a href="/contact/">Contactez-nous</a></td>
+                                    <td colspan="3"><a href="/fr/contact/">Contactez-nous</a></td>
                                 </tr>             
                             </table>
                         </div>
                         <div class="features-body">
-                            <h2 style="font-size:14px">Si vos clients n'envoient pas mensuellement, il est aussi possible de payer à l'envoi.</h2>
+                            <h2 style="font-size:14px">Si vos clients n'envoient pas sur une base mensuelle, il est aussi possible de payer à l'envoi.</h2>
                             <div class="title" style="width: 200px;margin-left: auto;margin-right: auto;color: #2c3e50;">
                                 <div class="price">
                                     <span class="currency">&cent;</span>1
                                     <span class="period">/ contact</span>
                                 </div>
-                                + <strong>5$ de base</strong>
+                                + <strong>5 $ par campagne</strong>
                             </div>
                             <br>
                             Votre marge de profit est appliquée à chaque transaction. Il est possible de la paramétrer pour chaque client.
                         </div>
+                    </div>
+                </div>
+                <div style="margin-top: 15px;text-align:center;">
+                    <div style="margin-top:10px">
+                    Les prix ci-dessus sont en CAD. Nous supportons aussi la devise <a href="/fr/prix/eur/">EUR</a>.
                     </div>
                 </div>
             </div>

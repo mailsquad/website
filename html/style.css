@@ -189,7 +189,7 @@ a.text-info:focus {
   color: #2a7aaf;
 }
 .text-inverse {
-  color: #ffffff;
+  color: white;
 }
 a.text-inverse:hover,
 a.text-inverse:focus {
@@ -895,7 +895,7 @@ section * {
   margin-top: -1px;
   font-size: 14px;
   font-weight: normal;
-  color: #ffffff;
+  color: white;
 }
 .header-3 .navbar .btn.btn-primary {
   background-color: #16a085;
@@ -1197,7 +1197,7 @@ section * {
   float: left;
   font-size: 26px;
   font-weight: normal;
-  color: #ffffff;
+  color: white;
   margin: 0 18px 0 0;
 }
 @media (min-width: 481px) {
@@ -1826,7 +1826,7 @@ section * {
   margin-left: 33px;
   font-size: 14px;
   font-weight: normal;
-  color: #ffffff;
+  color: white;
   font-weight: 500;
   font-family: 'Montserrat', sans-serif;
 }
@@ -1853,7 +1853,7 @@ section * {
 .content-21 h3 {
   font-size: 30px;
   font-weight: normal;
-  color: #ffffff;
+  color: white;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: center;
   margin-bottom: 55px;
@@ -3910,6 +3910,21 @@ section * {
 }
 .header-8-sub .lead {
   font-size: 32px;
+}
+.header-8-sub #video {
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .header-8-sub #video > iframe {
+    height: 315px;
+    width: 560px;
+  }
+}
+@media (max-width: 480px) {
+  .header-8-sub #video > iframe {
+    height: 270px;
+    width: 430px;
+  }
 }
 @media (max-width: 480px) {
   .header-8-sub h1 {
