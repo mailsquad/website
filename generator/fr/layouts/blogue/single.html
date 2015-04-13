@@ -1,4 +1,18 @@
 {{ partial "doctype.html" . }}
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@mailsquad">
+    <meta name="twitter:title" content="{{ .Title }}">
+    <meta name="twitter:description" content="{{ .Description }}">
+    <meta name="twitter:image" content="{{ .Params.opengraphimgurl }}">
+
+    <meta property="og:title" content="{{ .Title }}">
+    <meta property="og:type"  content="article">
+    <meta property="og:image" content="{{ .Params.opengraphimgurl }}">
+    <meta property="og:site_name" content="MailSquad">
+    <meta property="og:description" content="{{ .Description }}">
+    <meta property="og:locale" content="fr_FR">
+
 {{ partial "header.html" . }}
 {{ partial "topnav.html" . }}
 
@@ -109,6 +123,7 @@
                         </li>
                     </ul>
                 </div>
+                
                     <div id="disqus_thread"></div>
                     <script type="text/javascript">
                         var disqus_shortname = 'mailsquad';
