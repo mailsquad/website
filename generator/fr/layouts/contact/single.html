@@ -7,5 +7,27 @@
 {{ partial "footernav.html" . }}
 {{ partial "footer.html" . }}
 
+<script>
+
+	$(function() {
+	
+		$('#demoform').submit(function(e) {
+
+			e.preventDefault();
+
+		    $.ajax({
+		        url: 'https://api.inboxroute.com/api/signup/demo',
+		        type: 'post',
+		        data: $('#demoform').serialize(),
+		        success: function(data) {
+		           $('#demoform').hide();
+		           $('#demoformsuccess').show();
+		        }
+	    	});
+		});
+	});
+
+</script>
+
 </body>
 </html>
