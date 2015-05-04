@@ -1,5 +1,5 @@
 ---
-title: "Google Go au WAQ 2015: une conférence de l'un des fondateurs de MailSquad."
+title: "Google Go au WAQ 2015"
 slug: "Google Go au WAQ 2015 une conference de l'un des fondateurs de MailSquad"
 description: Le cofondateur de MailSquad présentera à la 5e édition du WAQ.
 date: "2015-01-19"

@@ -699,9 +699,26 @@
 }
 
 .blog-1 {
-
+    p {
+        font-size: 18px;
+        line-height: 29px;
+        color: #222;
+    }
+    
+    .container {
+        h1 {
+            font-size: 48px;
+            color: white;
+            font-weight: 600;
+        }
+    }    
     .title {
         margin-bottom: 25px;
+        .submitted {
+            color: rgba(255,255,255,.5);
+            text-transform: uppercase;
+            padding-bottom: 20px;
+        }
     }
     .post {
 
@@ -711,8 +728,7 @@
         }
 
         h2 {
-            font-size: 20px;
-            color: @text-color-heading;
+            color: #222;
             .line-height(14px);
             letter-spacing: 0;
             margin: 0;
@@ -729,17 +745,19 @@
 
         h2 {
 
-            .font(22px, @text-color-heading);
-            font-family:@font-family-demo;
-            font-weight: 300;
+            .font(32px, #222);
+            line-height: 42px;
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-weight: 600;
             margin-bottom: 10px;
         }
 
         .box {
-            .font(20px, @text-color-heading);
-            font-family:@font-family-demo;
-            font-weight: 300;
-            margin-bottom: 20px;
+            .font(42px, #222);
+            letter-spacing: -.65px;
+            line-height: 45px;
+            margin: 1em -100px;
+            -webkit-font-smoothing: antialiased;
             background: #fff;
 
             text-align: center;

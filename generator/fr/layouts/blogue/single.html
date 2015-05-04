@@ -1,7 +1,5 @@
 {{ partial "doctype.html" . }}
-
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@mailsquad">
     <meta name="twitter:title" content="{{ .Title }}">
     <meta name="twitter:description" content="{{ .Description }}">
     <meta name="twitter:image" content="{{ .Params.opengraphimgurl }}">
@@ -16,14 +14,13 @@
 {{ partial "header.html" . }}
 {{ partial "topnav.html" . }}
 
-
-
 <section class="blog-1">
    
-    <div class="title" style="padding-top: 60px; padding-bottom: 15px">
+    <div class="title" style="padding-top: 60px; padding-bottom: 15px;background-color:#00A19B;">
         <div class="container">
             <h3>{{.Title}}</h3>
             <div class="submitted">{{ .Date.Format "2-01-2006" }}</div>
+            <img src="/img/blog/email-protection-spf-and-dkim-strategy_green.png" />
         </div>
     </div>
     <div class="container">
@@ -38,7 +35,7 @@
                     </ul>
                 </div> -->
             </div>
-            <div class="col-sm-11">
+            <div class="col-sm-10">
 
                 <div class="blogpost">
                     {{ .Content }}

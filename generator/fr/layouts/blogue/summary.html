@@ -1,8 +1,11 @@
 <article class="post">
     <header style="padding-top: 0">
       <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-      <div class="post-meta">{{ .Date.Format "2-01-2006" }}</div>
+      <!-- <div class="post-meta">{{ .Date.Format "2-01-2006" }}</div> -->
     </header>
+    <p style="background-color:#00A19B;text-align:center;">
+    	<img src="/img/blog/email-protection-spf-and-dkim-strategy_green.png" />
+    </p>
     <p>{{ .Summary }}</p>
     <footer>
         <a href='{{ .Permalink }}'><nobr>Lire la suite →</nobr></a>
