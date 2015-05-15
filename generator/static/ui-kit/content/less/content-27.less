@@ -1,4 +1,6 @@
 .content-27 {
+    background-color: #0694cc;
+    color: #FFFFFF;
     position:relative;
     svg, .svg {
         max-width: 100%;
@@ -27,7 +29,7 @@
     dt {
         position: relative;
         font-size:18px;
-        font-weight: normal;
+        font-weight: 100;
         padding: 0px 0 10px 50px;
     }
 
@@ -53,58 +55,28 @@
         position: absolute;
         left: 0;
         top: 0;
-        font-size: 50px;
-        font-weight: bold;
+        font-size: 36px;
+        font-weight: 100;
         line-height: 1;
-        color:@brand-primary;
-    }
-
-    ul {
-      list-style: none;
-      margin-left: 10px;
-      padding-left: 0;
-    }
-
-    li:before {
-      content: "\e006";
-      padding-right: 5px;
-      font-size:24px;
-      color:@brand-primary;
-      vertical-align : middle;
-      display: table-cell;
-      width: 40px;
-      height: 40px;
-    }
-
-    li {
-        font-family: 'Flat-UI-Icons';
-        font-size:18px;
-        font-weight: normal;
-        
-        span {
-            
-            vertical-align: middle;
-            display: table-cell;
-        }
-        padding-bottom: 10px;
+        color:#FFFFFF;
     }
     
     h2 {
-        .font(30px, @text-color-heading);
+        .font(36px, #FFFFFF);
         font-family:@font-family-demo;
         text-align: left;
         margin-bottom:43px;
         font-weight: 300;
     }
     p {
-        .font(16px);
+        .font(16px, #FFFFFF);
         font-family:@font-family-demo;
         .line-height(29.6px);
     }
     .lead {
-        .font(22px);
+        .font(22px, #FFFFFF);
         font-family: @font-family-demo;
-        font-weight:300;
+        font-weight:100;
         margin-bottom: 0;
     }
     .btn {
@@ -112,14 +84,28 @@
         padding-right: 20px;
     }
 
-    img {
-        padding-top:20px;
+    padding-top: 100px;
+    //padding-bottom: 200px;
+    @media (max-width: 767px) {
+        padding-top: 255px;
     }
-    @media (min-width: 768px) {
-        img {
-            padding-top:80px;
-        }
+    overflow: hidden;
+    position:relative;
+    > img {
+        position: absolute;
+        right: 0px;
+        bottom: 0;
+        max-width: none;
     }
+    > .container {
+        position: relative;
+    }
+
+    // @media (min-width: 768px) {
+    //     img {
+    //         padding-top:80px;
+    //     }
+    // }
 
     @media (max-width: 991px) {
         h3, p {

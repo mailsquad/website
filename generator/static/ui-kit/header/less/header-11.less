@@ -1,7 +1,7 @@
 /**
  * Header 11 stylesheet  
  * */
- .header-11-startup-antiflicker {
+.header-11-startup-antiflicker {
     border-bottom:1px @silver solid;
 }
 .header-11 {
@@ -28,7 +28,7 @@
         .btn {
             padding-left: 30px;
             padding-right: 30px;
-            font-weight: 800;
+            font-weight: 400;
         }
         .btn-login {
             background-color: #fff;
@@ -195,7 +195,7 @@
                 }
                 &.btn-info {
                     font-size: 17px;
-                    font-weight: 500;
+                    font-weight: 400;
                     &:hover, &:focus {
                         background-color: @btn-primary-active-bg;
                     }
@@ -204,22 +204,51 @@
                     }
                 }
             }
-
-            input[type="text"],
-            input[type="password"] {
-                border-color: white !important;
-                color: #2c3e50;
-                font-weight: 500;
-                .placeholder(#2c3e50);
-                @media (max-width: 767px) {
-                    height: 41px;
-                }
-            }
         }
         @media (max-width: 767px) {
             form {
                 margin-top: 25px;
             }
+        }
+    }
+}
+
+.header-11-sub.bg-nice-blue {
+    background-color: #0092cd;
+
+    .lead {
+        .font(16px, white);
+        font-weight: 300;
+        font-family: @font-family-demo;
+        margin-bottom: 20px;
+        // @media (max-width: 600px) {
+        //     .font(26px, white);
+        // }
+        // @media (max-width: 480px) {
+        //     .font(22px, white);
+        // }
+    }
+
+    .btn {
+        
+        color: #FFFFFF;
+        box-shadow: none;
+        border:2px solid #FFFFFF;
+        font-size: 11px;
+        padding-left: 12px;
+        padding-right: 12px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        margin-top: 3px;
+
+        &:hover {
+            background-color: #70bde5;
+            //border-color:  #70bde5;
+            color: #fff;
+        }
+
+        @media (min-width: 1200px) {
+                font-size: 12px;
         }
     }
 }

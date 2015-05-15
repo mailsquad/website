@@ -7,64 +7,105 @@ menu:
     top:
         parent: 'features'
 ---
-
-<section class="content-3 bg-clouds">
-    <div>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-7 aligment">
-                    <h1>Conçue spécifiquement pour les agences</h1>
-                    <p>Contrairement à d’autres plateformes de marketing courriel, MailSquad a été conçue exclusivement pour les agences et les professionnels du Web. Elle propose donc des fonctionnalités qui répondent spécifiquement à vos besoins.</p>
-                </div>
-                <div class="col-sm-5">
-                    <!-- <div class="img">
-                        <img src="http://placehold.it/350x150" alt="">
-                    </div> -->
-                </div>
-            </div>
-        </div>
-</section>
-
-<section class="content-6 v-center" style="padding-bottom:0">
-    <div>
-        <div class="container">
-            <div class="row features">
-                <div class="col-sm-5">
-                    <h2>Gestion multicompte</h2>
-                    <p>Notre plateforme vous permet de regrouper tous vos comptes clients en un seul et même endroit pour rapidement accéder à chacun d’eux.</p>
-                </div>
-                <div class="col-sm-5 col-sm-offset-1">
-                    <h2>Marque blanche intégrale</h2>
-                    <p>Nous nous faisons un devoir de respecter votre marque. Grâce à notre marque blanche intégrale, notre nom n’apparaît nulle part, que ce soit sur la plateforme, les factures ou les reçus. Vous personnalisez la plateforme à votre image en y apposant votre logo et votre nom de domaine.</p>
-                </div>
-            </div>
-            <div class="row features">
-                <div class="col-sm-5">
-                    <h2>Maîtrise des accès et collaboration</h2>
-                    <p>Avec MailSquad, vous contrôlez entièrement les accès de vos employés et de vos clients à la plateforme. Les administrateurs ont, comme vous, accès à toutes les fonctionnalités. Les utilisateurs profitent de profils personnalisés qui leur offrent différents degrés d’autonomie dans les projets. Vous favorisez ainsi la collaboration au sein de votre équipe et avec vos clients.</p>
-                </div>
-                <div class="col-sm-5 col-sm-offset-1">
-                    <h2>Une plateforme qui évolue avec vous</h2>
-                    <p>Notre solution a été conçue pour évoluer avec vos besoins. Nous étudions tout commentaire et toute demande d’ajouts de fonctionnalités pour continuer de vous offrir la meilleure offre de marketing courriel pour agences sur le marché.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="content-6 v-center">
-    <div>
-        <div class="container">
-            <div class="row features">
-                <div class="col-sm-12">
-                    <h2>Une équipe sur qui compter</h2>
-                    <p>La différence MailSquad, c’est aussi un service à la clientèle exceptionnel. Nous mettons tout en œuvre pour assurer le succès de nos revendeurs. Notre <a href="/support/">service de support</a> se tient à votre entière disposition pour optimiser vos envois en vous offrant du soutien technique, des services-conseils et des formations. <a href="https://mailsquad.com/contact/">Contactez-nous!</a></p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="content-11">
+<section class="header-11-sub bg-nice-blue">
     <div class="container">
-        <a class="btn btn-large btn-success" href="https://mailsquad.com/contact/">Demander une démonstration</a>
+        <div class="row">
+            <div class="col-xs-12 col-sm-11 col-md-8 col-lg-7">
+                <h1>Here’s what’s under the hood. In a nutshell.</h1>
+                <p class="lead">We know you are strapped for time. And you probably don’t want to scroll a non-ending list of features. So here’s the key takeaways you need to sign up today for a free trial or ask for a demo….STAT!</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-10 col-sm-6 col-md-5 col-lg-4">
+                <div class="features-form">
+                    <form>
+                        <div class="form-group">
+                            <a class="btn" href="https://app.mailsquad.com/login/signup?lang=en">Dont't be shy, ask us for a demo!</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="content-2">
+    <div class="container">
+        <div class="row feature">
+            <div class="col-sm-6">
+                <h3>White label solution</h3>
+                <p>Create crave-worthy email campaigns while promoting your brand and building customer loyalty. Every aspect of our solution can be white-labeled: from the URL to the invoice and credit card statement. It’s all about YOUR brand.</p>
+            </div>
+            <div class="col-sm-5 col-sm-offset-1">
+                <div class="img">
+                    <img src="http://placehold.it/350x250" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="row feature">
+            <div class="col-sm-5">
+                <div class="img">
+                    <img src="http://placehold.it/350x250" alt="">
+                </div>
+            </div>
+             <div class="col-sm-6">
+                <h3>Full-on flexibility</h3>
+                <p>Customize your email templates and make them lockable--without losing the flexibility of MailSquad’s editor. Because MailSquad is so easy to use, you can focus on the engaging content, not just the layout.</p>
+            </div>
+        </div>
+        <div class="row feature">
+            <div class="col-sm-6">
+                <h3>Reliable email delivery</h3>
+                <p>Our sophisticated backend infrastructure has been optimized to ensure maximum email delivery rates. With our strict compliance to anti-spam regulations, we carefully evaluate new (and existing!) customers before allowing them to use our system. This ensures ultra-clean sending streams and high deliverability.</p>
+            </div>
+            <div class="col-sm-5 col-sm-offset-1">
+                <div class="img">
+                    <img src="http://placehold.it/350x250" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="row feature">
+            <div class="col-sm-5">
+                <div class="img">
+                    <img src="http://placehold.it/350x250" alt="">
+                </div>
+            </div>
+             <div class="col-sm-6">
+                <h3>Multi-account management</h3>
+                <p>MailSquad offers two types of account management. Easily regroup all your client accounts into one place. What’s more: carefully manage who in your team can access and/or deploy campaigns for specific clients.</p>
+            </div>
+        </div>
+        <div class="row feature">
+            <div class="col-sm-6">
+                <h3>Built to increase revenues</h3>
+                <p>Whether your client prefers monthly packages or a per campaign invoice, you’ll not only benefit from ultra-competitive pricing from MailSquad, but you’ll also tweak your margins, on a per-client basis, so that you can generate bottom-line results.</p>
+            </div>
+            <div class="col-sm-5 col-sm-offset-1">
+                <div class="img">
+                    <img src="http://placehold.it/350x250" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="row feature">
+            <div class="col-sm-5">
+                <div class="img">
+                    <img src="http://placehold.it/350x250" alt="">
+                </div>
+            </div>
+             <div class="col-sm-6">
+                <h3>Invoice in nano seconds</h3>
+                <p>MailSquad provides you with the tools you need to effortlessly invoice your clients—directly—without the administrative backlog.</p>
+            </div>
+        </div>
+        <div class="row feature">
+            <div class="col-sm-6">
+                <h3>Easy peasy reporting</h3>
+                <p>Your email campaigns must look sophisticated. But the reporting needs to be easy to generate and easy-to-understand. Gone are the days of NASA-type reporting. Show your clients with just one glance the bang they are getting for their bucks!</p>
+            </div>
+            <div class="col-sm-5 col-sm-offset-1">
+                <div class="img">
+                    <img src="http://placehold.it/350x250" alt="">
+                </div>
+            </div>
+        </div>
     </div>
 </section>

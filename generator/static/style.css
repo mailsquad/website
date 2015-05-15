@@ -1342,7 +1342,7 @@ section * {
 .header-11 .navbar .btn {
   padding-left: 30px;
   padding-right: 30px;
-  font-weight: 800;
+  font-weight: 400;
 }
 .header-11 .navbar .btn-login {
   background-color: #fff;
@@ -1571,7 +1571,7 @@ section * {
 }
 .header-11-sub .signup-form form .btn.btn-info {
   font-size: 17px;
-  font-weight: 500;
+  font-weight: 400;
 }
 .header-11-sub .signup-form form .btn.btn-info:hover,
 .header-11-sub .signup-form form .btn.btn-info:focus {
@@ -1581,42 +1581,40 @@ section * {
 .header-11-sub .signup-form form .btn.btn-info.active {
   background-color: #377da1;
 }
-.header-11-sub .signup-form form input[type="text"],
-.header-11-sub .signup-form form input[type="password"] {
-  border-color: white !important;
-  color: #2c3e50;
-  font-weight: 500;
-}
-.header-11-sub .signup-form form input[type="text"]:-moz-placeholder,
-.header-11-sub .signup-form form input[type="password"]:-moz-placeholder {
-  color: #2c3e50;
-}
-.header-11-sub .signup-form form input[type="text"]::-moz-placeholder,
-.header-11-sub .signup-form form input[type="password"]::-moz-placeholder {
-  color: #2c3e50;
-  opacity: 1;
-}
-.header-11-sub .signup-form form input[type="text"]:-ms-input-placeholder,
-.header-11-sub .signup-form form input[type="password"]:-ms-input-placeholder {
-  color: #2c3e50;
-}
-.header-11-sub .signup-form form input[type="text"]::-webkit-input-placeholder,
-.header-11-sub .signup-form form input[type="password"]::-webkit-input-placeholder {
-  color: #2c3e50;
-}
-.header-11-sub .signup-form form input[type="text"].placeholder,
-.header-11-sub .signup-form form input[type="password"].placeholder {
-  color: #2c3e50;
-}
-@media (max-width: 767px) {
-  .header-11-sub .signup-form form input[type="text"],
-  .header-11-sub .signup-form form input[type="password"] {
-    height: 41px;
-  }
-}
 @media (max-width: 767px) {
   .header-11-sub .signup-form form {
     margin-top: 25px;
+  }
+}
+.header-11-sub.bg-nice-blue {
+  background-color: #0092cd;
+}
+.header-11-sub.bg-nice-blue .lead {
+  font-size: 16px;
+  font-weight: normal;
+  color: white;
+  font-weight: 300;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-bottom: 20px;
+}
+.header-11-sub.bg-nice-blue .btn {
+  color: #FFFFFF;
+  box-shadow: none;
+  border: 2px solid #FFFFFF;
+  font-size: 11px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-top: 3px;
+}
+.header-11-sub.bg-nice-blue .btn:hover {
+  background-color: #70bde5;
+  color: #fff;
+}
+@media (min-width: 1200px) {
+  .header-11-sub.bg-nice-blue .btn {
+    font-size: 12px;
   }
 }
 /**
@@ -1834,6 +1832,62 @@ section * {
     font-size: 35px;
     font-weight: normal;
     color: #2c3e50;
+  }
+}
+/**
+ * Content 2 stylesheet  
+ * */
+.content-2 {
+  padding-top: 60px;
+  padding-bottom: 130px;
+  position: relative;
+}
+.content-2 h3 {
+  font-size: 30px;
+  font-weight: normal;
+  color: #2c3e50;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-bottom: 35px;
+  font-weight: 300;
+}
+.content-2 p {
+  font-size: 18px;
+  font-weight: normal;
+  color: #7f8c8d;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 30px;
+}
+.content-2 .lead {
+  font-size: 24px;
+  font-weight: normal;
+  color: #7f8c8d;
+}
+.content-2 .feature {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.content-2 .btns {
+  margin-top: 50px;
+  font-size: 15px;
+  font-weight: normal;
+  color: #7f8c8d;
+}
+.content-2 .btns .btn {
+  padding: 9px 17px 10px 15px;
+  margin-right: 28px;
+}
+.content-2 .btns .btn > [class^="fui-"] {
+  font-size: 26px;
+  font-weight: normal;
+  color: white;
+  margin: -2px 12px 0 0;
+}
+@media (max-width: 767px) {
+  .content-2 .btns {
+    margin-top: 35px;
+  }
+  .content-2 .col-sm-5.col-sm-offset-1 {
+    margin-top: 45px;
   }
 }
 /**
@@ -2656,8 +2710,12 @@ section * {
   margin-top: 67px;
 }
 .content-27 {
-  position: relative;
+  background-color: #0694cc;
+  color: #FFFFFF;
   padding: 60px 0;
+  padding-top: 100px;
+  overflow: hidden;
+  position: relative;
 }
 .content-27 svg,
 .content-27 .svg {
@@ -2685,7 +2743,7 @@ section * {
 .content-27 dt {
   position: relative;
   font-size: 18px;
-  font-weight: normal;
+  font-weight: 100;
   padding: 0px 0 10px 50px;
 }
 @media (min-width: 481px) {
@@ -2709,40 +2767,15 @@ section * {
   position: absolute;
   left: 0;
   top: 0;
-  font-size: 50px;
-  font-weight: bold;
+  font-size: 36px;
+  font-weight: 100;
   line-height: 1;
-  color: #4caddf;
-}
-.content-27 ul {
-  list-style: none;
-  margin-left: 10px;
-  padding-left: 0;
-}
-.content-27 li:before {
-  content: "\e006";
-  padding-right: 5px;
-  font-size: 24px;
-  color: #4caddf;
-  vertical-align: middle;
-  display: table-cell;
-  width: 40px;
-  height: 40px;
-}
-.content-27 li {
-  font-family: 'Flat-UI-Icons';
-  font-size: 18px;
-  font-weight: normal;
-  padding-bottom: 10px;
-}
-.content-27 li span {
-  vertical-align: middle;
-  display: table-cell;
+  color: #FFFFFF;
 }
 .content-27 h2 {
-  font-size: 30px;
+  font-size: 36px;
   font-weight: normal;
-  color: #2c3e50;
+  color: #ffffff;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: left;
   margin-bottom: 43px;
@@ -2751,29 +2784,35 @@ section * {
 .content-27 p {
   font-size: 16px;
   font-weight: normal;
-  color: #7f8c8d;
+  color: #ffffff;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 29.6px;
 }
 .content-27 .lead {
   font-size: 22px;
   font-weight: normal;
-  color: #7f8c8d;
+  color: #ffffff;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 300;
+  font-weight: 100;
   margin-bottom: 0;
 }
 .content-27 .btn {
   padding-left: 20px;
   padding-right: 20px;
 }
-.content-27 img {
-  padding-top: 20px;
-}
-@media (min-width: 768px) {
-  .content-27 img {
-    padding-top: 80px;
+@media (max-width: 767px) {
+  .content-27 {
+    padding-top: 255px;
   }
+}
+.content-27 > img {
+  position: absolute;
+  right: 0px;
+  bottom: 0;
+  max-width: none;
+}
+.content-27 > .container {
+  position: relative;
 }
 @media (max-width: 991px) {
   .content-27 h3,
