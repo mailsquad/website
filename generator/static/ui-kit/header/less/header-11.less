@@ -1,0 +1,225 @@
+/**
+ * Header 11 stylesheet  
+ * */
+ .header-11-startup-antiflicker {
+    border-bottom:1px @silver solid;
+}
+.header-11 {
+    z-index: 100;
+    width: 100%;
+    padding-top:0;
+    padding-bottom:0;
+    height:90px;
+    .header-background {
+        background: #fff;
+    }
+    .navbar {
+        position: absolute;
+        z-index: 2;
+        top: 0;
+        margin: 0;
+        font-family: @font-family-demo;
+        &.navbar-fixed-top {
+            top: 0 !important;
+        }
+        .navbar-form {
+            padding: 30px 0 19px 50px;
+        }
+        .btn {
+            padding-left: 30px;
+            padding-right: 30px;
+            font-weight: 800;
+        }
+        .btn-login {
+            background-color: #fff;
+            color: @brand-primary;
+            box-shadow: none;
+            font-size: 11px;
+            padding-left: 12px;
+            padding-right: 12px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            margin-top: 3px;
+
+            &:hover {
+                background-color: #70bde5;
+                border-color:  #70bde5;
+                color: #fff;
+            }
+
+            @media (min-width: 1200px) {
+                    font-size: 12px;
+                }
+        }
+
+        .btn-signup {
+            background-color: #80b641;
+            box-shadow: 0px 2px 0px 0px #80b641;
+            &:hover, &:focus {
+                background-color: #80b641;
+            }
+            &:active, &.active {
+                background-color: mix(#80b641, black, 85%);
+            }
+        }
+
+        .brand {
+            padding-top: 30px !important;
+            .font(25px, @base);
+            font-weight: 800;
+            img:first-child {
+                float: left;
+                margin: -10px 15px 0 0;
+            }
+        }
+        .nav {
+            > li {
+                margin-left: 25px;
+                &:first-child {
+                    margin-left: 0;
+                }
+                &:active a, &.active a {
+                    .a-color(@link-color, @link-color);
+                }
+                > a {
+                    padding: 41px 0 27px;
+                    .font(14px);
+                    font-weight: 400;
+                    text-transform: uppercase;
+                    .a-color(@link-color, @link-color);
+                }
+            }
+        }
+        .navbar-toggle {
+            background-image: url("@{startup-basePath}common-files/icons/menu-icon-header-8@2x.png");
+            .background-size(17px 12px);
+            margin-top: 36px;
+        }
+    }
+}
+.header-11-sub {
+    padding-top:110px;
+    padding-bottom:110px;
+    color: @silver;
+    position: relative;
+    h1 {
+        margin: 0 0 20px 0;
+        .font(42px, #FFFFFF);
+        font-weight:500;
+        @media (max-width: 600px) {
+            .font(36px, #FFFFFF);
+        }
+        @media (max-width: 480px) {
+            .font(30px, #FFFFFF);
+            margin: 0 0 24px 0;
+        }
+    }
+    .lead {
+        .font(30px, white);
+        font-weight: 300;
+        font-family: @font-family-demo;
+        margin-bottom: 0;
+        @media (max-width: 600px) {
+            .font(26px, white);
+        }
+        @media (max-width: 480px) {
+            .font(22px, white);
+        }
+    }
+
+    h3 {
+        .font(33px, #FFFFFF);
+        margin-bottom:15px;
+        font-family: @font-family-demo;
+        font-weight:300;
+    }
+    p {
+        .font(16px, #7f8c8d);
+        font-family: @font-family-demo;
+    }
+    .additional-links {
+        .font(12px, #FFFFFF);
+        a {
+            text-decoration: underline;
+            .a-color(#FFFFFF);
+        }
+    }
+    .background {
+        background-image: url("@{startup-basePath}common-files/img/header/email_marketing_for_agencies.jpg");
+        .opacity(15);
+    }
+    @media (max-width: 767px) {
+        padding-top:68px;
+        padding-bottom:70px;
+        .player {
+            margin: 40px 0 25px;
+        }
+    }
+    @media (max-width: 480px) {
+        padding-top:68px;
+        padding-bottom:70px;
+        h3 {
+            .font(26px, @text-color-heading);
+        }
+    }
+    .signup-form {
+        form {
+            font-family:@font-family-demo;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            .form-group:first-child + .form-group {
+                display: table;
+                width: 100%;
+                > div {
+                    display: table-cell;
+                    width: 50%;
+                    padding-left: 5px;
+                    @media (max-width: 767px) {
+                        padding-left: 9px;
+                    }
+                    &:first-child {
+                        padding-left: 0;
+                        padding-right: 5px;
+                        @media (max-width: 767px) {
+                            padding-right: 9px;
+                        }
+                    }
+                }
+                input {
+                    width: 100%;
+                }
+            }
+            .btn {
+                @media (max-width: 767px) {
+                    margin: 9px 0;
+                }
+                &.btn-info {
+                    font-size: 17px;
+                    font-weight: 500;
+                    &:hover, &:focus {
+                        background-color: @btn-primary-active-bg;
+                    }
+                    &:active, &.active {
+                        background-color: mix(@btn-primary-active-bg, black, 85%);
+                    }
+                }
+            }
+
+            input[type="text"],
+            input[type="password"] {
+                border-color: white !important;
+                color: #2c3e50;
+                font-weight: 500;
+                .placeholder(#2c3e50);
+                @media (max-width: 767px) {
+                    height: 41px;
+                }
+            }
+        }
+        @media (max-width: 767px) {
+            form {
+                margin-top: 25px;
+            }
+        }
+    }
+}

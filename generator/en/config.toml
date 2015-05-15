@@ -1,4 +1,4 @@
-baseurl = "https://mailsquad.com/en"
+baseurl = "http://localhost:1313"
 publishdir = "../../html/en"
 staticdir = "../static"
 canonifyurls = false
@@ -6,17 +6,22 @@ canonifyurls = false
 title = "Email marketing solution for agencies"
 
 [[menu.top]]
+	name = "Features"
+	identifier = "features"
+	url = "/features"
+	weight = 1
+[[menu.top]]
 	name = "Pricing"
 	identifier = "pricing"
 	url = "/pricing"
-	weight = 1
-[[menu.top]]
-	name = "Support"
-	identifier = "support"
-	url = "/support"
 	weight = 2
 [[menu.top]]
 	name = "Contact"
 	identifier = "contact"
 	url = "/contact"
 	weight = 3
+[[menu.top]]
+	name = "Support"
+	identifier = "support"
+	url = "/support"
+	weight = 4

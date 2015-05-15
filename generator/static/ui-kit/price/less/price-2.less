@@ -8,9 +8,9 @@
         display: table;
         .box-sizing(border-box);
         width: 100%;
-        border: 3px solid #e5e5e5;
+        //border: 3px solid #e5e5e5;
         border-top: 0;
-        .border-radius(4px);
+        //.border-radius(4px);
         .plan {
             display: table-cell;
             width: 33.33%;
@@ -81,6 +81,12 @@
                     .opacity(30);
                 }
             }
+            p {
+                padding:10px;
+                font-size: 12px;
+                white-space: normal;
+                text-transform: none;
+            }
         }
         .plan:first-child .title {
             margin-left: -3px;
@@ -143,12 +149,15 @@
             }
             .description {
                 .border-bottom-radius(6px);
-                border: 3px solid #e5e5e5;
-                border-top: 0;
+                //border: 3px solid #e5e5e5;
+                //border-top: 0;
             }
             .plan-2 .ribbon {
                 right: 0;
             }
         }
+    }
+    .lead {
+        padding: 10px;
     }
 }

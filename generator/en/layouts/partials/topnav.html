@@ -1,4 +1,4 @@
-<header class="header-3">
+<header class="header-11">
     <div class="container">
         <div class="row">
             <nav class="navbar col-sm-12" role="navigation">
@@ -9,19 +9,17 @@
                     </a>
                 </div>
                 <div class="collapse navbar-collapse pull-right">
-                <form class="navbar-form pull-right">
-                        <a class="btn btn-primary" href="https://app.mailsquad.com/login/signup?lang=en">Sign Up Free</a>
-                        <a class="btn btn-login" href="/fr">Français</a>
+                    <form class="navbar-form pull-right">
+                        <a class="btn btn-primary btn-signup" href="https://app.mailsquad.com/login/signup?lang=en">Sign Up Free</a>
+                        <a class="btn btn-login" href="https://app.mailsquad.com/login?lang=en">login</a>
                     </form>
-                    <ul class="nav pull-right">
+                    <ul class="nav pull-left">
 
                         {{ $currentNode := . }}
                         {{ range .Site.Menus.top }}
                         <li {{if or ($currentNode.HasMenuCurrent "top" .) ($currentNode.IsMenuCurrent "top" .) }} class="active" {{end}}><a href="{{.Url}}" >{{.Name}}</a></li>
                         {{ end }}
-
                     </ul>
-                    
                 </div>
             </nav>
         </div>
