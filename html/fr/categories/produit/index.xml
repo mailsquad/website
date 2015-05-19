@@ -5,7 +5,64 @@
     <link>https://mailsquad.com/fr/categories/produit/</link>
     <language>fr</language>
     <author>Mailsquad</author>
-    <updated>Sat, 21 Feb 2015 00:00:00 UTC</updated>
+    <updated>Tue, 19 May 2015 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Champs personnalisés et listes de contacts</title>
+      <link>https://mailsquad.com/fr/blogue/2015/05/champs-personnalises-et-listes-de-contacts/</link>
+      <pubDate>Tue, 19 May 2015 00:00:00 UTC</pubDate>
+      
+      <guid>https://mailsquad.com/fr/blogue/2015/05/champs-personnalises-et-listes-de-contacts/</guid>
+      <description>
+
+&lt;p&gt;MailSquad permet maintenant l’ajout de &lt;strong&gt;champs personnalisés&lt;/strong&gt; à une liste de contacts.&lt;/p&gt;
+
+&lt;p&gt;Les champs personnalisés sont des attributs personnalisables rattachés à un contact. Vous pouvez ainsi récupérer des informations supplémentaires sur les abonnés et éventuellement les utiliser pour &lt;strong&gt;personnaliser&lt;/strong&gt; les campagnes de emailing.&lt;/p&gt;
+
+&lt;h1 id=&#34;comment-ça-marche:ba9834bcda86aab216651eb4955f5741&#34;&gt;Comment ça marche?&lt;/h1&gt;
+
+&lt;p&gt;Les champs personnalisés doivent être premièrement définis et ajoutés à une liste de contacts. Ensuite, le formulaire d&amp;rsquo;abonnement est modifié afin de recueillir les informations supplémentaires. Bien sûr, il est aussi possible de remplir ces champs lors de l&amp;rsquo;importation de contacts. Finalement, les nouvelles données peuvent être exploitées lors de la création de campagnes afin de personnaliser les envois.&lt;/p&gt;
+
+&lt;h2 id=&#34;la-définition-des-champs-personnalisés:ba9834bcda86aab216651eb4955f5741&#34;&gt;La définition des champs personnalisés&lt;/h2&gt;
+
+&lt;p&gt;Chaque attribut supplémentaire que vous désirez recueillir sur vos contacts doit être défini dans la section de paramétrage des champs personnalisés d&amp;rsquo;une liste de contacts.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://mailsquad.com/fr/img/blog/champs-personnalises/definition-champs-personnalises.png&#34; alt=&#34;La définition des champs personnalisés&#34; /&gt;
+&lt;/p&gt;
+
+&lt;h2 id=&#34;cueillete-des-informations-supplémentaires-lors-de-l-abonnement:ba9834bcda86aab216651eb4955f5741&#34;&gt;Cueillete des informations supplémentaires lors de l&amp;rsquo;abonnement&lt;/h2&gt;
+
+&lt;p&gt;Les formulaires d’abonnement peuvent être enrichis afin de recueillir les données reliées aux champs personnalisés. Ces informations supplémentaires sont stockées dans la fiche de contact.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://mailsquad.com/fr/img/blog/champs-personnalises/formulaire-champs-personnalises.png&#34; alt=&#34;Formulaire d&#39;abonnement avec champ personnalisé&#34; /&gt;
+&lt;/p&gt;
+
+&lt;h2 id=&#34;importation-des-données-reliées-aux-champs:ba9834bcda86aab216651eb4955f5741&#34;&gt;Importation des données reliées aux champs&lt;/h2&gt;
+
+&lt;p&gt;Pour les sources de données externes, l’importation des contacts via un fichier CSV permet de faire correspondre une colonne vers un champ personnalisé.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://mailsquad.com/fr/img/blog/champs-personnalises/importation-champs-personnalises.png&#34; alt=&#34;Importation des données reliées aux champs personnalisés&#34; /&gt;
+&lt;/p&gt;
+
+&lt;h2 id=&#34;la-personnalisation-des-campagnes-d-emailing:ba9834bcda86aab216651eb4955f5741&#34;&gt;La personnalisation des campagnes d&amp;rsquo;emailing&lt;/h2&gt;
+
+&lt;p&gt;Lors de l’envoi de vos campagnes d’emailing, vous pouvez personnaliser le contenu en insérant dynamiquement le contenu des champs personnalisés.&lt;/p&gt;
+
+&lt;p&gt;Voici un exemple où le nom de l’abonné est personnalisé:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://mailsquad.com/fr/img/blog/champs-personnalises/editeur-champs-personnalises.png&#34; alt=&#34;Éditeur email et insertion de champ personnalisé&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Le destinataire recevra alors le email suivant :&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://mailsquad.com/fr/img/blog/champs-personnalises/personnalisation-champs-personnalises.png&#34; alt=&#34;Version personnalisée du email&#34; /&gt;
+&lt;/p&gt;
+
+&lt;h1 id=&#34;passer-à-l-action:ba9834bcda86aab216651eb4955f5741&#34;&gt;Passer à l&amp;rsquo;action!&lt;/h1&gt;
+
+&lt;p&gt;Les champs personnalisés sont disponibles dès maintenant. Besoin d&amp;rsquo;aide ou d&amp;rsquo;informations supplémentaires? Nous sommes là pour vous aider!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Nouveautés du mois de février 2015</title>
