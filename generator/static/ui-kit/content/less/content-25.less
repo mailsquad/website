@@ -3,12 +3,6 @@
     padding:95px 0;
     @media (max-width: 767px) {
         padding: 40px 5px;
-        .svg, .nosvg {
-            display:block;
-            text-align:center;
-            float:none !important;
-            margin-top:45px;
-        }
     }
     h2 {
         .font(30px, @text-color-heading);
@@ -31,16 +25,26 @@
         margin-top:45px;
         font-weight: 200;
     }
-    svg, .svg {
-        width: 100%;
-    }
-    .nosvg {
-        display:none;
-    }
 
     .quote-text {
         font-size: 32px;
         color: #2c3e50;
         font-weight: 300;
+        margin-top: 10px;
+    }
+
+    .form-group {
+        padding-top: 40px;
+
+        .btn {
+            background-color: #FFFFFF;
+            border: 2px solid #0694cc;
+            color: #0694cc;
+
+            &:hover, &:focus {
+                    color: #FFFFFF;
+                    background-color: #0694cc;
+                }
+        }
     }
 }

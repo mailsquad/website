@@ -1,0 +1,105 @@
+.content-24 {
+    position:relative;
+    padding:140px 0;
+    background-color: #0694cc;
+    color: #FFFFFF;
+    overflow: hidden;
+    h3 {
+        .font(30px, white);
+        font-family:@font-family-demo;
+        margin-bottom:40px;
+        font-weight: 300;
+    }
+    img.image {
+        display: inline-block;
+        position: absolute;
+        right: 50%;
+        margin-right:100px;
+    }
+
+    dl {
+        counter-reset: my-badass-counter;
+        display: block;
+        margin-top: 10px;
+    }
+
+    dt {
+        position: relative;
+        font-size:18px;
+        font-weight: 100;
+        padding: 0px 0 10px 50px;
+    }
+
+    @media (min-width: 481px) {
+        dt {
+            padding-top: 10px;
+        }
+    }
+    @media (min-width: 768px) {
+        dt {
+            padding-top: 0px;
+        }
+    }
+    @media (min-width: 991px) {
+        dt {
+            padding-top: 10px;
+        }
+    }    
+
+    dt:before {
+        content: counter(my-badass-counter);
+        counter-increment: my-badass-counter;
+        position: absolute;
+        left: 0;
+        //top: 0;
+        font-size: 36px;
+        font-weight: 100;
+        line-height: 1;
+        color:#FFFFFF;
+    }
+    
+    h2 {
+        .font(36px, #FFFFFF);
+        font-family:@font-family-demo;
+        text-align: left;
+        margin-bottom:43px;
+        font-weight: 300;
+    }
+    p {
+        .font(16px, #FFFFFF);
+        font-family:@font-family-demo;
+        .line-height(29.6px);
+    }
+    .lead {
+        .font(22px, #FFFFFF);
+        font-family: @font-family-demo;
+        font-weight:100;
+        margin-bottom: 0;
+    }
+
+    .col-sm-6.col-sm-offset-6 {
+        position: relative;
+    }
+}
+@media (max-width: 767px) {
+    .content-24 {
+        padding:35px;
+        img.image {
+            position:relative;
+            margin-bottom: 48px;
+            right:0;
+        }
+        // .features.features-clear {
+        //     .features-header {
+        //         margin-bottom: 48px;
+        //     }
+        //     .features-body p {
+        //         margin-bottom: 48px;
+        //     }
+        // }
+        .container {
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+}
