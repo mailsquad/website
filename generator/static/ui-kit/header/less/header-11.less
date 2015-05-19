@@ -163,45 +163,43 @@
         }
     }
     .signup-form {
-        form {
-            font-family:@font-family-demo;
-            margin-top: 40px;
-            margin-bottom: 20px;
-            .form-group:first-child + .form-group {
-                display: table;
-                width: 100%;
-                > div {
-                    display: table-cell;
-                    width: 50%;
-                    padding-left: 5px;
-                    @media (max-width: 767px) {
-                        padding-left: 9px;
-                    }
-                    &:first-child {
-                        padding-left: 0;
-                        padding-right: 5px;
-                        @media (max-width: 767px) {
-                            padding-right: 9px;
-                        }
-                    }
+        font-family:@font-family-demo;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        .form-group:first-child + .form-group {
+            display: table;
+            width: 100%;
+            > div {
+                display: table-cell;
+                width: 50%;
+                padding-left: 5px;
+                @media (max-width: 767px) {
+                    padding-left: 9px;
                 }
-                input {
-                    width: 100%;
+                &:first-child {
+                    padding-left: 0;
+                    padding-right: 5px;
+                    @media (max-width: 767px) {
+                        padding-right: 9px;
+                    }
                 }
             }
-            .btn {
-                @media (max-width: 767px) {
-                    margin: 9px 0;
+            input {
+                width: 100%;
+            }
+        }
+        .btn {
+            @media (max-width: 767px) {
+                margin: 9px 0;
+            }
+            &.btn-info {
+                font-size: 17px;
+                font-weight: 400;
+                &:hover, &:focus {
+                    background-color: @btn-primary-active-bg;
                 }
-                &.btn-info {
-                    font-size: 17px;
-                    font-weight: 400;
-                    &:hover, &:focus {
-                        background-color: @btn-primary-active-bg;
-                    }
-                    &:active, &.active {
-                        background-color: mix(@btn-primary-active-bg, black, 85%);
-                    }
+                &:active, &.active {
+                    background-color: mix(@btn-primary-active-bg, black, 85%);
                 }
             }
         }

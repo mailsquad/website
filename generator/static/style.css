@@ -1533,52 +1533,52 @@ section * {
     color: #2c3e50;
   }
 }
-.header-11-sub .signup-form form {
+.header-11-sub .signup-form {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-top: 40px;
   margin-bottom: 20px;
 }
-.header-11-sub .signup-form form .form-group:first-child + .form-group {
+.header-11-sub .signup-form .form-group:first-child + .form-group {
   display: table;
   width: 100%;
 }
-.header-11-sub .signup-form form .form-group:first-child + .form-group > div {
+.header-11-sub .signup-form .form-group:first-child + .form-group > div {
   display: table-cell;
   width: 50%;
   padding-left: 5px;
 }
 @media (max-width: 767px) {
-  .header-11-sub .signup-form form .form-group:first-child + .form-group > div {
+  .header-11-sub .signup-form .form-group:first-child + .form-group > div {
     padding-left: 9px;
   }
 }
-.header-11-sub .signup-form form .form-group:first-child + .form-group > div:first-child {
+.header-11-sub .signup-form .form-group:first-child + .form-group > div:first-child {
   padding-left: 0;
   padding-right: 5px;
 }
 @media (max-width: 767px) {
-  .header-11-sub .signup-form form .form-group:first-child + .form-group > div:first-child {
+  .header-11-sub .signup-form .form-group:first-child + .form-group > div:first-child {
     padding-right: 9px;
   }
 }
-.header-11-sub .signup-form form .form-group:first-child + .form-group input {
+.header-11-sub .signup-form .form-group:first-child + .form-group input {
   width: 100%;
 }
 @media (max-width: 767px) {
-  .header-11-sub .signup-form form .btn {
+  .header-11-sub .signup-form .btn {
     margin: 9px 0;
   }
 }
-.header-11-sub .signup-form form .btn.btn-info {
+.header-11-sub .signup-form .btn.btn-info {
   font-size: 17px;
   font-weight: 400;
 }
-.header-11-sub .signup-form form .btn.btn-info:hover,
-.header-11-sub .signup-form form .btn.btn-info:focus {
+.header-11-sub .signup-form .btn.btn-info:hover,
+.header-11-sub .signup-form .btn.btn-info:focus {
   background-color: #4193be;
 }
-.header-11-sub .signup-form form .btn.btn-info:active,
-.header-11-sub .signup-form form .btn.btn-info.active {
+.header-11-sub .signup-form .btn.btn-info:active,
+.header-11-sub .signup-form .btn.btn-info.active {
   background-color: #377da1;
 }
 @media (max-width: 767px) {
@@ -2649,12 +2649,21 @@ section * {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
 }
+.content-25 h3 {
+  color: #0694cc;
+  font-size: 42px;
+  font-weight: 100;
+}
+.content-25 h3 .highlight {
+  font-weight: 500;
+  color: #003354;
+}
 .content-25 p {
   font-size: 18px;
-  color: #7f8c8d;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin-top: 45px;
   font-weight: normal;
+  color: #aaaaaa;
+  margin-top: 45px;
+  font-weight: 200;
 }
 .content-25 svg,
 .content-25 .svg {
@@ -2663,36 +2672,50 @@ section * {
 .content-25 .nosvg {
   display: none;
 }
+.content-25 .quote-text {
+  font-size: 32px;
+  color: #2c3e50;
+  font-weight: 300;
+}
 .content-26 {
   position: relative;
-  padding-top: 125px;
-  padding-bottom: 125px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   text-align: center;
+  background-color: #222222;
+  color: #FFFFFF;
 }
 .content-26 .lead {
-  font-size: 22px;
+  font-size: 24px;
   font-weight: normal;
-  color: #7f8c8d;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 300;
+  color: #ffffff;
+  font-weight: 100;
   margin-bottom: 0;
+  padding-top: 10px;
 }
 .content-26 h1 {
-  font-size: 35px;
+  font-size: 48px;
   font-weight: normal;
-  color: #2c3e50;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 300;
-  margin: 0 0 36px;
+  color: #ffffff;
+  font-weight: 400;
+}
+.content-26 h3 {
+  font-size: 36px;
+  font-weight: normal;
+  color: #ffffff;
 }
 .content-26 h2 {
   font-size: 26px;
   font-weight: normal;
-  color: #2c3e50;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #ffffff;
   text-align: left;
   margin-bottom: 43px;
   font-weight: 300;
+}
+.content-26 h6 {
+  font-size: 19px;
+  font-weight: normal;
+  color: #0694cc;
 }
 @media (max-width: 767px) {
   .content-26 .features {
@@ -2702,18 +2725,23 @@ section * {
 .content-26 .features h2 {
   text-transform: none;
   margin-top: 37px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
   font-size: 18px;
 }
 .content-26 .features > * {
   margin-top: 67px;
 }
+.content-26 .ui-slider-range {
+  background-color: #0694cc;
+}
+.content-26 .ui-slider-handle {
+  background-color: #0576a2;
+}
 .content-27 {
   background-color: #0694cc;
   color: #FFFFFF;
   padding: 60px 0;
-  padding-top: 100px;
+  padding-top: 50px;
   overflow: hidden;
   position: relative;
 }
@@ -3333,16 +3361,49 @@ section * {
  * Price 2 stylesheet  
  * */
 .price-2 {
-  padding-top: 110px;
-  padding-bottom: 110px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #ddecf2;
+  text-align: center;
+}
+.price-2 h1 {
+  font-size: 48px;
+  font-weight: normal;
+  color: #444444;
+  font-weight: 400;
+}
+.price-2 h3 {
+  font-size: 36px;
+  font-weight: normal;
+  color: #444444;
+}
+.price-2 h2 {
+  font-size: 26px;
+  font-weight: normal;
+  color: #444444;
+  text-align: left;
+  margin-bottom: 43px;
+  font-weight: 300;
+}
+.price-2 .lead {
+  font-size: 24px;
+  font-weight: normal;
+  color: #444444;
+  font-weight: 200;
+  margin-bottom: 0;
+  padding-top: 10px;
 }
 .price-2 .plans {
   display: table;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  width: 100%;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
   border-top: 0;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .price-2 .plans .plan {
   display: table-cell;
@@ -3365,12 +3426,14 @@ section * {
     top: 50px;
   }
 }
+.price-2 .plans .top {
+  height: 20px;
+  border: 0px;
+}
 .price-2 .plans .title {
   padding: 55px 0 55px;
-  background: #34495e;
-  color: #fff;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 500;
+  color: #777;
+  font-weight: 400;
   font-size: 16px;
   letter-spacing: 2px;
   white-space: nowrap;
@@ -3378,8 +3441,8 @@ section * {
 }
 .price-2 .plans .title .price {
   margin: 10px 0 13px;
-  font-size: 100px;
-  font-weight: 500;
+  font-size: 64px;
+  font-weight: 400;
 }
 .price-2 .plans .title .price .currency {
   font-size: 24px;
@@ -3414,7 +3477,7 @@ section * {
   filter: alpha(opacity=5000);
   opacity: 0.5;
   filter: alpha(opacity=50);
-  font-weight: 500;
+  font-weight: 400;
 }
 .price-2 .plans .title .btn.btn-clear:hover,
 .price-2 .plans .title .btn.btn-clear:focus {
@@ -3437,20 +3500,24 @@ section * {
 .price-2 .plans .title p {
   padding: 10px;
   font-size: 12px;
+  font-weight: 400;
   white-space: normal;
   text-transform: none;
 }
 .price-2 .plans .plan:first-child .title {
-  margin-left: -3px;
-  -webkit-border-top-left-radius: 6px;
-  -moz-border-radius-topleft: 6px;
-  border-top-left-radius: 6px;
+  background-color: white;
+  border: 1px solid #CCC;
+  border-right: 0px;
+}
+.price-2 .plans .plan:nth-child(2) .title,
+.price-2 .plans .plan:nth-child(2) .top {
+  background-color: #0694cc;
+  color: #FFFFFF;
 }
 .price-2 .plans .plan:last-child .title {
-  margin-right: -3px;
-  -webkit-border-top-right-radius: 6px;
-  -moz-border-radius-topright: 6px;
-  border-top-right-radius: 6px;
+  background-color: white;
+  border: 1px solid #CCC;
+  border-left: 0px;
 }
 .price-2 .plans .description {
   padding: 27px 40px;
@@ -3475,57 +3542,23 @@ section * {
   vertical-align: middle;
   color: rgba(52, 73, 94, 0.2);
 }
-.price-2 .plans .plan-2 {
-  border-left: 2px solid #e5e5e5;
-  border-right: 2px solid #e5e5e5;
-}
-.price-2 .plans .plan-2 .title {
-  margin: 0 -2px;
-  border-left: 2px solid #2f4254;
-  border-right: 2px solid #2f4254;
-  z-index: 3;
-}
 @media (max-width: 767px) {
   .price-2 .plans {
     display: block;
     width: auto;
-    border: 0;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    border-radius: 0;
   }
   .price-2 .plans .plan {
     display: block;
     width: auto;
-    border: 0!important;
     margin-top: 50px;
   }
   .price-2 .plans .plan:first-child {
     margin-top: 0;
   }
-  .price-2 .plans .title {
-    -webkit-border-top-right-radius: 6px;
-    -moz-border-radius-topright: 6px;
-    border-top-right-radius: 6px;
-    -webkit-border-top-left-radius: 6px;
-    -moz-border-radius-topleft: 6px;
-    border-top-left-radius: 6px;
-    margin: 0!important;
+  .price-2 .plans .plan .title:first-child,
+  .price-2 .plans .plan .title:last-child {
+    border: 1px solid #CCC !important;
   }
-  .price-2 .plans .description {
-    -webkit-border-bottom-right-radius: 6px;
-    -moz-border-radius-bottomright: 6px;
-    border-bottom-right-radius: 6px;
-    -webkit-border-bottom-left-radius: 6px;
-    -moz-border-radius-bottomleft: 6px;
-    border-bottom-left-radius: 6px;
-  }
-  .price-2 .plans .plan-2 .ribbon {
-    right: 0;
-  }
-}
-.price-2 .lead {
-  padding: 10px;
 }
 /**
  * Copntact 1 stylesheet  
@@ -4632,44 +4665,6 @@ section * {
 .content-3 h2 {
   color: #2c3e50;
 }
-.price-2 {
-  text-align: center;
-  padding-top: 20px;
-  padding-bottom: 40px;
-}
-.price-2 .lead {
-  font-size: 22px;
-  font-weight: normal;
-  color: #7f8c8d;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 300;
-  margin-bottom: 0;
-}
-.price-2 h3,
-.price-2 h2 {
-  font-size: 35px;
-  font-weight: normal;
-  color: #2c3e50;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 300;
-  margin: 0 0 36px;
-}
-.price-2 .plans {
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-}
-.price-2 .plans .description .description-box [class*="fui-"] {
-  font-size: 20px;
-}
-.price-2 .plans .title {
-  height: 250px;
-  padding: 40px 0 20px;
-  text-transform: uppercase;
-}
-.price-2 .plans .title .price {
-  font-size: 76px;
-}
 .select {
   position: relative;
 }
@@ -4989,21 +4984,6 @@ section * {
     margin: 5px 10px 0 0;
     float: left;
   }
-}
-.content-26 {
-  padding-top: 50px;
-}
-.content-26 .container .row div p {
-  font-size: 16px;
-  color: #000000;
-}
-.content-26 .container .row div h2 {
-  font-size: 24px;
-  font-weight: normal;
-  color: #2c3e50;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 400;
-  margin-bottom: 10px;
 }
 .content-29 p {
   font-size: 14px;
