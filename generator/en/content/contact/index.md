@@ -25,10 +25,10 @@ menu:
           <h2>Need help?</h2>
           <p>Our team of experts are available to answer all your questions <strong> Monday to Friday , 9 am to 6 pm EST</strong>.</p>
           <p>You can also reach us by email at <a href="mailto:hello@mailsquad.com">hello@mailsquad.com</a>.</p>
-          <p>We answer your questions within 24 hours.</p>
+          <p>We answer your questions within a few hours.</p>
           <div class="phone">
-              <big>877 880 0321</big>
-                AVAILABLE FROM 9 AM TO 6 PM EASTERN TIME
+              <big>1-877-880-0321</big>
+                
           </div>
         </div>
       </div>

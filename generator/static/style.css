@@ -3658,6 +3658,80 @@ section * {
     border: 1px solid #CCC !important;
   }
 }
+.price-2 .pricing .plans {
+  width: 90%;
+}
+@media (max-width: 767px) {
+  .price-2 .pricing .plans .plan {
+    width: auto !important;
+  }
+}
+.price-2 .pricing .plans .plan:first-child {
+  width: 60%;
+}
+.price-2 .pricing .plans .plan:first-child .title {
+  border: 1px solid #CCC;
+  border-top: 0px;
+}
+.price-2 .pricing .plans .plan:first-child .top {
+  background-color: #006699;
+  color: #FFFFFF;
+  height: 40px;
+}
+.price-2 .pricing .plans .plan:last-child {
+  width: 40%;
+}
+.price-2 .pricing .plans .plan:last-child .title {
+  background-color: #0694cc;
+  color: #FFFFFF;
+  border: 0px;
+}
+.price-2 .pricing .plans .plan:last-child .top {
+  background-color: #ddecf2;
+  height: 40px;
+}
+.price-2 .pricing .plans .plan .title {
+  font-size: 20px;
+}
+.price-2 .pricing .plans .top p {
+  padding-top: 5px;
+  font-weight: 300;
+}
+.price-2 .pricing .plans .price div {
+  float: left;
+  width: 45%;
+}
+.price-2 .pricing .plans .price .period {
+  display: block;
+  margin-top: 20px;
+}
+.price-2 .pricing .pricing-table {
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 95%;
+}
+.price-2 .pricing .pricing-table th:first-child {
+  padding-left: 10px;
+}
+.price-2 .pricing .pricing-table tr {
+  border-top: 1px solid #C2C2C2;
+  font-size: 14px;
+}
+.price-2 .pricing .pricing-table tr:first-child {
+  border-top: 0;
+}
+.price-2 .pricing .pricing-table td:first-child {
+  padding-left: 10px;
+  text-align: left;
+}
+.price-2 .pricing .pricing-table td {
+  padding: 8px 0px;
+}
+.price-2 .pricing .pricing-table td:last-child {
+  font-weight: bold;
+  text-align: left;
+  padding-left: 10px;
+}
 /**
  * Copntact 1 stylesheet  
  * */
