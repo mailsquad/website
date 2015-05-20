@@ -6,11 +6,6 @@ canonifyurls = false
 title = "Email marketing solution for agencies"
 
 [[menu.top]]
-	name = "Features"
-	identifier = "features"
-	url = "/features"
-	weight = 1
-[[menu.top]]
 	name = "Pricing"
 	identifier = "pricing"
 	url = "/pricing"
@@ -23,5 +18,5 @@ title = "Email marketing solution for agencies"
 [[menu.top]]
 	name = "Support"
 	identifier = "support"
-	url = "/support"
+	url = "http://help.mailsquad.com"
 	weight = 4
