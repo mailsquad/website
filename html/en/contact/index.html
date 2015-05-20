@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="/common-files/css/stb.css">
     <link rel="stylesheet" href="/common-files/css/rrssb.css" />
     <link rel="stylesheet" href="/style.css">
-    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400' rel='stylesheet' type='text/css'>
     <link rel="icon" 
       type="image/png" 
       href="/img/mailsquad_icon.png">
@@ -210,6 +210,26 @@
       ga('create', 'UA-52189624-3', 'auto');
       ga('send', 'pageview');
     </script>
+<script>
 
+	$(function() {
+	
+		$('#demoform').submit(function(e) {
+
+			e.preventDefault();
+
+		    $.ajax({
+		        url: 'https://api.inboxroute.com/api/signup/demo',
+		        type: 'post',
+		        data: $('#demoform').serialize(),
+		        success: function(data) {
+		           $('#demoform').hide();
+		           $('#demoformsuccess').show();
+		        }
+	    	});
+		});
+	});
+
+</script>
 </body>
 </html>
