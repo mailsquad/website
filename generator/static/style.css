@@ -4517,6 +4517,7 @@ section * {
   background-color: #4caddf;
   text-transform: uppercase;
   border-radius: 5px;
+  font-size: 17px;
 }
 .btn-primary:hover,
 .btn-primary:focus {

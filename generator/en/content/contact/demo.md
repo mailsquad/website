@@ -1,5 +1,5 @@
 ---
-title: Email Marketing platform for agencies demo
+title: Email Marketing platform for agencies demonstration
 date: "2015-04-13"
 description: Ask for a MailSquad demo, an email marketing solution for agencies.
 menu:
