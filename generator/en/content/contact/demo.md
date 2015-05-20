@@ -11,7 +11,7 @@ menu:
     <div class="row" style="margin-top: 30px">
       <div class="col-sm-6">
         <div style="margin-bottom: 50px">
-          <h1 style="margin-bottom:20px">Get your personalized MailSquad demonstration</h1>
+          <h1 style="margin-bottom:20px">Get your personalized MailSquad demo</h1>
           <p>Ask for a online demonstration, it's just like a webinar and we can schedule it at a convienient time for you!</p>
           <h2 style="margin-top:30px">Three good reasons to request a demo:</h2>  
           <ul class="demo" style="margin-top:25px">

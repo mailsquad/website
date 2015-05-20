@@ -2628,7 +2628,7 @@ section * {
 }
 .content-24 {
   position: relative;
-  padding: 140px 0;
+  padding: 100px 0px 50px;
   background-color: #0694cc;
   color: #FFFFFF;
   overflow: hidden;
@@ -3496,7 +3496,7 @@ section * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  width: 80%;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
   border-top: 0;
@@ -4559,10 +4559,9 @@ section * {
 }
 .btn {
   text-transform: uppercase;
-  border-radius: 3px;
+  border-radius: 5px;
 }
 .btn-primary {
-  box-shadow: 0px 2px 0px 0px #2887b8;
   border-color: transparent;
   background-color: #4caddf;
 }
@@ -4603,7 +4602,6 @@ section * {
   color: #4caddf;
 }
 .header-3 .navbar .btn {
-  border-radius: 3px;
   border: none;
   font-size: 11px;
 }
@@ -5298,16 +5296,16 @@ section * {
 }
 .demoform input[type=submit] {
   margin-bottom: 0;
-  font-weight: 400;
   text-align: center;
   vertical-align: middle;
   background-image: none;
   border: 1px solid transparent;
   white-space: nowrap;
   line-height: 1.42857143;
-  font-size: 12px;
+  font-size: 17px;
+  font-weight: 400;
   text-transform: uppercase;
-  border-radius: 3px;
+  border-radius: 5px;
   padding: 10px 35px;
   color: #fff;
   background-color: #4caddf;

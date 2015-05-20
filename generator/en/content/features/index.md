@@ -12,7 +12,7 @@ menu:
         <div class="row">
             <div class="col-xs-12 col-sm-11 col-md-8 col-lg-7">
                 <h1>Here’s what’s under the hood.<br />In a nutshell.</h1>
-                <p class="lead">We know you are strapped for time. And you probably don’t want to scroll a non-ending list of features. So here’s the key takeaways you need to sign up today for a free trial or ask for a demo….STAT!</p>
+                <p class="lead">We know you are strapped for time. So here’s the key takeaways you need to <a href="https://app.mailsquad.com/login/signup?lang=en">sign up today for a free trial</a> or ask for a demo...STAT!</p>
             </div>
         </div>
         <div class="row">
@@ -20,7 +20,7 @@ menu:
                 <div class="features-form">
                     <form>
                         <div class="form-group">
-                            <a class="btn" href="https://app.mailsquad.com/login/signup?lang=en">Dont't be shy, ask us for a demo!</a>
+                            <a class="btn" href="/contact/demo/">Dont't be shy, ask us for a demo!</a>
                         </div>
                     </form>
                 </div>

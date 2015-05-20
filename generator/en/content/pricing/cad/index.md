@@ -13,7 +13,7 @@ menu:
             <div class="row">
                 <div class="col-sm-12 ">
                     <h1>Invoice your customers in your own currency</h1>
-                    <p class="lead">Automatically charge your client’s credit card account for seamless invoicing. Simply add your margin to the set monthly fee and get the profits transfered to your bank account.</p>
+                    <p class="lead">Automatically charge your client’s credit card account for seamless invoicing. Simply add your markup to the set monthly fee and get the profits transfered to your bank account.</p>
                 </div>
             </div>
         </div>
@@ -107,7 +107,7 @@ menu:
                                 <span class="period">PER CAMPAIGN</span>
                             </div>
                         </div>
-                        <p>You can set a custom markup fo each of your clients.</p>
+                        <p>You can set a custom markup for each of your clients.</p>
                     </div>
                 </div>
             </div>
