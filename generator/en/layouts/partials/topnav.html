@@ -14,7 +14,6 @@
                         <a class="btn btn-login" href="https://app.mailsquad.com/login?lang=en">login</a>
                     </form>
                     <ul class="nav pull-left">
-
                         {{ $currentNode := . }}
                         {{ range .Site.Menus.top }}
                         <li {{if or ($currentNode.HasMenuCurrent "top" .) ($currentNode.IsMenuCurrent "top" .) }} class="active" {{end}}><a href="{{.Url}}" >{{.Name}}</a></li>
