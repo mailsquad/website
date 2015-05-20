@@ -3,28 +3,48 @@
     padding:95px 0;
     @media (max-width: 767px) {
         padding: 40px 5px;
-        .svg, .nosvg {
-            display:block;
-            text-align:center;
-            float:none !important;
-            margin-top:45px;
-        }
     }
     h2 {
         .font(30px, @text-color-heading);
         font-family:@font-family-demo;
         font-weight: 500;
     }
+    h3 {
+        color: #0092cd;
+        font-size: 42px;
+        font-weight: 100;
+
+        .highlight{
+            font-weight: 500;
+            color: #003354;
+        }
+    }
+
     p {
-        .font(18px);
-        font-family:@font-family-demo;
+        .font(18px, #aaaaaa);
         margin-top:45px;
-        font-weight: normal;
+        font-weight: 200;
     }
-    svg, .svg {
-        width: 100%;
+
+    .quote-text {
+        font-size: 32px;
+        color: #2c3e50;
+        font-weight: 300;
+        margin-top: 10px;
     }
-    .nosvg {
-        display:none;
+
+    .form-group {
+        padding-top: 40px;
+
+        .btn {
+            background-color: #FFFFFF;
+            border: 2px solid #0092cd;
+            color: #0092cd;
+
+            &:hover, &:focus {
+                    color: #FFFFFF;
+                    background-color: #0092cd;
+                }
+        }
     }
 }

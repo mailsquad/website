@@ -1,26 +1,32 @@
 .content-26 {
     position:relative;
-    padding-top:125px;
-    padding-bottom:125px;
+    padding-top:100px;
+    padding-bottom:100px;
     text-align: center;
+    background-color: #222222;
+    color: #FFFFFF;
     .lead {
-        .font(22px);
-        font-family: @font-family-demo;
-        font-weight:300;
+        .font(24px, #FFFFFF);
+        font-weight:100;
         margin-bottom: 0;
+        padding-top: 10px;
     }
     h1 {
-        .font(35px, @text-color-heading);
-        font-family:@font-family-demo;
-        font-weight:300;
-        margin: 0 0 36px;
+        .font(48px, #FFFFFF);
+        font-weight:400;
+        //margin: 0 0 36px;
+    }
+    h3 {
+        .font(36px, #FFFFFF);
     }
     h2 {
-        .font(26px, @text-color-heading);
-        font-family:@font-family-demo;
+        .font(26px, #FFFFFF);
         text-align: left;
         margin-bottom:43px;
         font-weight: 300;
+    }
+    h6 {
+        .font(19px, #0092cd);
     }
     .features {
         @media (max-width: 767px) {
@@ -29,12 +35,19 @@
         h2 {
             text-transform: none;
             margin-top: 37px;
-            font-family: @font-family-demo;
             font-weight: 500;
             font-size: 18px;
         }
         > * {
             margin-top: 67px;
         }
+    }
+
+    .ui-slider-range {
+        background-color: #0092cd;
+    }
+
+    .ui-slider-handle {
+        background-color: #0576a2;
     }
 }

@@ -6,10 +6,13 @@
 @import 'common-files/less/navbar.less';
 @import 'common-files/less/helper.less';
 
+@import 'ui-kit/header/less/header-1.less';
 @import 'ui-kit/header/less/header-3.less';
 @import 'ui-kit/header/less/header-8.less';
+@import 'ui-kit/header/less/header-11.less';
 @import 'ui-kit/header/less/header-19.less';
 
+@import 'ui-kit/content/less/content-2.less';
 @import 'ui-kit/content/less/content-3.less';
 @import 'ui-kit/content/less/content-4.less';
 @import 'ui-kit/content/less/content-6.less';
@@ -17,12 +20,14 @@
 @import 'ui-kit/content/less/content-10.less';
 @import 'ui-kit/content/less/content-11.less';
 @import 'ui-kit/content/less/content-21.less';
+@import 'ui-kit/content/less/content-24.less';
 @import 'ui-kit/content/less/content-25.less';
 @import 'ui-kit/content/less/content-26.less';
 @import 'ui-kit/content/less/content-27.less';
 @import 'ui-kit/content/less/content-29.less';
 @import 'ui-kit/content/less/content-31.less';
 @import 'ui-kit/content/less/content-36.less';
+@import 'ui-kit/content/less/content-37.less';
 
 @import 'ui-kit/price/less/price-2.less';
 @import 'ui-kit/contact/less/contact-1.less';
@@ -42,19 +47,19 @@
 
 @border-color: @brand-primary;
 
+@link-color: @brand-primary;
+
 .btn {
-	text-transform: uppercase;
-    border-radius: 3px;
+	background-color: @brand-primary;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-size: 17px;
 }
 
 .btn-primary {
-	box-shadow: 0px 2px 0px 0px #2887b8;
-	border-color: transparent;
-	background-color: @brand-primary;
-
-	&:hover {
-        background-color: #70bde5;
-	}
+	&:hover, &:focus {
+        background-color: mix(#0092cd, white, 85%);
+    }
 }
 
 .btn-huge {
@@ -91,7 +96,6 @@
             &.btn-primary {
                 .btn-background(@brand-primary);
             }
-            border-radius: 3px;
             border:none;
             font-size: 11px;
             @media (min-width: 1200px) {
@@ -321,46 +325,7 @@
     color: @text-color-heading;
 }
 
-.price-2 {
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 40px;
-    .lead {
-        .font(22px);
-        font-family: @font-family-demo;
-        font-weight:300;
-        margin-bottom: 0;
-    }
-    h3, h2 {
-        .font(35px, @text-color-heading);
-        font-family:@font-family-demo;
-        font-weight:300;
-        margin: 0 0 36px;
-    }
-
-    .plans {
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;
-        .description {
-            .description-box {
-                [class*="fui-"] {
-                    font-size: 20px;
-                }
-            }
-        }
-
-        .title {
-            height: 250px;
-            padding: 40px 0 20px;
-            text-transform: uppercase;
-            .price {
-                font-size: 76px;
-            }
-        }
-    }
-}
- .select {
+.select {
     position: relative;
     select {
         -webkit-appearance: none;
@@ -656,27 +621,6 @@
     }
 }
 
-
-.content-26 {
-   padding-top: 50px;
-
-    .container {
-        .row div {
-            p {
-                font-size: 16px;
-                color: #000000;
-            }
-
-            h2 {
-                .font(24px, @text-color-heading);
-                font-family:@font-family-demo;
-                font-weight:400;
-                margin-bottom: 10px;
-            }
-        }
-    }
-}
-
 .content-29 {
     p {
         .font(14px);
@@ -699,27 +643,27 @@
 }
 
 .blog-1 {
-    p {
-        font-size: 18px;
-        line-height: 29px;
-        color: #222;
-    }
+    // p {
+    //     font-size: 18px;
+    //     line-height: 29px;
+    //     color: #222;
+    // }
     
-    .container {
-        h1 {
-            font-size: 48px;
-            color: white;
-            font-weight: 600;
-        }
-    }    
-    .title {
-        margin-bottom: 25px;
-        .submitted {
-            color: rgba(255,255,255,.5);
-            text-transform: uppercase;
-            padding-bottom: 20px;
-        }
-    }
+    // .container {
+    //     h1 {
+    //         font-size: 48px;
+    //         color: white;
+    //         font-weight: 600;
+    //     }
+    // }    
+    // .title {
+    //     margin-bottom: 25px;
+    //     .submitted {
+    //         color: rgba(255,255,255,.5);
+    //         text-transform: uppercase;
+    //         padding-bottom: 20px;
+    //     }
+    // }
     .post {
 
         header {
@@ -728,6 +672,7 @@
         }
 
         h2 {
+            font-size: 20px;
             color: #222;
             .line-height(14px);
             letter-spacing: 0;
@@ -745,15 +690,14 @@
 
         h2 {
 
-            .font(32px, #222);
+            .font(22px, #222);
             line-height: 42px;
-            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
             font-weight: 600;
             margin-bottom: 10px;
         }
 
         .box {
-            .font(42px, #222);
+            .font(20px, #222);
             letter-spacing: -.65px;
             line-height: 45px;
             margin: 1em -100px;
@@ -837,20 +781,20 @@
 }
 
 .demoform input[type=submit] {
-  margin-bottom: 0;
-  font-weight: 400;
-  text-align: center;
-  vertical-align: middle;
-  background-image: none;
-  border: 1px solid transparent;
-  white-space: nowrap;
-  line-height: 1.42857143;
-  font-size: 12px;
-  text-transform: uppercase;
-  border-radius: 3px;
-  padding: 10px 35px;
-  color: #fff;
-  background-color: #4caddf;
-  box-shadow: 0 2px 0 0 #2887b8;
-  border-color: transparent;
+    margin-bottom: 0;
+    text-align: center;
+    vertical-align: middle;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    line-height: 1.42857143;
+    font-size: 17px;
+    font-weight: 400;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 10px 35px;
+    color: #fff;
+    background-color: #4caddf;
+    box-shadow: 0 2px 0 0 #2887b8;
+    border-color: transparent;
 }

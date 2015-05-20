@@ -33,11 +33,6 @@
   </url>
   
   <url>
-    <loc>https://mailsquad.com/fr/blogue/2015/02/nouveautes-du-mois-de-fevrier-2015/</loc>
-    <lastmod>2015-02-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://mailsquad.com/fr/blogue/2015/01/google-go-au-waq-2015-une-conference-de-lun-des-fondateurs-de-mailsquad/</loc>
     <lastmod>2015-01-19T00:00:00+00:00</lastmod>
   </url>
@@ -68,22 +63,12 @@
   </url>
   
   <url>
-    <loc>https://mailsquad.com/fr/blogue/2014/11/nouveautes-du-mois-de-novembre-2014/</loc>
-    <lastmod>2014-11-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://mailsquad.com/fr/contact/apropos/</loc>
     <lastmod>2014-11-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://mailsquad.com/fr/contact/</loc>
-    <lastmod>2014-11-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mailsquad.com/fr/fonctionnalites/clients/</loc>
     <lastmod>2014-11-20T00:00:00+00:00</lastmod>
   </url>
   
@@ -98,12 +83,12 @@
   </url>
   
   <url>
-    <loc>https://mailsquad.com/fr/fonctionnalites/revenus/</loc>
+    <loc>https://mailsquad.com/fr/fonctionnalites/clients/</loc>
     <lastmod>2014-11-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mailsquad.com/fr/politiques/modalites/</loc>
+    <loc>https://mailsquad.com/fr/fonctionnalites/revenus/</loc>
     <lastmod>2014-11-20T00:00:00+00:00</lastmod>
   </url>
   
@@ -118,18 +103,13 @@
   </url>
   
   <url>
-    <loc>https://mailsquad.com/fr/support/</loc>
+    <loc>https://mailsquad.com/fr/politiques/modalites/</loc>
     <lastmod>2014-11-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mailsquad.com/fr/blogue/2014/10/mailsquad-finalise-un-premier-financement/</loc>
-    <lastmod>2014-10-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mailsquad.com/fr/blogue/2014/08/mailsquad-disponible-en-beta-prive/</loc>
-    <lastmod>2014-08-24T00:00:00+00:00</lastmod>
+    <loc>https://mailsquad.com/fr/support/</loc>
+    <lastmod>2014-11-20T00:00:00+00:00</lastmod>
   </url>
   
 </urlset>

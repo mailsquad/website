@@ -261,12 +261,12 @@ startupKit.uiKitHeader._inFixedMode = function(headerClass) {
 // };
 
 /* Header 3*/
-startupKit.uiKitHeader.header3 = function() {
-    if ($('.header-3 .navbar').hasClass('navbar-fixed-top')) {
-        $('.header-3').css('position', 'fixed').addClass('fake-header');
-    };
-    startupKit.uiKitHeader._inFixedMode('.header-3');
-};
+// startupKit.uiKitHeader.header3 = function() {
+//     if ($('.header-3 .navbar').hasClass('navbar-fixed-top')) {
+//         $('.header-3').css('position', 'fixed').addClass('fake-header');
+//     };
+//     startupKit.uiKitHeader._inFixedMode('.header-3');
+// };
 
 // /* Header 4*/
 // startupKit.uiKitHeader.header4 = function() {};
@@ -403,26 +403,26 @@ startupKit.uiKitHeader.header3 = function() {
 //     });
 // };
 
-// /* Header 11*/
-// startupKit.uiKitHeader.header11 = function() {
-//     if ($('.header-11 .navbar').hasClass('navbar-fixed-top')) {
-//         $('.header-11').css('position', 'fixed').addClass('fake-header');
-//     };
-//     startupKit.uiKitHeader._inFixedMode('.header-11');
+/* Header 11*/
+startupKit.uiKitHeader.header11 = function() {
+    if ($('.header-11 .navbar').hasClass('navbar-fixed-top')) {
+        $('.header-11').css('position', 'fixed').addClass('fake-header');
+    };
+    startupKit.uiKitHeader._inFixedMode('.header-11');
 
-//     $(window).resize(function() {
+    $(window).resize(function() {
         
-//         var headerContainer = $('.header-11-sub').not('pre .header-11-sub');
-//         var player = headerContainer.find('.player');
-//         if ($(window).width() < 751) {
-//             headerContainer.find('.signup-form').before(player);
-//             headerContainer.find('.player-wrapper').hide();
-//         } else {
-//             headerContainer.find('.player-wrapper').append(player).show();
-//         }
-//     });
+        var headerContainer = $('.header-11-sub').not('pre .header-11-sub');
+        var player = headerContainer.find('.player');
+        if ($(window).width() < 751) {
+            headerContainer.find('.signup-form').before(player);
+            headerContainer.find('.player-wrapper').hide();
+        } else {
+            headerContainer.find('.player-wrapper').append(player).show();
+        }
+    });
 
-// };
+};
 
 // /* Header 12*/
 // startupKit.uiKitHeader.header12 = function() {};
