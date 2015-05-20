@@ -1423,6 +1423,13 @@ section * {
   background-size: 17px 12px;
   margin-top: 36px;
 }
+@media (max-width: 991px) {
+  .navbar-collapse .navbar-form .btn-login {
+    display: block;
+    text-align: left;
+    height: inherit;
+  }
+}
 .header-11-sub {
   padding-top: 110px;
   padding-bottom: 110px;
