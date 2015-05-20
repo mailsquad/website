@@ -1571,14 +1571,6 @@ section * {
     margin: 9px 0;
   }
 }
-.header-11-sub .signup-form .btn.btn-info {
-  font-size: 17px;
-  font-weight: 400;
-}
-.header-11-sub .signup-form .btn.btn-info:hover,
-.header-11-sub .signup-form .btn.btn-info:focus {
-  background-color: #26a2d5;
-}
 @media (max-width: 767px) {
   .header-11-sub .signup-form form {
     margin-top: 25px;
