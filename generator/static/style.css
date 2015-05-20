@@ -5129,29 +5129,12 @@ section * {
 .content-29 a {
   display: block;
 }
-.blog-1 p {
-  font-size: 18px;
-  line-height: 29px;
-  color: #222;
-}
-.blog-1 .container h1 {
-  font-size: 48px;
-  color: white;
-  font-weight: 600;
-}
-.blog-1 .title {
-  margin-bottom: 25px;
-}
-.blog-1 .title .submitted {
-  color: rgba(255, 255, 255, 0.5);
-  text-transform: uppercase;
-  padding-bottom: 20px;
-}
 .blog-1 .post header {
   padding-top: 20px;
   padding-bottom: 10px;
 }
 .blog-1 .post h2 {
+  font-size: 20px;
   color: #222;
   line-height: 14px;
   letter-spacing: 0;
@@ -5163,16 +5146,15 @@ section * {
   text-transform: uppercase;
 }
 .blog-1 .blogpost h2 {
-  font-size: 32px;
+  font-size: 22px;
   font-weight: normal;
   color: #222222;
   line-height: 42px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 600;
   margin-bottom: 10px;
 }
 .blog-1 .blogpost .box {
-  font-size: 42px;
+  font-size: 20px;
   font-weight: normal;
   color: #222222;
   letter-spacing: -0.65px;
