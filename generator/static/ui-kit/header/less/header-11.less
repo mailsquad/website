@@ -26,8 +26,8 @@
             padding: 30px 0 19px 50px;
         }
         .btn {
-            padding-left: 30px;
-            padding-right: 30px;
+            padding-left: 15px;
+            padding-right: 15px;
             font-weight: 400;
         }
         .btn-login {
@@ -48,17 +48,13 @@
             }
 
             @media (min-width: 1200px) {
-                    font-size: 12px;
-                }
+                font-size: 12px;
+            }
         }
 
         .btn-signup {
             background-color: #80b641;
-            box-shadow: 0px 2px 0px 0px #80b641;
             &:hover, &:focus {
-                background-color: #80b641;
-            }
-            &:active, &.active {
                 background-color: mix(#80b641, black, 85%);
             }
         }
@@ -196,10 +192,10 @@
                 font-size: 17px;
                 font-weight: 400;
                 &:hover, &:focus {
-                    background-color: @btn-primary-active-bg;
+                    background-color: mix(#0092cd, white, 85%);
                 }
                 &:active, &.active {
-                    background-color: mix(@btn-primary-active-bg, black, 85%);
+                    
                 }
             }
         }
@@ -241,7 +237,6 @@
 
         &:hover {
             background-color: #70bde5;
-            //border-color:  #70bde5;
             color: #fff;
         }
 

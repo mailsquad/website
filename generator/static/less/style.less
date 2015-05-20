@@ -50,18 +50,15 @@
 @link-color: @brand-primary;
 
 .btn {
-	text-transform: uppercase;
+	background-color: @brand-primary;
+    text-transform: uppercase;
     border-radius: 5px;
 }
 
 .btn-primary {
-	//box-shadow: 0px 2px 0px 0px #2887b8;
-	border-color: transparent;
-	background-color: @brand-primary;
-
-	&:hover {
-        background-color: #70bde5;
-	}
+	&:hover, &:focus {
+        background-color: mix(#0092cd, white, 85%);
+    }
 }
 
 .btn-huge {
