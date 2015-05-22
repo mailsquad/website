@@ -1,21 +1,26 @@
 /**
  * Content 11 stylesheet  
  * */
- @import url(https://fonts.googleapis.com/css?family=Montserrat);
- .content-11 {
+  .content-11 {
     position:relative;
     text-align: center;
     padding-top: 35px;
     padding-bottom: 35px;
-    background: rgba(241, 196, 15, 0.1);
-    .font(24px, @base);
+    background: #0694CC;
+    .font(24px, #FFFFFF);
     font-family: @font-family-demo;
     font-weight: 300;
     > .container {
         position: relative;
     }
-    .btn {
+    .btn-primary {
+        background-color: #FFFFFF;
+        color: #0694CC;
         margin-left: 33px;
+
+        &:hover, &:focus {
+            background-color: mix(#FFFFFF, black, 85%);
+        }
     }
     @media (max-width: 480px) {
         > .container > span {
