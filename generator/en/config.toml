@@ -1,4 +1,4 @@
-baseurl = "https://mailsquad.com/en"
+baseurl = "http://localhost:1313"
 publishdir = "../../html/en"
 staticdir = "../static"
 canonifyurls = false

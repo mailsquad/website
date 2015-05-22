@@ -8,7 +8,7 @@ menu:
         identifier: cad
         parent: 'pricing'
 ---
-<section class="price-2" style="padding-top:20px;">
+<section class="price-2" style="padding-top:50px;">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 ">

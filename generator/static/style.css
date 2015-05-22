@@ -1332,7 +1332,7 @@ section * {
   top: 0 !important;
 }
 .header-11 .navbar .navbar-form {
-  padding: 30px 0 19px 50px;
+  padding: 30px 0 19px 30px;
 }
 .header-11 .navbar .btn {
   padding-left: 15px;
@@ -1340,25 +1340,9 @@ section * {
   font-weight: 400;
 }
 .header-11 .navbar .btn-login {
-  background-color: #fff;
   color: #0694cc;
-  box-shadow: none;
-  font-size: 11px;
+  font-size: 12px;
   padding-left: 12px;
-  padding-right: 12px;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  margin-top: 3px;
-}
-.header-11 .navbar .btn-login:hover {
-  background-color: #70bde5;
-  border-color: #70bde5;
-  color: #fff;
-}
-@media (min-width: 1200px) {
-  .header-11 .navbar .btn-login {
-    font-size: 12px;
-  }
 }
 .header-11 .navbar .btn-signup {
   background-color: #80b641;
@@ -2778,6 +2762,7 @@ section * {
   font-weight: normal;
   color: #ffffff;
   font-weight: 400;
+  margin-top: 0px;
 }
 .content-26 h3 {
   font-size: 42px;
@@ -3651,6 +3636,7 @@ section * {
   font-weight: normal;
   color: #444444;
   font-weight: 400;
+  margin-top: 0px;
 }
 .price-2 h3 {
   font-size: 36px;
@@ -3754,9 +3740,10 @@ section * {
   text-transform: none;
 }
 .price-2 .plans .plan:first-child .title {
-  background-color: #ddecf2;
+  background-color: #222222;
   border: 1px solid #CCC;
   border-right: 0px;
+  color: #FFFFFF;
 }
 .price-2 .plans .plan:nth-child(2) .title,
 .price-2 .plans .plan:nth-child(2) .top {
@@ -3764,9 +3751,10 @@ section * {
   color: #FFFFFF;
 }
 .price-2 .plans .plan:last-child .title {
-  background-color: #ddecf2;
+  background-color: #222222;
   border: 1px solid #CCC;
   border-left: 0px;
+  color: #FFFFFF;
 }
 .price-2 .plans .description {
   padding: 27px 40px;
@@ -3816,6 +3804,7 @@ section * {
 }
 .price-2 .pricing .plans .plan:first-child .title {
   background-color: #FFFFFF;
+  color: #777;
   border: 1px solid #CCC;
   border-top: 0px;
 }
