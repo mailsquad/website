@@ -198,8 +198,8 @@
             slide: function( event, ui ) {
                 $( "#clients" ).html(  ui.value == 1 ? 1 : ui.value  * 5  );
                 computeRevenu();
-              }
-          });
+            }
+        });
 
         $("#slider-margin").slider({
             min: 1,
@@ -210,8 +210,8 @@
             slide: function( event, ui ) {
                 $( "#margin,#marginl" ).html(  ui.value * 10 );
                 computeRevenu();
-              }
-          });
+            }
+        });
 
         $("#slider-subscribers").slider({
             min: 1,
@@ -221,30 +221,28 @@
             range: "min",
             slide: function( event, ui ) {
             var map_subscribers = {
-                1 : "1 - 500",
-                2 : "501 - 1000",
-                3 : "1001 - 2500",
-                4 : "2501 - 5000",
-                5 : "5001 - 10000",
-                6 : "10001 - 15000",
-                7: "15001 - 25000",
-                8: "25001 - 50000",
-                9: "50001 - 60000",
-                10: "60001 - 75000",
-                11: "75001 - 85000",
-                12: "85001 - 100000",
+                1 : "1&nbsp;-&nbsp;500",
+                2 : "501&nbsp;-&nbsp;1000",
+                3 : "1001&nbsp;-&nbsp;2500",
+                4 : "2501&nbsp;-&nbsp;5000",
+                5 : "5001&nbsp;-&nbsp;10000",
+                6 : "10001&nbsp;-&nbsp;15000",
+                7 : "15001&nbsp;-&nbsp;25000",
+                8 : "25001&nbsp;-&nbsp;50000",
+                9 : "50001&nbsp;-&nbsp;60000",
+                10: "60001&nbsp;-&nbsp;75000",
+                11: "75001&nbsp;-&nbsp;85000",
+                12: "85001&nbsp;-&nbsp;100000",
             };
 
             $( "#subscribers" ).html(  map_subscribers[ui.value]  );
-            computeRevenu();
+                computeRevenu();
             }
         });
 
         function computeRevenu() {
             var discount = [11, 21, 41, 76, 100];
-
             var clients = $( "#clients" ).html() * 1;
-
             var perc;
             for (perc = 0; perc < discount.length; ++perc) {
                 if (discount[perc] > clients) {
@@ -255,22 +253,21 @@
             perc = 1 - (perc/10);
 
             var map_plans_prices = {
-                    "1 - 500" : 9,
-                    "501 - 1000" : 14,
-                    "1001 - 2500" : 29,
-                    "2501 - 5000" : 49,
-                    "5001 - 10000" : 79,
-                    "10001 - 15000" : 129,
-                    "15001 - 25000" : 159,
-                    "25001 - 50000" : 239,
-                    "50001 - 60000" : 309,
-                    "60001 - 75000" : 379,
-                    "75001 - 85000" : 419,
-                    "85001 - 100000" : 479,
-                };
+                "1&nbsp;-&nbsp;500" : 9,
+                "501&nbsp;-&nbsp;1000" : 14,
+                "1001&nbsp;-&nbsp;2500" : 29,
+                "2501&nbsp;-&nbsp;5000" : 49,
+                "5001&nbsp;-&nbsp;10000" : 79,
+                "10001&nbsp;-&nbsp;15000" : 129,
+                "15001&nbsp;-&nbsp;25000" : 159,
+                "25001&nbsp;-&nbsp;50000" : 239,
+                "50001&nbsp;-&nbsp;60000" : 309,
+                "60001&nbsp;-&nbsp;75000" : 379,
+                "75001&nbsp;-&nbsp;85000" : 419,
+                "85001&nbsp;-&nbsp;100000" : 479,
+            };
 
             var margin = $( "#margin" ).html() * 1;
-           
             var subscribers = $( "#subscribers" ).html();
             var clientPrice = map_plans_prices[subscribers]*((margin/100)+1);
             var mqPrice = map_plans_prices[subscribers]*perc;
