@@ -24,6 +24,7 @@
 @import 'ui-kit/content/less/content-25.less';
 @import 'ui-kit/content/less/content-26.less';
 @import 'ui-kit/content/less/content-27.less';
+@import 'ui-kit/content/less/content-27-2.less';
 @import 'ui-kit/content/less/content-29.less';
 @import 'ui-kit/content/less/content-31.less';
 @import 'ui-kit/content/less/content-36.less';
@@ -38,8 +39,8 @@
 @import 'ui-kit/blog/less/blog-common.less';
 @import 'ui-kit/blog/less/blog-1.less';
 
-@brand-primary:         #4caddf;
-@brand-secondary:       #4caddf;
+@brand-primary:         #0694CC;
+@brand-secondary:       #0694CC;
 @brand-success:         #A4C838;
 @brand-info:            #3498DB;
 @brand-warning:         #F39C12;
@@ -57,8 +58,10 @@
 }
 
 .btn-primary {
+    padding-left: 30px;
+    padding-right: 30px;
 	&:hover, &:focus {
-        background-color: mix(#0092cd, white, 85%);
+        background-color: mix(@brand-primary, black, 85%);
     }
 }
 
