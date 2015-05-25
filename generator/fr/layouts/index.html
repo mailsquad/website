@@ -112,7 +112,7 @@
             </div>
             <div class="row">
                 <div class="col-sm-10 col-sm-offset-1" style="padding-top:30px;">
-                    <h3>Vous pourriez générer jusqu’à <span id="revenue">5880,00 $</span> / année</h3>
+                    <h3>Vous pourriez générer jusqu’à <span id="revenue">4200 &euro;</span> / année</h3>
                     <!-- <p class="lead">For a full featured calculator <a href="/pricing/calculator/">click here</a>.</p> -->
                 </div>
             </div>
@@ -134,7 +134,7 @@
                     <div class="top"></div>
                     <div class="title">
                         PETITE LISTE
-                        <div class="price"><span class="currency">$</span>9<span class="period">/ MO</span></div>
+                        <div class="price"><span class="currency">&euro;</span>7<span class="period">/ MOIS</span></div>
                         <p>Envoyer un nombre illimité d’emails jusqu’à 500 abonnés uniques</p>
                     </div>
                 </div>
@@ -142,7 +142,7 @@
                     <div class="top"></div>
                     <div class="title">
                         LISTE MOYENNE
-                        <div class="price"><span class="currency">$</span>79<span class="period">/ MO</span></div>
+                        <div class="price"><span class="currency">&euro;</span>59<span class="period">/ MOIS</span></div>
                         <p>Envoyer un nombre illimité d’emails jusqu’à 10&nbsp;000&nbsp; abonnés uniques</p>
                     </div>
                     <div class="top"></div>
@@ -150,7 +150,7 @@
                 <div class="plan">
                     <div class="title">
                         GROSSE LISTE
-                        <div class="price"><span class="currency">$</span>309<span class="period">/ MO</span></div>
+                        <div class="price"><span class="currency">&euro;</span>179<span class="period">/ MOIS</span></div>
                         <p>Envoyer un nombre illimité d’emails jusqu’à 50&nbsp;000&nbsp; abonnés uniques</p>
                     </div>
                 </div>
@@ -160,7 +160,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-10 col-sm-offset-1">
-                    <p class="lead">Payer seulement à l'envoi unique aussi disponible. Voir <a href="/fr/prix/">tous les plans emailing</a>.</p>
+                    <p class="lead">Payer seulement à l'envoi unique aussi disponible. Voir tous  <a href="/fr/prix/">les plans de routage</a>.</p>
                     <p class="lead">Prix en $ CAD aussi disponible.</p>
                 </div>
             </div>
@@ -253,18 +253,18 @@
             perc = 1 - (perc/10);
 
             var map_plans_prices = {
-                "1&nbsp;-&nbsp;500" : 9,
-                "501&nbsp;-&nbsp;1000" : 14,
-                "1001&nbsp;-&nbsp;2500" : 29,
-                "2501&nbsp;-&nbsp;5000" : 49,
-                "5001&nbsp;-&nbsp;10000" : 79,
-                "10001&nbsp;-&nbsp;15000" : 129,
-                "15001&nbsp;-&nbsp;25000" : 159,
-                "25001&nbsp;-&nbsp;50000" : 239,
-                "50001&nbsp;-&nbsp;60000" : 309,
-                "60001&nbsp;-&nbsp;75000" : 379,
-                "75001&nbsp;-&nbsp;85000" : 419,
-                "85001&nbsp;-&nbsp;100000" : 479,
+                "1&nbsp;-&nbsp;500" : 7,
+                "501&nbsp;-&nbsp;1000" : 11,
+                "1001&nbsp;-&nbsp;2500" : 23,
+                "2501&nbsp;-&nbsp;5000" : 35,
+                "5001&nbsp;-&nbsp;10000" : 59,
+                "10001&nbsp;-&nbsp;15000" : 95,
+                "15001&nbsp;-&nbsp;25000" : 119,
+                "25001&nbsp;-&nbsp;50000" : 179,
+                "50001&nbsp;-&nbsp;60000" : 235,
+                "60001&nbsp;-&nbsp;75000" : 289,
+                "75001&nbsp;-&nbsp;85000" : 319,
+                "85001&nbsp;-&nbsp;100000" : 359,
             };
 
             var margin = $( "#margin" ).html() * 1;
@@ -272,11 +272,12 @@
             var clientPrice = map_plans_prices[subscribers]*((margin/100)+1);
             var mqPrice = map_plans_prices[subscribers]*perc;
 
+
             var total = clients * (clientPrice - mqPrice) * 12;
             $("#revenue").html(formatPrice(total));
         }
         function formatPrice(price) {
-            return price.toFixed(2).replace(".", ",") + "&nbsp;&#36;";
+            return price.toFixed(2).replace(".00", "") + "&nbsp;&euro;";
         }
     </script>
 
