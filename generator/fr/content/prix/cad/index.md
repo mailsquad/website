@@ -84,7 +84,7 @@ menu:
                             </table>
                             <div class="btns" style="margin-top: 15px;text-align:center;">
                                 <a class="btn btn-primary" href="https://app.mailsquad.com/login/signup?lang=fr">
-                                    <span>S'INSCIRE GRATUITEMENT</span>
+                                    <span>S'INSCRIRE GRATUITEMENT</span>
                                 </a>
                             </div>
                     </div>
