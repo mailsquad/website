@@ -48,7 +48,7 @@ menu:
             <div class="col-sm-8" style="float: none; margin: 0 auto;">
                 <div style="text-align:center;">
                     <div class="img">
-                        <img src="http://placehold.it/120x120" alt="">
+                        <img src="../../img/multi-account.png" alt="">
                     </div>
                     <h3 style="margin-top: 35px">Multi-account management</h3>
                 </div>
@@ -58,12 +58,12 @@ menu:
     </div>
 </section>
 
-<section class="content-2" style="background-color: #2c3541;padding-bottom:0;padding-top:0">
+<section class="content-2" style="background-color: #222222;;padding-bottom:0;padding-top:0">
     <div class="container">
         <div class="row feature">
             <div class="col-sm-6" style="text-align:center">
                 <div class="img">
-                    <img src="http://placehold.it/120x120" alt="">
+                    <img src="../../img/increase_revenues.png" alt="">
                 </div>
                 <h3 style="color: white; margin-top: 35px">Built to increase revenues</h3>
                 <p style="color: white; text-align:justify;margin-right:40px;margin-left:40px">Whether your client prefers monthly packages or a per campaign invoice, you’ll not only benefit from ultra-competitive pricing from MailSquad, but you’ll also tweak your margins, on a per-client basis, so that you can generate bottom-line results.</p>
@@ -86,7 +86,7 @@ menu:
             <div class="col-sm-8" style="float: none; margin: 0 auto;">
                 <div style="text-align:center">
                     <div class="img">
-                        <img src="http://placehold.it/350x250" alt="">
+                        <img src="../../img/easy_peasy_reporting.png" alt="">
                     </div>
                      <h3 style="margin-top: 35px">Easy peasy reporting</h3>
                 </div>
@@ -96,7 +96,7 @@ menu:
     </div>
 </section>
 
-<section class="content-2" style="background-color: #2c3541;padding-bottom:0;padding-top:0">
+<section class="content-2" style="background-color: #222222;padding-bottom:0;padding-top:0">
     <div class="container">
         <div class="row feature">
             <div class="col-sm-6" style="text-align:center">
