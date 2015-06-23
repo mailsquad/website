@@ -35,7 +35,7 @@ menu:
             </div>
             <div class="col-sm-7">
                 <div class="img">
-                    <img src="http://placehold.it/525x300" alt="">
+                    <img src="../../img/white_label.png" alt="">
                 </div>
             </div>
         </div>
@@ -70,7 +70,7 @@ menu:
             </div>
             <div class="col-sm-6" style="text-align:center">
                 <div class="img">
-                    <img src="http://placehold.it/120x120" alt="">
+                    <img src="../../img/invoice_in_nano_seconds.png" alt="">
                 </div>
                 <h3 style="color: white; margin-top: 35px">Invoice in nano seconds</h3>
                 <p style="color: white; text-align:justify;margin-right:40px;margin-left:40px">MailSquad provides you with the tools you need to effortlessly invoice your clients—directly—without the administrative backlog.</p>
@@ -108,7 +108,7 @@ menu:
             </div>
             <div class="col-sm-6" style="text-align:center">
                 <div class="img">
-                    <img src="http://placehold.it/120x120" alt="">
+                    <img src="../../img/reliable_email_delivery.png" alt="">
                 </div>
                 <h3 style="color: white;  margin-top: 35px">Reliable email delivery</h3>
                 <p style="color: white; text-align:justify;margin-right:40px;margin-left:40px">Our sophisticated backend infrastructure has been optimized to ensure maximum email delivery rates. With our strict compliance to anti-spam regulations, we carefully evaluate new (and existing!) customers before allowing them to use our system. This ensures ultra-clean sending streams and high deliverability.</p>
