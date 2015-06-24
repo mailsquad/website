@@ -1807,24 +1807,26 @@ section * {
   position: relative;
 }
 .content-2 h3 {
-  font-size: 30px;
-  font-weight: normal;
-  color: #2c3e50;
-  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  font-size: 36px;
   margin-bottom: 35px;
-  font-weight: 300;
 }
 .content-2 p {
-  font-size: 18px;
-  font-weight: normal;
-  color: #7f8c8d;
+  font-size: 24px;
   font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
-  line-height: 30px;
+  line-height: 1.2;
+}
+.content-2 h1 {
+  margin: 0 0 20px 0;
+  font-weight: 500;
+}
+@media (max-width: 600px) {
+  .content-2 h1 {
+    font-size: 36px;
+  }
 }
 .content-2 .lead {
-  font-size: 24px;
-  font-weight: normal;
-  color: #7f8c8d;
+  font-size: 32px;
+  font-weight: 100;
 }
 .content-2 .feature {
   padding-top: 60px;
