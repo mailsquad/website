@@ -10,16 +10,16 @@
                 </div>
                 <div class="collapse navbar-collapse pull-right">
                 <form class="navbar-form pull-right">
-                        <a class="btn btn-primary btn-signup" href="https://app.mailsquad.com/login/signup?lang=fr">Essai gratuit</a>
-                        <a class="btn-login" href="https://app.mailsquad.com/login?lang=fr">CONNEXION</a>
-                    </form>
-                    <ul class="nav pull-left">
-                        {{ $currentNode := . }}
-                        {{ range .Site.Menus.top }}
-                        <li {{if or ($currentNode.HasMenuCurrent "top" .) ($currentNode.IsMenuCurrent "top" .) }} class="active" {{end}}><a href="{{.Url}}" >{{.Name}}</a></li>
-                        {{ end }}
-                    </ul>
-                    <!-- <a style="position:absolute;top:5px;right:0px;font-size:11px;" href="/fr/">Français</a> -->
+                    <a class="btn btn-primary btn-signup" href="https://app.mailsquad.com/login/signup?lang=fr">Essai gratuit</a>
+                    <a class="btn-login" href="https://app.mailsquad.com/login?lang=fr">CONNEXION</a>
+                    <a style="padding-left:10px;" href="/fr/"><img src="../../common-files/icons/fr.png" alt="English" title="English"></a>
+                </form>
+                <ul class="nav pull-left">
+                    {{ $currentNode := . }}
+                    {{ range .Site.Menus.top }}
+                    <li {{if or ($currentNode.HasMenuCurrent "top" .) ($currentNode.IsMenuCurrent "top" .) }} class="active" {{end}}><a href="{{.Url}}" >{{.Name}}</a></li>
+                    {{ end }}
+                </ul>
                 </div>
             </nav>
         </div>
