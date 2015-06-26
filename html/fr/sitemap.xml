@@ -13,12 +13,12 @@
   </url>
   
   <url>
-    <loc>https://mailsquad.com/fr/prix/cad/</loc>
+    <loc>https://mailsquad.com/fr/prix/eur/</loc>
     <lastmod>2015-05-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mailsquad.com/fr/prix/eur/</loc>
+    <loc>https://mailsquad.com/fr/prix/cad/</loc>
     <lastmod>2015-05-25T00:00:00+00:00</lastmod>
   </url>
   
@@ -63,17 +63,12 @@
   </url>
   
   <url>
-    <loc>https://mailsquad.com/fr/contact/apropos/</loc>
-    <lastmod>2014-11-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://mailsquad.com/fr/contact/</loc>
     <lastmod>2014-11-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mailsquad.com/fr/politiques/confidentialite/</loc>
+    <loc>https://mailsquad.com/fr/contact/apropos/</loc>
     <lastmod>2014-11-20T00:00:00+00:00</lastmod>
   </url>
   
@@ -84,6 +79,11 @@
   
   <url>
     <loc>https://mailsquad.com/fr/politiques/modalites/</loc>
+    <lastmod>2014-11-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mailsquad.com/fr/politiques/confidentialite/</loc>
     <lastmod>2014-11-20T00:00:00+00:00</lastmod>
   </url>
   
