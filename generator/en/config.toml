@@ -6,6 +6,11 @@ canonifyurls = false
 title = "Email marketing solution for agencies"
 
 [[menu.top]]
+	name = "Features"
+	identifier = "features"
+	url = "/features"
+	weight = 1
+[[menu.top]]
 	name = "Pricing"
 	identifier = "pricing"
 	url = "/pricing"
