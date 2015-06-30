@@ -7,24 +7,28 @@ title = "Marketing email pour les agences et professionnels du Web"
 
 [permalinks]
   blogue = "/blogue/:year/:month/:slug/"
-
+[[menu.top]]
+	name = "Fonctionnalités"
+	identifier = "features"
+	url = "/fonctionnalites"
+	weight = 1
 [[menu.top]]
 	name = "Prix"
 	identifier = "prix"
 	url = "/prix"
-	weight = 1
+	weight = 2
 [[menu.top]]
 	name = "Contact"
 	identifier = "contact"
 	url = "/contact"
-	weight = 2
+	weight = 3
 [[menu.top]]
 	name = "Support"
 	identifier = "support"
 	url = "/support"
-	weight = 3
+	weight = 4
 [[menu.top]]
 	name = "Blogue"
 	identifier = "blogue"
 	url = "/blogue"
-	weight = 4
+	weight = 5
