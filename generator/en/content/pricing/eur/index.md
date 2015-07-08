@@ -97,12 +97,12 @@ menu:
                         <p>Great when your customers dont send on a monthly basis.</p>
                         <div class="price">
                             <div class="persubscriber">
-                                <span class="currency">&cent;</span>1
+                                <span class="currency">&cent;</span>0.8
                                 <span class="period">PER RECIPIENT</span>
                             </div>
                             <div style="width:10%;">+</div>
                             <div class="percampaign">
-                                <span class="currency">&euro;</span>5
+                                <span class="currency">&euro;</span>4
                                 <span class="period">PER CAMPAIGN</span>
                             </div>
                         </div>
