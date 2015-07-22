@@ -5,16 +5,7 @@
     padding-top: 130px;
     padding-bottom: 125px;
     position:relative;
-    .mobile-preview {
-        margin-bottom: 0;
-        display: inline-block;
-        text-align: center;
-        margin-top: 80px;
-        
-        @media (min-width: 992px) {
-            margin-top: 0px;
-        }
-    }
+    
     h3 {
         .font(68px, #444444);
         
@@ -33,5 +24,46 @@
     p.lead {
         .font(36px, #3c464d);
         font-weight: 200;
+    }
+
+    .phone-device {
+        background: #ffffff;
+        border-top: 4px solid #f3f3f3;
+        border-left: 4px solid #f3f3f3;
+        border-right: 4px solid #f3f3f3;
+        border-radius: 50px 50px 0 0;
+        display: block;
+        padding: 18% 5% 0 5%;
+        position: relative;
+        bottom: -50px;
+        width: 75%;
+        margin: auto;
+
+        @media (min-width: 992px) {
+            width: 100%;
+        }
+    }
+
+    .phone-device:after {
+        background: #f3f3f3;
+        border-radius: 6px;
+        content: '';
+        display: inline-block;
+        left: 39%;
+        padding: 2% 11%;
+        position: absolute;
+        top: 8%;
+    }
+
+    .phone-microphone {
+        margin-bottom: 20px;
+    }
+
+    .phone-screen span {
+        background: url(/common-files/img/content/home-mbl-email.jpg) no-repeat 0 0;
+        background-size: 100%;
+        display: block;
+        padding: 85% 0;
+        width: 100%;
     }
 }

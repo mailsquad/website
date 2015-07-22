@@ -2300,17 +2300,6 @@ section * {
   padding-bottom: 125px;
   position: relative;
 }
-.content-10 .mobile-preview {
-  margin-bottom: 0;
-  display: inline-block;
-  text-align: center;
-  margin-top: 80px;
-}
-@media (min-width: 992px) {
-  .content-10 .mobile-preview {
-    margin-top: 0px;
-  }
-}
 .content-10 h3 {
   font-size: 68px;
   font-weight: normal;
@@ -2337,6 +2326,44 @@ section * {
   font-weight: normal;
   color: #3c464d;
   font-weight: 200;
+}
+.content-10 .phone-device {
+  background: #ffffff;
+  border-top: 4px solid #f3f3f3;
+  border-left: 4px solid #f3f3f3;
+  border-right: 4px solid #f3f3f3;
+  border-radius: 50px 50px 0 0;
+  display: block;
+  padding: 18% 5% 0 5%;
+  position: relative;
+  bottom: -50px;
+  width: 75%;
+  margin: auto;
+}
+@media (min-width: 992px) {
+  .content-10 .phone-device {
+    width: 100%;
+  }
+}
+.content-10 .phone-device:after {
+  background: #f3f3f3;
+  border-radius: 6px;
+  content: '';
+  display: inline-block;
+  left: 39%;
+  padding: 2% 11%;
+  position: absolute;
+  top: 8%;
+}
+.content-10 .phone-microphone {
+  margin-bottom: 20px;
+}
+.content-10 .phone-screen span {
+  background: url(/common-files/img/content/home-mbl-email.jpg) no-repeat 0 0;
+  background-size: 100%;
+  display: block;
+  padding: 85% 0;
+  width: 100%;
 }
 /**
  * Content 11 stylesheet  
