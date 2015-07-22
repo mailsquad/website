@@ -97,6 +97,7 @@
         margin: 0 0 20px 0;
         .font(72px, #FFFFFF);
         font-weight:600;
+
         @media (max-width: 600px) {
             .font(64px, #FFFFFF);
         }
@@ -110,6 +111,7 @@
         font-weight: 200;
         font-family: @font-family-demo;
         margin-bottom: 0;
+
         @media (max-width: 600px) {
             .font(26px, white);
             font-weight: 300;
@@ -139,7 +141,6 @@
     }
     .background {
         background-image: url("@{startup-basePath}common-files/img/header/email_marketing_made_easy.jpg");
-        //.opacity(65);
         background-position:50% 30%;
 
     }
@@ -195,6 +196,15 @@
                 margin-top: 25px;
             }
         }
+    }
+
+    .background.readable {
+        .opacity(60);
+    }
+
+    .readable {
+        background-color: rgba(0,0,0,0.5);
+        border-radius: 5px;
     }
 }
 

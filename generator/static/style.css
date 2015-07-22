@@ -1556,6 +1556,16 @@ section * {
     margin-top: 25px;
   }
 }
+.header-11-sub .background.readable {
+  opacity: 60;
+  filter: alpha(opacity=6000);
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+}
+.header-11-sub .readable {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
 .header-11-sub.bg-nice-blue {
   background-color: #0092cd;
 }
@@ -2359,11 +2369,82 @@ section * {
   margin-bottom: 20px;
 }
 .content-10 .phone-screen span {
-  background: url(/common-files/img/content/home-mbl-email.jpg) no-repeat 0 0;
+  background: url(/common-files/img/content/responsive-email-template.jpg) no-repeat 0 0;
   background-size: 100%;
   display: block;
   padding: 85% 0;
   width: 100%;
+}
+.content-10.support h2 {
+  font-size: 68px;
+  font-weight: normal;
+  color: #444444;
+  font-weight: 600;
+}
+@media (min-width: 768px) {
+  .content-10.support h2 {
+    margin-top: 40px;
+  }
+}
+@media (min-width: 992px) {
+  .content-10.support h2 {
+    margin-top: 140px;
+  }
+}
+@media (min-width: 1200px) {
+  .content-10.support h2 {
+    margin-top: 160px;
+  }
+}
+.content-10.support p.lead {
+  font-size: 36px;
+  font-weight: normal;
+  color: #3c464d;
+  font-weight: 200;
+}
+.content-10.support .rating {
+  margin-top: 120px;
+  text-align: center;
+}
+.content-10.support .digits {
+  font-size: 175px;
+  line-height: 1em;
+  font-weight: 700;
+  color: #19a9e5;
+  margin: 0 auto .8333em;
+}
+.content-10.support .slash {
+  vertical-align: top;
+  display: inline-block;
+  margin-top: 8px;
+  font-size: 80px;
+  line-height: 1em;
+  font-weight: 100;
+  color: #19a9e5;
+}
+.content-10.support .testimonials {
+  margin: auto;
+  text-align: center;
+}
+.content-10.support .testimonials img {
+  -khtml-border-radius: 37px;
+  -moz-border-radius: 37px;
+  -webkit-border-radius: 37px;
+  border-radius: 37px;
+  width: 75px;
+  height: 75px;
+}
+.content-10.support .testimonials .title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.content-10.support .testimonials .last .title {
+  margin-bottom: 0px;
+}
+.content-10.support .testimonials > div {
+  width: 75%;
+  margin: auto;
 }
 /**
  * Content 11 stylesheet  
@@ -2659,6 +2740,49 @@ section * {
 .content-24 .col-sm-6.col-sm-offset-6 {
   position: relative;
 }
+.content-24.track h2 {
+  font-size: 68px;
+  font-weight: normal;
+  color: #ffffff;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+@media (min-width: 768px) {
+  .content-24.track h2 {
+    margin-top: 40px;
+  }
+}
+@media (min-width: 992px) {
+  .content-24.track h2 {
+    margin-top: 140px;
+  }
+}
+@media (min-width: 1200px) {
+  .content-24.track h2 {
+    margin-top: 140px;
+  }
+}
+.content-24.track p {
+  line-height: 1.46;
+}
+.content-24.track p.lead {
+  font-size: 36px;
+  font-weight: normal;
+  color: #ffffff;
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+.content-24.track .btn-primary {
+  background-color: #FFFFFF;
+  color: #0694CC;
+  border: 1px solid #FFFFFF;
+}
+.content-24.track .btn-primary:hover,
+.content-24.track .btn-primary:focus {
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
+  background-color: transparent;
+}
 @media (max-width: 767px) {
   .content-24 {
     padding: 35px;
@@ -2724,6 +2848,20 @@ section * {
 }
 .content-25 .row div {
   padding-top: 10px;
+}
+.content-26.home h2 {
+  font-size: 68px;
+  font-weight: normal;
+  color: #ffffff;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.content-26.home p.lead {
+  font-size: 36px;
+  font-weight: normal;
+  color: #ffffff;
+  font-weight: 200;
+  margin-bottom: 80px;
 }
 .content-26 {
   position: relative;

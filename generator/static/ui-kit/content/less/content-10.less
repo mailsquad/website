@@ -60,10 +60,82 @@
     }
 
     .phone-screen span {
-        background: url(/common-files/img/content/home-mbl-email.jpg) no-repeat 0 0;
+        background: url(/common-files/img/content/responsive-email-template.jpg) no-repeat 0 0;
         background-size: 100%;
         display: block;
         padding: 85% 0;
         width: 100%;
+    }
+}
+
+.content-10.support { 
+
+    h2 {
+        .font(68px, #444444);
+        font-weight: 600;
+
+        @media (min-width: 768px) {
+            margin-top: 40px;
+        }
+        @media (min-width: 992px) {
+            margin-top: 140px;
+        }
+        @media (min-width: 1200px) {
+            margin-top: 160px;
+        }
+    }
+    p.lead {
+        .font(36px, #3c464d);
+        font-weight: 200;
+    }
+
+    .rating {
+        margin-top:120px;
+        text-align: center;
+    }
+
+    .digits {
+        font-size: 175px;
+        line-height: 1em;
+        font-weight: 700;
+        color: #19a9e5;
+        margin: 0 auto .8333em;
+    }
+
+    .slash {
+        vertical-align: top;
+        display: inline-block;
+        margin-top: 8px;
+        font-size: 80px;
+        line-height: 1em;
+        font-weight: 100;
+        color: #19a9e5;
+    }
+
+    .testimonials {
+        margin: auto;
+        text-align: center;
+        img {
+            -khtml-border-radius: 37px;
+            -moz-border-radius: 37px;
+            -webkit-border-radius: 37px;
+            border-radius: 37px;
+            width: 75px;
+            height: 75px;
+        }
+
+        .title {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+
+        .last .title {
+            margin-bottom: 0px;
+        }
+        > div {
+            width: 75%;
+            margin:auto;
+        }
     }
 }
