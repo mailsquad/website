@@ -982,7 +982,7 @@ section * {
   transform-style: preserve-3d;
 }
 .header-1-sub .pt-page-1 .background {
-  background-image: url("common-files/img/header/NY_002.jpg");
+  background-image: url("common-files/img/header/email_marketing_made_easy.jpg");
   opacity: 75;
   filter: alpha(opacity=7500);
   opacity: 0.75;
@@ -1417,31 +1417,31 @@ section * {
 }
 .header-11-sub h1 {
   margin: 0 0 20px 0;
-  font-size: 42px;
+  font-size: 72px;
   font-weight: normal;
   color: #ffffff;
-  font-weight: 500;
+  font-weight: 600;
 }
 @media (max-width: 600px) {
   .header-11-sub h1 {
-    font-size: 36px;
+    font-size: 64px;
     font-weight: normal;
     color: #ffffff;
   }
 }
 @media (max-width: 480px) {
   .header-11-sub h1 {
-    font-size: 30px;
+    font-size: 36px;
     font-weight: normal;
     color: #ffffff;
     margin: 0 0 24px 0;
   }
 }
 .header-11-sub .lead {
-  font-size: 30px;
+  font-size: 36px;
   font-weight: normal;
   color: white;
-  font-weight: 300;
+  font-weight: 200;
   font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
   margin-bottom: 0;
 }
@@ -1450,6 +1450,7 @@ section * {
     font-size: 26px;
     font-weight: normal;
     color: white;
+    font-weight: 300;
   }
 }
 @media (max-width: 480px) {
@@ -1457,6 +1458,7 @@ section * {
     font-size: 22px;
     font-weight: normal;
     color: white;
+    font-weight: 300;
   }
 }
 .header-11-sub h3 {
@@ -1488,6 +1490,10 @@ section * {
   color: #cccccc;
 }
 .header-11-sub .background {
+  background-image: url("common-files/img/header/email_marketing_made_easy.jpg");
+  background-position: 50% 30%;
+}
+.header-11-sub .background-partners {
   background-image: url("common-files/img/header/email_marketing_for_agencies.jpg");
 }
 @media (max-width: 767px) {
@@ -2294,105 +2300,43 @@ section * {
   padding-bottom: 125px;
   position: relative;
 }
-.content-10 .carousel {
+.content-10 .mobile-preview {
   margin-bottom: 0;
   display: inline-block;
   text-align: center;
+  margin-top: 80px;
 }
-@media (max-width: 767px) {
-  .content-10 .carousel {
-    margin-top: 80px;
+@media (min-width: 992px) {
+  .content-10 .mobile-preview {
+    margin-top: 0px;
   }
 }
-.content-10 .carousel .item img {
-  margin: 0 auto;
-}
-.content-10 .carousel .carousel-indicators {
-  position: static;
-  text-align: center;
-  margin: 0;
-  padding-top: 40px;
-}
-.content-10 .carousel .carousel-indicators li {
-  display: inline-block;
-  float: none;
-  width: 12px;
-  height: 12px;
-  margin-left: 7px;
-  text-indent: -999px;
-  background-color: #f1f1f1;
-  border-radius: 50%;
-  cursor: pointer;
-}
-.content-10 .carousel .carousel-indicators li:first-child {
-  margin-left: 0;
-}
-.content-10 .carousel .carousel-indicators .active {
-  background-color: #c0392b;
-}
-.content-10 .carousel .item {
-  -webkit-transition: 0.6s ease-in-out opacity;
-  -moz-transition: 0.6s ease-in-out opacity;
-  -o-transition: 0.6s ease-in-out opacity;
-  transition: 0.6s ease-in-out opacity;
-  left: 0!important;
-}
-.content-10 .carousel .item.active.left,
-.content-10 .carousel .item.active.right {
-  opacity: 0;
-  z-index: 2;
-}
-.content-10 .carousel .item.next {
-  opacity: 1;
-  z-index: 1;
-}
 .content-10 h3 {
-  font-size: 30px;
+  font-size: 68px;
   font-weight: normal;
-  color: #2c3e50;
-  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
-  margin-bottom: 15px;
-  font-weight: 300;
+  color: #444444;
+  font-weight: 600;
 }
-.content-10 p {
-  font-size: 16px;
+@media (min-width: 768px) {
+  .content-10 h3 {
+    margin-top: 40px;
+  }
+}
+@media (min-width: 992px) {
+  .content-10 h3 {
+    margin-top: 140px;
+  }
+}
+@media (min-width: 1200px) {
+  .content-10 h3 {
+    margin-top: 240px;
+  }
+}
+.content-10 p.lead {
+  font-size: 36px;
   font-weight: normal;
-  color: #7f8c8d;
-}
-.content-10 .features .box {
-  position: relative;
-  padding-left: 140px;
-  padding-top: 50px;
-  margin-top: 50px;
-  min-height: 100px;
-}
-.content-10 .features .box.first,
-.content-10 .features .box:first-child,
-.content-10 .features .box:first-of-type {
-  margin-top: 0;
-  border-top: 0;
-}
-.content-10 .features .box > img {
-  position: absolute;
-  left: 0;
-  top: 25px;
-}
-.content-10 .features h6,
-.content-10 .features h2 {
-  text-transform: none;
-  font-size: 22px;
-  font-weight: normal;
-  color: #2c3e50;
-  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
-  font-weight: 500;
-  margin-top: 0;
-  margin-bottom: 15px;
-  line-height: 1.3;
-}
-.content-10 .features p {
-  font-size: 16px;
-  font-weight: normal;
-  color: #7f8c8d;
+  color: #3c464d;
+  font-weight: 200;
 }
 /**
  * Content 11 stylesheet  

@@ -1,58 +1,38 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <title>{{.Title}} - MailSquad</title>
-    <meta name="description" content="Email marketing solution for agencies">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <link rel="alternate" href="https://mailsquad.com/" hreflang="x-default" />
-    <link rel="alternate" hreflang="fr" href="https://mailsquad.com/fr/" />
-    <link rel="alternate" hreflang="en" href="https://mailsquad.com/en/" /> 
-    {{ partial "header.html" . }}
-    {{ partial "topnav.html" . }}
-    <section class="header-11-sub bg-midnight-blue">
-        <div class="background">
+---
+title: Email Marketing Platform Features for Agencies
+description: MailSquad is an email marketing solution taylored for agencies and resellers.
+date: "2015-07-20"
+linktitle: Agencies
+---
+<section class="header-11-sub bg-midnight-blue">
+        <div class="background background-partners">
             &nbsp;
         </div>
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-11 col-md-8 col-lg-7">
-                    <h1>Email Marketing Made Easy</h1>
-                    <p class="lead">MailSquad offers an affordable and super easy way to create, send and track delightful emails.</p>
+                    <h1>The only email marketing platform for resellers</h1>
+                    <p class="lead">Stop sending your clients to third-party email service providers. What’s in it for you anyway?</p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-xs-10 col-sm-6 col-md-5 col-lg-4">
                     <div class="signup-form">
+                        <!-- <div class="form-group">
+                            <div style="font-size:28px;font-weight:600;color:#FFFFFF;">Try MailSquad risk-free!</div>
+                        </div> -->
                         <div class="form-group">
-                            <a class="btn btn-primary" href="https://app.mailsquad.com/login/signup?lang=en">Try it out for free</a>
+                            <a class="btn btn-primary" href="https://app.mailsquad.com/login/signup?lang=en">Get my FREE 30-day trial!</a>
                         </div>
                     </div>
+                    <!-- <div class="additional-links">
+                        By signing up you agree to our <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>
+                    </div> -->
                 </div>
-                
             </div>
         </div>
     </section>
-    <section class="content-10">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-7">
-                <h3>Emails that work on every device</h3>
-                <p class="lead">MailSquad's Easy Email Designer creates mobile friendly templates that look great on any device.</p>
-                <div class="form-group">
-                    <a class="btn btn-primary" href="https://app.mailsquad.com/login/signup?lang=en">Get started for free</a>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-5 text-center">
-                <div class="mobile-preview">
-                    <img src="../../common-files/img/content/iphone@2x.png" width="400" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-    <!-- <section class="content-25">
+    <section class="content-25">
         <div class="container">
              <div class="row">
                 <div class="col-sm-12 col-md-8 col-lg-8">
@@ -79,22 +59,23 @@
         </div>
     </section>
     <section class="content-24 bg-midnight-blue">
-        <img class="image" src="../../img/screenshots/dashboard_big.png" alt="">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6 col-sm-offset-6">
-                    <h2>MailSquad takes into account all the challenges an agency can face when deploying client email campaigns</h2>
-                    <dl>
-                        <dt>Minimum training and user expertise level required.</dt>               
-                        <dt>Fully customize templates with our intuitive editor. Just&nbsp;drag&nbsp;and&nbsp;drop!</dt>                    
-                        <dt>Spend less time fiddling with the layout--and more time on the campaign’s strategy and execution.</dt>
-                        <dt>Understand (in a blink of an eye) how well the campaigns are doing. No PhD needed. Seriously.</dt>
-                        <dt>Blaze through the billing process with automatic invoicing. Ahhhh... less admin tasks are just ‘round the corner!</dt>
-                    </dl>
-                </div>
+    <img class="image" src="../../img/screenshots/dashboard_big.png" alt="">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-sm-offset-6">
+                <!-- <h2>Easy to implement and even easier&nbsp;to&nbsp;use!</h2> -->
+                <h2>MailSquad takes into account all the challenges an agency can face when deploying client email campaigns</h2>
+                <dl>
+                    <dt>Minimum training and user expertise level required.</dt>               
+                    <dt>Fully customize templates with our intuitive editor. Just&nbsp;drag&nbsp;and&nbsp;drop!</dt>                    
+                    <dt>Spend less time fiddling with the layout--and more time on the campaign’s strategy and execution.</dt>
+                    <dt>Understand (in a blink of an eye) how well the campaigns are doing. No PhD needed. Seriously.</dt>
+                    <dt>Blaze through the billing process with automatic invoicing. Ahhhh... less admin tasks are just ‘round the corner!</dt>
+                </dl>
             </div>
         </div>
-    </section> -->
+    </div>
+</section>
    <!--  <section class="content-36">
         <div class="container">
             <h2>If you are looking to finally take back control of your clients’ email marketing campaigns, you’ve come to the right place.</h2>
@@ -102,7 +83,7 @@
             <p>Take a sneak peek at our FREE 30-day trial or contact us today for quick and painless demo (we promise!)!</p>
         </div>
     </section> -->
-    <!-- <section class="content-26">
+    <section class="content-26">
         <div class="container">
             <div class="row">
                 <div class="col-sm-10 col-sm-offset-1">
@@ -127,12 +108,12 @@
             <div class="row">
                 <div class="col-sm-10 col-sm-offset-1" style="padding-top:30px;">
                     <h3>You could generate up to <span id="revenue">$ 4800,00</span> / year</h3>
-                    
+                    <!-- <p class="lead">For a full featured calculator <a href="/pricing/calculator/">click here</a>.</p> -->
                 </div>
             </div>
         </div>
-    </section> -->
-    <!-- <section class="price-2">
+    </section>
+    <section class="price-2">
         <div class="container">
             <div class="row">
                 <div class="col-sm-10 col-sm-offset-1">
@@ -184,32 +165,4 @@
             <span>Give MailSquad a spin! Get your FREE 30-day trial!</span>
             <a class="btn btn-primary" href="https://app.mailsquad.com/login/signup?lang=en">START NOW</a>
         </div>
-    </section> -->
-    {{ partial "footernav.html" . }}
-    </div>
-    <script src="/common-files/js/jquery-1.10.2.min.js"></script>
-    <script src="/common-files/js/startup-kit.js"></script>
-    <script src="/common-files/js/jquery.cookie.js"></script>
-    <script src="/common-files/js/stb_init.js"></script>
-    <script type="text/javascript">var $zoho= $zoho || {salesiq:{values:{},ready:function(){}}};var d=document;s=d.createElement("script");s.type="text/javascript";s.defer=true;s.src="https://salesiq.zoho.com/mailsquadchat/float.ls?embedname=mailsquadchat";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);</script>
-
-    <script>
-    (function(i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function() {
-            (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date();
-        a = s.createElement(o),
-            m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
-    ga('create', 'UA-52189624-3', 'auto');
-    ga('send', 'pageview');
-    </script>
-
-    </body>
-
-</html>
+    </section>
