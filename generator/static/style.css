@@ -2749,12 +2749,12 @@ section * {
 }
 @media (min-width: 768px) {
   .content-24.track h2 {
-    margin-top: 40px;
+    margin-top: 0px;
   }
 }
 @media (min-width: 992px) {
   .content-24.track h2 {
-    margin-top: 140px;
+    margin-top: 40px;
   }
 }
 @media (min-width: 1200px) {
@@ -2771,6 +2771,18 @@ section * {
   color: #ffffff;
   font-weight: 200;
   margin-bottom: 20px;
+}
+.content-24.track img.image {
+  display: inline-block;
+  position: absolute;
+  right: 50%;
+  bottom: -100px;
+  margin-right: 100px;
+}
+@media (max-width: 992px) {
+  .content-24.track img.image {
+    display: none;
+  }
 }
 .content-24.track .btn-primary {
   background-color: #FFFFFF;

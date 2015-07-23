@@ -89,10 +89,10 @@
         margin-bottom:4px;
 
         @media (min-width: 768px) {
-            margin-top: 40px;
+            margin-top: 0px;
         }
         @media (min-width: 992px) {
-            margin-top: 140px;
+            margin-top: 40px;
         }
         @media (min-width: 1200px) {
           margin-top: 140px;
@@ -105,6 +105,21 @@
         .font(36px, #FFFFFF);
         font-weight: 200;
         margin-bottom: 20px;
+    }
+
+    img.image {
+        display: inline-block;
+        position: absolute;
+        right: 50%;
+        bottom:-100px;
+        margin-right:100px;
+
+        @media (max-width: 992px) {
+            // position:relative;
+            // margin-bottom: 48px;
+            // right:0;
+            display:none;
+        }
     }
 
     .btn-primary {
