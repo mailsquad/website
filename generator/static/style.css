@@ -3754,11 +3754,26 @@ section * {
   text-align: center;
 }
 .price-2 h1 {
-  font-size: 60px;
+  margin: 0 0 20px 0;
+  font-size: 72px;
   font-weight: normal;
   color: #444444;
-  font-weight: 400;
-  margin-top: 0px;
+  font-weight: 600;
+}
+@media (max-width: 600px) {
+  .price-2 h1 {
+    font-size: 64px;
+    font-weight: normal;
+    color: #444444;
+  }
+}
+@media (max-width: 480px) {
+  .price-2 h1 {
+    font-size: 36px;
+    font-weight: normal;
+    color: #444444;
+    margin: 0 0 24px 0;
+  }
 }
 .price-2 h3 {
   font-size: 36px;
@@ -3773,13 +3788,28 @@ section * {
   margin-bottom: 43px;
   font-weight: 300;
 }
-.price-2 .lead {
-  font-size: 24px;
+.price-2 p.lead {
+  font-size: 36px;
   font-weight: normal;
   color: #444444;
   font-weight: 200;
   margin-bottom: 0;
-  padding-top: 10px;
+}
+@media (max-width: 600px) {
+  .price-2 p.lead {
+    font-size: 26px;
+    font-weight: normal;
+    color: #444444;
+    font-weight: 300;
+  }
+}
+@media (max-width: 480px) {
+  .price-2 p.lead {
+    font-size: 22px;
+    font-weight: normal;
+    color: #444444;
+    font-weight: 300;
+  }
 }
 .price-2 .plans {
   display: table;
@@ -3838,7 +3868,6 @@ section * {
   position: relative;
   font-weight: 400;
   top: 26px;
-  left: -10px;
   opacity: 50;
   filter: alpha(opacity=5000);
   opacity: 0.5;
@@ -3972,7 +4001,7 @@ section * {
 }
 .price-2 .pricing .pricing-table tr {
   border-top: 1px solid #C2C2C2;
-  font-size: 14px;
+  font-size: 16px;
 }
 .price-2 .pricing .pricing-table tr:first-child {
   border-top: 0;
@@ -3986,8 +4015,8 @@ section * {
 }
 .price-2 .pricing .pricing-table td:last-child {
   font-weight: bold;
-  text-align: left;
-  padding-left: 10px;
+  text-align: right;
+  padding-right: 10px;
 }
 /**
  * Copntact 1 stylesheet  

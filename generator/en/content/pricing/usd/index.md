@@ -11,8 +11,8 @@ menu:
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 ">
-                    <h1>Invoice your customers in your own currency</h1>
-                    <p class="lead">Automatically charge your client’s credit card account for seamless invoicing. Simply add your markup to the set monthly fee and get the profits transfered to your bank account.</p>
+                    <h1>Pay-As-You-Grow Pricing</h1>
+                    <p class="lead">Simple, upfront pricing that saves you money.</p>
                 </div>
             </div>
         </div>
@@ -21,7 +21,7 @@ menu:
                 <div class="plan">
                     <div class="top"><p>MOST POPULAR</p></div>
                     <div class="title">
-                        MONTHLY PLANS
+                        UNLIMITED MONTHLY PLANS
                         <table class="pricing-table">
                                 <col width="80%">
                                 <col width="20%">
@@ -31,59 +31,60 @@ menu:
                                 </tr>
                                 <tr>
                                     <td>1 - 500</td>
-                                    <td>$ 8,00</td>
+                                    <td>$ 8</td>
                                 </tr>
                                 <tr>
                                     <td>501 - 1000</td>
-                                    <td>$ 12,00</td>
+                                    <td>$ 12</td>
                                 </tr>
                                 <tr>
                                     <td>1001 - 2500</td>
-                                    <td>$ 25,00</td>
+                                    <td>$ 25</td>
                                 </tr>
                                 <tr>
                                     <td>2501 - 5000</td>
-                                    <td>$ 40,00</td>
+                                    <td>$ 40</td>
                                 </tr>
                                 <tr>
                                     <td>5001 - 10000</td>
-                                    <td>$ 65,00</td>
+                                    <td>$ 65</td>
                                 </tr>
                                 <tr>
                                     <td>10001 - 15000</td>
-                                    <td>$ 105,00</td>
+                                    <td>$ 105</td>
                                 </tr>
                                 <tr>
                                     <td>15001 - 25000</td>
-                                    <td>$ 129,00</td>
+                                    <td>$ 129</td>
                                 </tr>
                                 <tr>
                                     <td>25001 - 50000</td>
-                                    <td>$ 199,00</td>
+                                    <td>$ 199</td>
                                 </tr>
                                 <tr>
                                     <td>50001 - 60000</td>
-                                    <td>$ 259,00</td>
+                                    <td>$ 259</td>
                                 </tr>
                                 <tr>
                                     <td>60001 - 75000</td>
-                                    <td>$ 315,00</td>
+                                    <td>$ 315</td>
                                 </tr>
                                 <tr>
                                     <td>75001 - 85000</td>
-                                    <td>$ 350,00</td>
+                                    <td>$ 350</td>
                                 </tr>
                                 <tr>
                                     <td>85001 - 100000</td>
-                                    <td>$ 399,00</td>
+                                    <td>$ 399</td>
                                 </tr>
                                  <tr>
                                     <td>More than 100 000</td>
-                                    <td colspan="3"><a href="/en/contact/">Contact Us</a></td>
+                                    <td colspan="3" style="padding-right:0px;"><a href="/en/contact/">Contact Us</a></td>
                                 </tr>             
                             </table>
+                            <p style="font-size:20px">You only pay for <strong>unique</strong> and <strong>active</strong> subscribers in your account. You can send unlimited emails.</p>
                             <div class="btns" style="margin-top: 15px;text-align:center;">
-                                <a class="btn btn-primary" href="https://app.mailsquad.com/login/signup?lang=en">
+                                <a class="btn btn-primary" href="https://app.mailsquad.com/login/signup/u">
                                     <span>CREATE A FREE ACCOUNT</span>
                                 </a>
                             </div>
@@ -94,7 +95,7 @@ menu:
                     <div class="top"><p>&nbsp;</p></div>
                     <div class="title">
                         PAY AS YOU GO
-                        <p>Great when your customers dont send on a monthly basis.</p>
+                        <p>Great when you dont send on a monthly basis. You only pay when you send.</p>
                         <div class="price">
                             <div class="persubscriber">
                                 <span class="currency">&cent;</span>1
@@ -106,7 +107,8 @@ menu:
                                 <span class="period">PER CAMPAIGN</span>
                             </div>
                         </div>
-                        <p>You can set a custom markup for each of your clients.</p>
+                        <p>Let's say you send to 5000 subscribers, you will be charged 55$. That is 5000 x 1&cent; + $ 5.</p>
+                        <p>High volume sender? <a href="/en/contact/" style="color:white;font-weight:400;">Contact-us!</a></p>
                     </div>
                 </div>
             </div>
