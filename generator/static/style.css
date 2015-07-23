@@ -2310,24 +2310,24 @@ section * {
   padding-bottom: 125px;
   position: relative;
 }
-.content-10 h3 {
+.content-10 h2 {
   font-size: 68px;
   font-weight: normal;
   color: #444444;
   font-weight: 600;
 }
 @media (min-width: 768px) {
-  .content-10 h3 {
+  .content-10 h2 {
     margin-top: 40px;
   }
 }
 @media (min-width: 992px) {
-  .content-10 h3 {
+  .content-10 h2 {
     margin-top: 140px;
   }
 }
 @media (min-width: 1200px) {
-  .content-10 h3 {
+  .content-10 h2 {
     margin-top: 240px;
   }
 }
