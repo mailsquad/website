@@ -2319,11 +2319,13 @@ section * {
 @media (min-width: 768px) {
   .content-10 h2 {
     margin-top: 40px;
+    text-align: center;
   }
 }
 @media (min-width: 992px) {
   .content-10 h2 {
     margin-top: 140px;
+    text-align: left;
   }
 }
 @media (min-width: 1200px) {
@@ -2336,6 +2338,26 @@ section * {
   font-weight: normal;
   color: #3c464d;
   font-weight: 200;
+}
+@media (min-width: 768px) {
+  .content-10 p.lead {
+    text-align: center;
+  }
+}
+@media (min-width: 992px) {
+  .content-10 p.lead {
+    text-align: left;
+  }
+}
+@media (min-width: 768px) {
+  .content-10 .form-group {
+    text-align: center;
+  }
+}
+@media (min-width: 992px) {
+  .content-10 .form-group {
+    text-align: left;
+  }
 }
 .content-10 .phone-device {
   background: #ffffff;
@@ -2425,6 +2447,16 @@ section * {
 .content-10.support .testimonials {
   margin: auto;
   text-align: center;
+}
+@media (min-width: 768px) {
+  .content-10.support .testimonials {
+    margin-top: 100px;
+  }
+}
+@media (min-width: 992px) {
+  .content-10.support .testimonials {
+    margin-top: 0px;
+  }
 }
 .content-10.support .testimonials img {
   -khtml-border-radius: 37px;
@@ -2750,11 +2782,13 @@ section * {
 @media (min-width: 768px) {
   .content-24.track h2 {
     margin-top: 0px;
+    text-align: center;
   }
 }
 @media (min-width: 992px) {
   .content-24.track h2 {
     margin-top: 40px;
+    text-align: left;
   }
 }
 @media (min-width: 1200px) {
@@ -2772,16 +2806,31 @@ section * {
   font-weight: 200;
   margin-bottom: 20px;
 }
-.content-24.track img.image {
-  display: inline-block;
-  position: absolute;
-  right: 50%;
-  bottom: -100px;
-  margin-right: 100px;
+@media (min-width: 768px) {
+  .content-24.track p.lead {
+    text-align: center;
+  }
+}
+@media (min-width: 992px) {
+  .content-24.track p.lead {
+    text-align: left;
+  }
+}
+@media (min-width: 768px) {
+  .content-24.track .form-group {
+    text-align: center;
+  }
+}
+@media (min-width: 992px) {
+  .content-24.track .form-group {
+    text-align: left;
+  }
 }
 @media (max-width: 992px) {
   .content-24.track img.image {
-    display: none;
+    position: relative;
+    margin-bottom: 48px;
+    right: 0;
   }
 }
 .content-24.track .btn-primary {
@@ -2794,6 +2843,11 @@ section * {
   border: 1px solid #FFFFFF;
   color: #FFFFFF;
   background-color: transparent;
+}
+@media (max-width: 992px) {
+  .content-24 {
+    padding: 125px;
+  }
 }
 @media (max-width: 767px) {
   .content-24 {
@@ -2867,6 +2921,7 @@ section * {
   color: #ffffff;
   font-weight: 600;
   margin-bottom: 0px;
+  text-align: center;
 }
 .content-26.home p.lead {
   font-size: 36px;

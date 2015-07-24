@@ -13,9 +13,11 @@
 
         @media (min-width: 768px) {
             margin-top: 40px;
+            text-align: center;
         }
         @media (min-width: 992px) {
             margin-top: 140px;
+            text-align: left;
         }
         @media (min-width: 1200px) {
           margin-top: 240px;
@@ -24,6 +26,24 @@
     p.lead {
         .font(36px, #3c464d);
         font-weight: 200;
+
+        @media (min-width: 768px) {
+            text-align: center;
+        }
+
+        @media (min-width: 992px) {
+            text-align: left;
+        }
+    }
+
+    .form-group {
+        @media (min-width: 768px) {
+            text-align: center;
+        }
+
+        @media (min-width: 992px) {
+            text-align: left;
+        }
     }
 
     .phone-device {
@@ -115,6 +135,15 @@
     .testimonials {
         margin: auto;
         text-align: center;
+
+        @media (min-width: 768px) {
+            margin-top: 100px;
+        }
+
+        @media (min-width: 992px) {
+            margin-top: 0px;
+        }
+
         img {
             -khtml-border-radius: 37px;
             -moz-border-radius: 37px;
