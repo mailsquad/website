@@ -11,8 +11,7 @@ menu:
   <div class="container">
     <div class="row">
       <div class="col-sm-8">
-        <h1 style="margin-bottom: 10px">You have a question? We're here to help!</h1>
-        <p>At MailSquad, your success is our priority. We have a profound desire to part of you success by giving the best service we can.</p>
+        <h1 style="margin-bottom: 10px">Have a question? We're here to help!</h1>
       </div>
     </div>
     <div class="row" style="margin-top: 30px">
@@ -28,7 +27,6 @@ menu:
           <p>We answer your questions within a few hours.</p>
           <div class="phone">
               <big>1-877-880-0321</big>
-                
           </div>
         </div>
       </div>

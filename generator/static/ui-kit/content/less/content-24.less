@@ -51,7 +51,6 @@
         counter-increment: my-badass-counter;
         position: absolute;
         left: 0;
-        //top: 0;
         font-size: 36px;
         font-weight: 100;
         line-height: 1;
@@ -88,7 +87,7 @@
         font-weight: 600;
         margin-bottom:4px;
 
-        @media (min-width: 768px) {
+        @media (max-width: @screen-sm-max) {
             margin-top: 0px;
             text-align: center;
         }
@@ -108,7 +107,7 @@
         font-weight: 200;
         margin-bottom: 20px;
 
-        @media (min-width: 768px) {
+        @media (max-width: @screen-sm-max) {
             text-align: center;
         }
 
@@ -118,7 +117,7 @@
     }
 
     .form-group {
-        @media (min-width: 768px) {
+        @media (max-width: @screen-sm-max) {
             text-align: center;
         }
 
@@ -128,7 +127,7 @@
     }
 
     img.image {
-        @media (max-width: 992px) {
+        @media (max-width: @screen-sm-max) {
             position:relative;
             margin-bottom: 48px;
             right:0;

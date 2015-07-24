@@ -5,7 +5,7 @@ description: Reseller pricing for MailSquad, our white-label email marketing sol
 type: pricing-cad
 menu:
     top:
-        identifier: cad-calculator
+        identifier: reseller-cad-calculator
         parent: 'pricing'
 ---
 

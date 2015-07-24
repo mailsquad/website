@@ -2316,7 +2316,7 @@ section * {
   color: #444444;
   font-weight: 600;
 }
-@media (min-width: 768px) {
+@media (max-width: 991px) {
   .content-10 h2 {
     margin-top: 40px;
     text-align: center;
@@ -2339,7 +2339,7 @@ section * {
   color: #3c464d;
   font-weight: 200;
 }
-@media (min-width: 768px) {
+@media (max-width: 991px) {
   .content-10 p.lead {
     text-align: center;
   }
@@ -2349,7 +2349,7 @@ section * {
     text-align: left;
   }
 }
-@media (min-width: 768px) {
+@media (max-width: 991px) {
   .content-10 .form-group {
     text-align: center;
   }
@@ -2448,7 +2448,7 @@ section * {
   margin: auto;
   text-align: center;
 }
-@media (min-width: 768px) {
+@media (max-width: 991px) {
   .content-10.support .testimonials {
     margin-top: 100px;
   }
@@ -2779,7 +2779,7 @@ section * {
   font-weight: 600;
   margin-bottom: 4px;
 }
-@media (min-width: 768px) {
+@media (max-width: 991px) {
   .content-24.track h2 {
     margin-top: 0px;
     text-align: center;
@@ -2806,7 +2806,7 @@ section * {
   font-weight: 200;
   margin-bottom: 20px;
 }
-@media (min-width: 768px) {
+@media (max-width: 991px) {
   .content-24.track p.lead {
     text-align: center;
   }
@@ -2816,7 +2816,7 @@ section * {
     text-align: left;
   }
 }
-@media (min-width: 768px) {
+@media (max-width: 991px) {
   .content-24.track .form-group {
     text-align: center;
   }
@@ -2826,7 +2826,7 @@ section * {
     text-align: left;
   }
 }
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   .content-24.track img.image {
     position: relative;
     margin-bottom: 48px;

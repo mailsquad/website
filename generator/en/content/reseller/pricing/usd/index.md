@@ -4,7 +4,7 @@ date: "2015-01-13"
 description: Reseller pricing for MailSquad, our white-label email marketing solution.
 menu:
     top:
-        identifier: usd
+        identifier: reseller-usd
         parent: 'pricing'
 ---
 <section class="price-2" style="padding-top:20px;">
