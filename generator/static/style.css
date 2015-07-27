@@ -4093,7 +4093,7 @@ section * {
   padding-bottom: 110px;
 }
 .contacts-1 h1 {
-  font-size: 30px;
+  font-size: 48px;
   margin: 0 0 60px;
   font-weight: 300;
 }
@@ -4106,8 +4106,8 @@ section * {
 .contacts-1 h2 {
   margin: 0 0 12px;
   font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
-  font-weight: 500;
-  font-size: 18px;
+  font-weight: 600;
+  font-size: 20px;
   text-transform: none;
 }
 .contacts-1 label.h2 {
@@ -4174,6 +4174,7 @@ section * {
   background-color: #c41e39;
 }
 .contacts-1 .additional {
+  padding-top: 20px;
   margin-bottom: 45px;
 }
 .contacts-1 .phone {
