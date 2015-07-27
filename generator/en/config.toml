@@ -25,3 +25,24 @@ title = "Email marketing solution for agencies"
 	identifier = "support"
 	url = "http://help.mailsquad.com"
 	weight = 4
+
+[[menu.topreseller]]
+	name = "Features"
+	identifier = "features"
+	url = "/reseller/features"
+	weight = 1
+[[menu.topreseller]]
+	name = "Pricing"
+	identifier = "pricing"
+	url = "/reseller/pricing"
+	weight = 2
+[[menu.topreseller]]
+	name = "Contact"
+	identifier = "contact"
+	url = "/contact"
+	weight = 3
+[[menu.topreseller]]
+	name = "Support"
+	identifier = "support"
+	url = "http://help.mailsquad.com"
+	weight = 4
