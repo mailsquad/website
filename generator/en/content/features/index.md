@@ -138,7 +138,7 @@ menu:
                     </div>
                     <h3>No Ugly Badges</h3>
                 </div>
-                <p>No ugly badges or <i>powered by</i> logo's. We respect your branding.</p>
+                <p>No ugly badges or <i>powered by</i> logo's. We respect your brand.</p>
             </div>
             <div class="col-sm-3">
                 <div>

@@ -1827,14 +1827,6 @@ section * {
   font-weight: 600;
   text-align: center;
 }
-.content-2.templatelang h3 {
-  font-size: 30px;
-  font-weight: normal;
-  color: #ffffff;
-  margin-top: 35px;
-  text-align: center;
-  text-transform: uppercase;
-}
 .content-2.templatelang p.lead {
   font-size: 36px;
   font-weight: normal;
@@ -2859,7 +2851,6 @@ section * {
   font-size: 30px;
   font-weight: normal;
   color: white;
-  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
   margin-bottom: 40px;
   font-weight: 300;
 }
@@ -2990,6 +2981,8 @@ section * {
   .content-24.track img.image {
     position: relative;
     margin-bottom: 48px;
+    padding-left: 40px;
+    padding-right: 40px;
     right: 0;
   }
 }
@@ -3004,15 +2997,7 @@ section * {
   color: #FFFFFF;
   background-color: transparent;
 }
-@media (max-width: 992px) {
-  .content-24 {
-    padding: 125px;
-  }
-}
-@media (max-width: 767px) {
-  .content-24 {
-    padding: 35px;
-  }
+@media (max-width: 991px) {
   .content-24 img.image {
     position: relative;
     margin-bottom: 48px;

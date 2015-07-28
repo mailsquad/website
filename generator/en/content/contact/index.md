@@ -16,7 +16,7 @@ menu:
     </div>
     <div class="row" style="margin-top: 30px">
         <div class="col-sm-6">
-            <iframe class="freshwidget-embedded-form" id="freshwidget-embedded-form" src="https://ibr.freshdesk.com/widgets/feedback_widget/new?&widgetType=embedded&formTitle=&submitThanks=Thank+you+for+your+interest+in+MailSquad+.+One+of+our+expert+will+answer+you+within+24+hours.screenshot=no&searchArea=no" scrolling="no" height="400px" width="100%" frameborder="0" >
+            <iframe class="freshwidget-embedded-form" id="freshwidget-embedded-form" src="https://ibr.freshdesk.com/widgets/feedback_widget/new?&widgetType=embedded&formTitle=&submitThanks=Thank+you+for+your+interest+in+MailSquad+.+One+of+our+expert+will+answer+you+within+24+hours.&screenshot=no&searchArea=no" scrolling="no" height="400px" width="100%" frameborder="0" >
             </iframe>
         </div>
         <div class="col-sm-5 col-sm-offset-1">

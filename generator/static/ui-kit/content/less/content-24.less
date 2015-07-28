@@ -6,7 +6,6 @@
     overflow: hidden;
     h3 {
         .font(30px, white);
-        font-family:@font-family-demo;
         margin-bottom:40px;
         font-weight: 300;
     }
@@ -130,6 +129,8 @@
         @media (max-width: @screen-sm-max) {
             position:relative;
             margin-bottom: 48px;
+            padding-left: 40px;
+            padding-right: 40px;
             right:0;
         }
     }
@@ -149,13 +150,13 @@
 
 @media (max-width: 992px) {
     .content-24 {
-        padding:125px;
+        //padding:125px;
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: @screen-sm-max) {
     .content-24 {
-        padding:35px;
+        // padding:35px;
         img.image {
             position:relative;
             margin-bottom: 48px;
