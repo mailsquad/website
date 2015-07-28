@@ -1817,6 +1817,36 @@ section * {
 /**
  * Content 2 stylesheet  
  * */
+.content-2.templatelang {
+  background-color: #222222;
+}
+.content-2.templatelang h2 {
+  font-size: 68px;
+  font-weight: normal;
+  color: #ffffff;
+  font-weight: 600;
+  text-align: center;
+}
+.content-2.templatelang h3 {
+  font-size: 30px;
+  font-weight: normal;
+  color: #ffffff;
+  margin-top: 35px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.content-2.templatelang p.lead {
+  font-size: 36px;
+  font-weight: normal;
+  color: #ffffff;
+  font-weight: 200;
+  text-align: center;
+}
+.content-2.templatelang p {
+  color: #FFFFFF;
+  font-weight: 200;
+  text-align: center;
+}
 .content-2.expert {
   background-color: #0092cd;
 }
@@ -1848,7 +1878,8 @@ section * {
   text-align: center;
 }
 .content-2.reports {
-  padding-bottom: 1px;
+  padding-top: 50px;
+  padding-bottom: 0px;
   background-color: #222222;
 }
 .content-2.reports h2 {
@@ -1876,6 +1907,9 @@ section * {
 .content-2.reports p {
   font-weight: 200;
   text-align: center;
+}
+.content-2.reports .img {
+  padding-top: 20px;
 }
 .content-2.reports.reportsfeatures {
   padding-top: 60px;
@@ -2581,7 +2615,7 @@ section * {
   margin: auto;
 }
 .content-10.features {
-  padding-bottom: 1px;
+  padding-bottom: 0px;
   background-color: #0092cd;
 }
 .content-10.features h1 {
@@ -2602,6 +2636,7 @@ section * {
 }
 .content-10.features img {
   bottom: 0;
+  padding-top: 20px;
 }
 /**
  * Content 11 stylesheet  

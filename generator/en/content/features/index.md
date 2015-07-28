@@ -15,8 +15,8 @@ menu:
                 <h1 style="color: white">Super Easy Email Designer</h1>
                 <p class="lead">Create delightfull and engaging emails the quick and easy way!</p>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <img src="/img/screenshots/performance_campagne_courriel.png" alt="Invoice in nano seconds">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                <img src="/img/screenshots/easy-drag-and-drop-designer.png" alt="Invoice in nano seconds">
             </div>
         </div>
     </div>
@@ -31,7 +31,7 @@ menu:
                     </div>
                     <h3>Drag & Drop Editor</h3>
                 </div>
-                <p>It's easy as drag and droping content blocks or images where you want them.</p>
+                <p>It's easy as drag and dropping content blocks or images where you want them.</p>
             </div>
             <div class="col-sm-4">
                 <div>
@@ -59,13 +59,13 @@ menu:
         <div class="row">
             <div class="col-sm-12">
                 <h2>Reports That Help You Create Better&nbsp;Emails</h2>
-                <p class="lead">Know where your successes are by tracking customer activity in real time.</p>
+                <p class="lead">Spot your successes by tracking customer activity in real time.</p>
             </div>
         </div>
         <div class="row">
             <div class="col-sm-12">
                 <div class="img">
-                    <img src="/img/screenshots/performance_campagne_courriel.png" alt="Reports that">
+                    <img src="/img/screenshots/reports-help-create-better-emails.png" alt="Reports that help you create better emails">
                 </div>
             </div>
         </div>
@@ -81,7 +81,7 @@ menu:
                     </div>
                     <h3>OPENS AND CLICKS</h3>
                 </div>
-                <p>Know who opens and on what link they click. Get a detailed activity report for each subscriber.</p>
+                <p>Know who opens and on what link they click with a detailed activity report for each subscriber.</p>
             </div>
             <div class="col-sm-4">
                 <div>
@@ -90,16 +90,16 @@ menu:
                     </div>
                     <h3>BOUNCES</h3>
                 </div>
-                <p>Detailed delivery report so you can know who got your email. We automatically handle invalid email address for you.</p>
+                <p>Detailed delivery report so you can know who got your email. We automatically handle invalid emails.</p>
             </div>
             <div class="col-sm-4">
                 <div>
                     <div class="img">
-                        <img src="/img/analytics_integration.png" alt="Google Analytics Integration" width="60px">
+                        <img src="/img/analytics_integration.png" alt="Google Analytics Integration">
                     </div>
                     <h3>GOOGLE ANALYTICS</h3>
                 </div>
-                <p>With our easy one click integration you can see how effective are your campaigns and mesure ROI by tracking sales and conversions from your website.</p>
+                <p>With our easy one click integration you can mesure ROI by tracking sales and conversions from your website.</p>
             </div>
         </div>
     </div>
@@ -116,7 +116,7 @@ menu:
             <div class="col-sm-3">
                 <div style="">
                     <div class="img" style="text-align:center;">
-                        <img src="/img/multi-account.png" alt="Multi-account management">
+                        <img src="/img/inline-css.png" alt="Inline CSS">
                     </div>
                     <h3>INLINE CSS</h3>
                 </div>
@@ -125,25 +125,25 @@ menu:
             <div class="col-sm-3">
                 <div style="">
                     <div class="img" style="text-align:center;">
-                        <img src="/img/multi-account.png" alt="Multi-account management">
+                        <img src="/img/online-template-code-editor.png" alt="Multi-account management">
                     </div>
-                    <h3>Live Editing</h3>
+                    <h3>Online Editor</h3>
                 </div>
                 <p>Need to do a quick fix in a template? Use our online code editor.</p>
             </div>
             <div class="col-sm-3">
                 <div>
                     <div class="img">
-                        <img src="/img/multi-account.png" alt="Multi-account management">
+                        <img src="/img/no-ugly-badge.png" alt="Multi-account management">
                     </div>
                     <h3>No Ugly Badges</h3>
                 </div>
-                <p>We understand branding and ugly badges or <i>powered by</i> logo's should not be part of it.</p>
+                <p>No ugly badges or <i>powered by</i> logo's. We respect your branding.</p>
             </div>
             <div class="col-sm-3">
                 <div>
                     <div class="img">
-                        <img src="/img/multi-account.png" alt="Multi-account management">
+                        <img src="/img/free-cloud-cdn-hosting.png" alt="Multi-account management">
                     </div>
                     <h3>Free Hosting</h3>
                 </div>
@@ -152,7 +152,7 @@ menu:
         </div>
     </div>
 </section>
-<section class="content-2 reports">
+<section class="content-2 templatelang">
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
@@ -161,10 +161,13 @@ menu:
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-12">
-                <div class="img">
+            <div class="col-sm-12 text-center">
+                <div class="form-group">
+                        <a class="btn btn-primary" href="http://support.mailsquad.com/support/solutions/articles/5000606615">Check out our examples</a>
+                    </div>
+                <!-- <div class="img">
                     <img src="/img/full_on_flexibility.png" alt="Full-on flexibility">
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
