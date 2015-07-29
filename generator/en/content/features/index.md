@@ -84,9 +84,9 @@ menu:
             <div class="col-sm-4">
                 <div>
                     <div class="img">
-                        <img src="/img/bounce-handling.png">
+                        <img src="/img/detailed_email_delivery.png">
                     </div>
-                    <h3>BOUNCES</h3>
+                    <h3>EMAIL DELIVERY REPORT</h3>
                 </div>
                 <p>Detailed delivery report so you can know who got your email. We automatically handle invalid emails.</p>
             </div>
@@ -150,7 +150,7 @@ menu:
         </div>
     </div>
 </section>
-<section class="content-2 templatelang">
+<!-- <section class="content-2 templatelang">
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
@@ -161,18 +161,15 @@ menu:
         <div class="row">
             <div class="col-sm-12 text-center">
                 <div class="form-group">
-                        <a class="btn btn-primary" href="http://support.mailsquad.com/support/solutions/articles/5000606615">Check out our examples</a>
-                    </div>
-                <!-- <div class="img">
-                    <img src="/img/full_on_flexibility.png" alt="Full-on flexibility">
-                </div> -->
+                    <a class="btn btn-primary" href="http://support.mailsquad.com/support/solutions/articles/5000606615">Check out our examples</a>
+                </div>
             </div>
         </div>
     </div>
-</section>
-<section class="content-11">
+</section> -->
+<section class="content-11 white">
     <div class="container">
         <span>Give MailSquad a spin! Get your FREE 30-day trial!</span>
-        <a class="btn btn-primary" href="https://app.mailsquad.com/login/signup?lang=en">START NOW</a>
+        <a class="btn btn-primary" href="https://app.mailsquad.com/login/signup/u">START NOW</a>
     </div>
 </section>
