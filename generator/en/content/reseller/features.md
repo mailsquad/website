@@ -1,6 +1,9 @@
 ---
 title: Email Marketing Platform Features for Agencies and Resellers
 description: MailSquad is an email marketing solution taylored for agencies and resellers.
+menu:
+    topreseller:
+        parent: 'features'
 ---
 
 <section class="price-2" style="padding-top:50px; padding-bottom: 35px">
