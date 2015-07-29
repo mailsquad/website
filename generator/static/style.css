@@ -1647,10 +1647,13 @@ section * {
   padding: 85% 0;
   width: 100%;
 }
+.content-10.support {
+  background-color: #222222;
+}
 .content-10.support h2 {
   font-size: 68px;
   font-weight: normal;
-  color: #444444;
+  color: #ffffff;
   font-weight: 600;
 }
 @media (min-width: 768px) {
@@ -1671,32 +1674,17 @@ section * {
 .content-10.support p.lead {
   font-size: 36px;
   font-weight: normal;
-  color: #3c464d;
+  color: #ffffff;
   font-weight: 200;
 }
 .content-10.support .rating {
   margin-top: 120px;
   text-align: center;
 }
-.content-10.support .digits {
-  font-size: 175px;
-  line-height: 1em;
-  font-weight: 700;
-  color: #19a9e5;
-  margin: 0 auto .8333em;
-}
-.content-10.support .slash {
-  vertical-align: top;
-  display: inline-block;
-  margin-top: 8px;
-  font-size: 80px;
-  line-height: 1em;
-  font-weight: 100;
-  color: #19a9e5;
-}
 .content-10.support .testimonials {
   margin: auto;
   text-align: center;
+  color: #FFFFFF;
 }
 @media (max-width: 991px) {
   .content-10.support .testimonials {
@@ -2337,17 +2325,17 @@ section * {
   color: #444444;
 }
 .price-2 h2 {
-  font-size: 26px;
+  font-size: 68px;
   font-weight: normal;
   color: #444444;
-  text-align: left;
-  margin-bottom: 43px;
-  font-weight: 300;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 40px;
 }
 .price-2 p.lead {
   font-size: 36px;
   font-weight: normal;
-  color: #444444;
+  color: #3c464d;
   font-weight: 200;
   margin-bottom: 0;
 }
@@ -2355,7 +2343,7 @@ section * {
   .price-2 p.lead {
     font-size: 26px;
     font-weight: normal;
-    color: #444444;
+    color: #3c464d;
     font-weight: 300;
   }
 }
@@ -2363,7 +2351,7 @@ section * {
   .price-2 p.lead {
     font-size: 22px;
     font-weight: normal;
-    color: #444444;
+    color: #3c464d;
     font-weight: 300;
   }
 }
