@@ -1,5 +1,5 @@
 ---
-title: Pricing - MailSquad Resellers can go for Unlimited Monthly Plans or Pay as You Go
+title: Reseller Pricing - MailSquad Resellers can go for Unlimited Monthly Plans or Pay as You Go
 date: "2015-01-13"
 description: Reseller pricing for MailSquad, our white-label email marketing solution.
 menu:

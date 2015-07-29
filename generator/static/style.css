@@ -1761,11 +1761,14 @@ section * {
 .content-11 .btn-primary {
   background-color: #FFFFFF;
   color: #0694CC;
-  margin-left: 33px;
+  border: 1px solid #FFFFFF;
+  margin-left: 35px;
 }
 .content-11 .btn-primary:hover,
 .content-11 .btn-primary:focus {
-  background-color: #d9d9d9;
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
+  background-color: transparent;
 }
 @media (max-width: 480px) {
   .content-11 > .container > span {

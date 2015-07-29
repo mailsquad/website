@@ -10,19 +10,16 @@ linktitle: Agencies
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-sm-11 col-md-8 col-lg-7">
-                    <h1>The only email marketing platform for resellers</h1>
+                <div class="col-xs-12 col-sm-11 col-md-8 col-lg-8">
+                    <h1>Email marketing platform for resellers</h1>
                     <p class="lead">Stop sending your clients to third-party email service providers. What’s in it for you anyway?</p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-xs-10 col-sm-6 col-md-5 col-lg-4">
                     <div class="signup-form">
-                        <!-- <div class="form-group">
-                            <div style="font-size:28px;font-weight:600;color:#FFFFFF;">Try MailSquad risk-free!</div>
-                        </div> -->
                         <div class="form-group">
-                            <a class="btn btn-primary" href="https://app.mailsquad.com/login/signup?lang=en">Get my FREE 30-day trial!</a>
+                            <a class="btn btn-primary" href="https://app.mailsquad.com/login/signup">Get my FREE 30-day trial!</a>
                         </div>
                     </div>
                     <!-- <div class="additional-links">
@@ -63,7 +60,6 @@ linktitle: Agencies
     <div class="container">
         <div class="row">
             <div class="col-sm-6 col-sm-offset-6">
-                <!-- <h2>Easy to implement and even easier&nbsp;to&nbsp;use!</h2> -->
                 <h2>MailSquad takes into account all the challenges an agency can face when deploying client email campaigns</h2>
                 <dl>
                     <dt>Minimum training and user expertise level required.</dt>               
@@ -123,7 +119,7 @@ linktitle: Agencies
             </div>
         </div>
         <div class="container">
-            <a href="/en/pricing/">
+            <a href="/en/reseller/pricing/">
             <div class="plans">
                 <div class="plan">
                     <div class="top"></div>
@@ -137,16 +133,16 @@ linktitle: Agencies
                     <div class="top"></div>
                     <div class="title">
                         AVERAGE LIST
-                        <div class="price"><span class="currency">$</span>65<span class="period">/ MO</span></div>
-                        <p>Send unlimited emails up to 10&nbsp;000&nbsp;unique contacts</p>
+                        <div class="price"><span class="currency">$</span>40<span class="period">/ MO</span></div>
+                        <p>Send unlimited emails up to 5&nbsp;000&nbsp;unique contacts</p>
                     </div>
                     <div class="top"></div>
                 </div>
                 <div class="plan">
                     <div class="title">
                         BIG LIST
-                        <div class="price"><span class="currency">$</span>199<span class="period">/ MO</span></div>
-                        <p>Send unlimited emails up to 50&nbsp;000&nbsp;unique contacts</p>
+                        <div class="price"><span class="currency">$</span>129<span class="period">/ MO</span></div>
+                        <p>Send unlimited emails up to 25&nbsp;000&nbsp;unique contacts</p>
                     </div>
                 </div>
             </div>
@@ -155,7 +151,7 @@ linktitle: Agencies
         <div class="container">
             <div class="row">
                 <div class="col-sm-10 col-sm-offset-1">
-                    <p class="lead">Pay as you go also available. To see all plans, <a href="/en/pricing/">click here</a>.</p>
+                    <p class="lead">Pay as you go also available. To see all plans, <a href="/en/reseller/pricing/">click here</a>.</p>
                 </div>
             </div>
         </div>
@@ -163,6 +159,6 @@ linktitle: Agencies
     <section class="content-11">
         <div class="container">
             <span>Give MailSquad a spin! Get your FREE 30-day trial!</span>
-            <a class="btn btn-primary" href="https://app.mailsquad.com/login/signup?lang=en">START NOW</a>
+            <a class="btn btn-primary" href="https://app.mailsquad.com/login/signup">START NOW</a>
         </div>
     </section>

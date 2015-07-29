@@ -1,15 +1,6 @@
 ---
-title: Email Marketing Platform Features for Agencies
+title: Email Marketing Platform Features for Agencies and Resellers
 description: MailSquad is an email marketing solution taylored for agencies and resellers.
-date: "2015-06-25"
-linktitle: Agencie Features
-<!-- menu:
-    top:
-        identifier: agency-features
-        parent: 'reseller'
-        weight: 1
-aliases: 
-    - /agencies/agency-features.html -->
 ---
 
 <section class="price-2" style="padding-top:50px; padding-bottom: 35px">
@@ -22,9 +13,6 @@ aliases:
             </div>
         </div>
 </section>
-
-
-
 <section class="content-2" style="background-color: #0092cd; margin-top: 20px;padding-bottom:0;padding-top:0">
     <div class="container">
         <div class="row feature" >
@@ -40,7 +28,6 @@ aliases:
         </div>
     </div>
 </section>
-
 <section class="content-2" style="padding-bottom:0;padding-top:0">
     <div class="container">
         <div class="row feature">
@@ -56,7 +43,6 @@ aliases:
         </div>
     </div>
 </section>
-
 <section class="content-2" style="background-color: #222222;;padding-bottom:0;padding-top:0">
     <div class="container">
         <div class="row feature">
@@ -77,8 +63,6 @@ aliases:
         </div>
     </div>
 </section>
-
-
 <section class="content-2" style="padding-bottom:0;padding-top:20px">
     <div class="container">
         <div class="row feature">
@@ -94,7 +78,6 @@ aliases:
         </div>
     </div>
 </section>
-
 <section class="content-2" style="background-color: #222222;padding-bottom:0;padding-top:0">
     <div class="container">
         <div class="row feature">
@@ -115,7 +98,6 @@ aliases:
         </div>
     </div>
 </section>
-
 <section class="content-11">
     <div class="container">
         <span>Give MailSquad a spin! Get your FREE 30-day trial!</span>
