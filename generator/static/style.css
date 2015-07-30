@@ -1160,6 +1160,9 @@ section * {
   font-weight: 200;
   text-align: center;
 }
+.content-2.expert img {
+  padding-top: 20px;
+}
 .content-2.reports {
   padding-top: 50px;
   padding-bottom: 0px;
@@ -1195,8 +1198,8 @@ section * {
   padding-top: 20px;
 }
 .content-2.reports.reportsfeatures {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   background-color: #FFFFFF;
 }
 .content-2.reports.reportsfeatures h2 {
@@ -1227,7 +1230,6 @@ section * {
 .content-2.features p {
   font-size: 20px;
   line-height: 1.6;
-  font-weight: 400;
   color: #444444;
   text-align: center;
 }
@@ -1739,7 +1741,6 @@ section * {
   text-align: center;
 }
 .content-10.features img {
-  bottom: 0;
   padding-top: 20px;
 }
 /**

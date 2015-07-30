@@ -97,7 +97,7 @@ menu:
                     </div>
                     <h3>GOOGLE ANALYTICS</h3>
                 </div>
-                <p>With our easy one click integration you can mesure ROI by tracking sales and conversions from your website.</p>
+                <p>With our easy one click integration, you can mesure ROI by tracking sales and conversions from your website.</p>
             </div>
         </div>
     </div>
@@ -143,7 +143,7 @@ menu:
                     </div>
                     <h3>No Ugly Badges</h3>
                 </div>
-                <p>No ugly badges or <i>powered by</i> logo's. We respect your brand.</p>
+                <p>We respect your brand. No ugly badges or <i>powered by</i> logo's.</p>
             </div>
             <div class="col-sm-3">
                 <div>
