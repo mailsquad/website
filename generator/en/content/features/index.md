@@ -1,11 +1,10 @@
 ---
-title: Email Marketing Platform Features for Agencies
-description: MailSquad is an email marketing solution taylored for agencies and resellers.
+title: Email Marketing Platform Features
+description: MailSquad is a super easy email marketing solution.
 menu:
     top:
         parent: 'features'
 ---
-
 <section class="content-10 features">
     <div class="container">
         <div class="row">
@@ -14,7 +13,7 @@ menu:
                 <p class="lead">Create delightfull and engaging emails the quick and easy way!</p>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-                <img src="/img/screenshots/easy-drag-and-drop-designer.jpg" alt="Invoice in nano seconds">
+                <img src="/img/screenshots/easy-drag-and-drop-designer.jpg" alt="Super easy drag and drop template editor">
             </div>
         </div>
     </div>
@@ -25,7 +24,7 @@ menu:
             <div class="col-sm-4">
                 <div style="">
                     <div class="img" style="text-align:center;">
-                        <img src="/img/drag-and-drop.png" alt="Drag and drop editor">
+                        <img src="/img/drag-and-drop.png" alt="Drag and drop template editor">
                     </div>
                     <h3>Drag & Drop Editor</h3>
                 </div>
@@ -34,7 +33,7 @@ menu:
             <div class="col-sm-4">
                 <div>
                     <div class="img">
-                        <img src="/img/real-time-editing.png" alt="Mobile friendly templates">
+                        <img src="/img/real-time-editing.png" alt="Real-time template editing">
                     </div>
                     <h3>Edit in real-time</h3>
                 </div>
@@ -75,7 +74,7 @@ menu:
             <div class="col-sm-4">
                 <div style="">
                     <div class="img" style="text-align:center;">
-                        <img src="/img/open-click-tracking.png">
+                        <img src="/img/open-click-tracking.png" alt="Opens and clicks tracking">
                     </div>
                     <h3>OPENS AND CLICKS</h3>
                 </div>
@@ -84,7 +83,7 @@ menu:
             <div class="col-sm-4">
                 <div>
                     <div class="img">
-                        <img src="/img/detailed_email_delivery.png">
+                        <img src="/img/detailed_email_delivery.png" alt="Detailed delivery report">
                     </div>
                     <h3>EMAIL DELIVERY REPORT</h3>
                 </div>
@@ -110,7 +109,7 @@ menu:
                 <p class="lead">Upload your html, css and images. We'll host everything for you and create a screenshot.</p>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-                <img src="/img/screenshots/online-template-code-editor.jpg" alt="Invoice in nano seconds">
+                <img src="/img/screenshots/online-template-code-editor.jpg" alt="Online template editor">
             </div>
         </div>
     </div>
@@ -121,7 +120,7 @@ menu:
             <div class="col-sm-3">
                 <div style="">
                     <div class="img" style="text-align:center;">
-                        <img src="/img/inline-css.png" alt="Inline CSS">
+                        <img src="/img/inline-css.png" alt="Inline CSS automatically">
                     </div>
                     <h3>INLINE CSS</h3>
                 </div>
@@ -130,7 +129,7 @@ menu:
             <div class="col-sm-3">
                 <div style="">
                     <div class="img" style="text-align:center;">
-                        <img src="/img/online-template-code-editor.png" alt="Multi-account management">
+                        <img src="/img/online-template-code-editor.png" alt="Online code editor">
                     </div>
                     <h3>Online Editor</h3>
                 </div>
@@ -139,7 +138,7 @@ menu:
             <div class="col-sm-3">
                 <div>
                     <div class="img">
-                        <img src="/img/no-ugly-badge.png" alt="Multi-account management">
+                        <img src="/img/no-ugly-badge.png" alt="No ugly badges or ads">
                     </div>
                     <h3>No Ugly Badges</h3>
                 </div>
@@ -148,7 +147,7 @@ menu:
             <div class="col-sm-3">
                 <div>
                     <div class="img">
-                        <img src="/img/free-cloud-cdn-hosting.png" alt="Multi-account management">
+                        <img src="/img/free-cloud-cdn-hosting.png" alt="Free email assets hosting">
                     </div>
                     <h3>Free Hosting</h3>
                 </div>
