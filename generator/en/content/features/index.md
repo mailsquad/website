@@ -130,7 +130,7 @@ menu:
             <div class="col-sm-3">
                 <div style="">
                     <div class="img" style="text-align:center;">
-                        <img src="/img/screenshots/online-template-code-editor.jpg" alt="Multi-account management">
+                        <img src="/img/online-template-code-editor.png" alt="Multi-account management">
                     </div>
                     <h3>Online Editor</h3>
                 </div>
