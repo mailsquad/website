@@ -1,6 +1,6 @@
 ---
 title: Anti-Spam Policy
-description: Anti-Spam Policy for Our Email Marketing platform MailSquad
+description: Anti-Spam Policy for Our Email Marketing platform
 ---
 
 <section class="content-26 bg-clouds">

@@ -1,6 +1,5 @@
 ---
 title: Contact us - You have a question? Dont hesitate to reach out. We're here to help!
-date: "2014-11-20"
 description: MailSquad is a simple and intuitive email marketing solution built for agencies. Contact us if you have any questions.
 menu:
     top:
