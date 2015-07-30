@@ -14,7 +14,7 @@ menu:
                 <p class="lead">Create delightfull and engaging emails the quick and easy way!</p>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-                <img src="/img/screenshots/easy-drag-and-drop-designer.png" alt="Invoice in nano seconds">
+                <img src="/img/screenshots/easy-drag-and-drop-designer.jpg" alt="Invoice in nano seconds">
             </div>
         </div>
     </div>
@@ -107,9 +107,16 @@ menu:
         <div class="row">
             <div class="col-sm-12" style="text-align:center">
                 <h2>Want to use your own custom designs?</h2>
-                <p class="lead">You can create custom templates by simply uploading your html, css and images. We'll automatically host your images and create a screenshot.</p>
+                <p class="lead">Upload your html, css and images. We'll host everything for you and create a screenshot.</p>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                <img src="/img/screenshots/online-template-code-editor.jpg" alt="Invoice in nano seconds">
             </div>
         </div>
+    </div>
+</section>
+<section class="content-2 features">
+    <div class="container">
         <div class="row feature">
             <div class="col-sm-3">
                 <div style="">
@@ -167,7 +174,7 @@ menu:
         </div>
     </div>
 </section> -->
-<section class="content-11 white">
+<section class="content-11">
     <div class="container">
         <span>Give MailSquad a spin! Get your FREE 30-day trial!</span>
         <a class="btn btn-primary" href="https://app.mailsquad.com/login/signup/u">START NOW</a>

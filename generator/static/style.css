@@ -1129,6 +1129,8 @@ section * {
   text-align: center;
 }
 .content-2.expert {
+  padding-top: 50px;
+  padding-bottom: 0px;
   background-color: #0092cd;
 }
 .content-2.expert h2 {
