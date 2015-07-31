@@ -8,31 +8,46 @@
     text-align: center;
 
     h1 {
-        .font(60px, #444);
-        font-weight:400;
-        margin-top: 0px;
+        margin: 0 0 20px 0;
+        .font(72px, #444);
+        font-weight:600;
+
+        @media (max-width: 600px) {
+            .font(64px, #444);
+        }
+        @media (max-width: 480px) {
+            .font(36px, #444);
+            margin: 0 0 24px 0;
+        }
     }
     h3 {
         .font(36px, #444);
     }
     h2 {
-        .font(26px, #444);
-        text-align: left;
-        margin-bottom:43px;
-        font-weight: 300;
+        .font(68px, #444444);
+        font-weight: 600;
+        text-align: center;
+        margin-top: 40px;
     }
-
-    .lead {
-        .font(24px, #444);
-        font-weight:200;
+    p.lead {
+        .font(36px, #3c464d);
+        font-weight: 200;
         margin-bottom: 0;
-        padding-top: 10px;
+
+        @media (max-width: 600px) {
+            .font(26px, #3c464d);
+            font-weight: 300;
+        }
+        @media (max-width: 480px) {
+            .font(22px, #3c464d);
+            font-weight: 300;
+        }
     }
 
     .plans {
         display: table;
         .box-sizing(border-box);
-        width: 90%;
+        width: 95%;
         margin-left: auto;
         margin-right: auto;
         border-top: 0;
@@ -79,7 +94,6 @@
                     position: relative;
                     font-weight: 400;
                     top: 26px;
-                    left: -10px;
                     .opacity(50);
                 }
                 .period {
@@ -231,7 +245,7 @@
 
             tr {
                 border-top: 1px solid #C2C2C2;
-                font-size: 14px;
+                font-size: 16px;
             }
             tr:first-child {
                 border-top: 0;
@@ -245,8 +259,8 @@
             }
             td:last-child {
                 font-weight: bold;
-                text-align: left;
-                padding-left: 10px;
+                text-align: right;
+                padding-right: 10px;
             }
         }    
     }
