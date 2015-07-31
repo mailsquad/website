@@ -10,9 +10,8 @@ menu:
 <section class="contacts-1">
   <div class="container">
     <div class="row">
-      <div class="col-sm-8">
+      <div class="col-sm-10">
         <h1 style="margin-bottom: 10px">Des questions? Nous sommes là pour vous aider!</h1>
-        <p>Chez MailSquad, nous savons que votre succès est notre succès. C’est pourquoi nous mettons tout en oeuvre pour assurer la réussite de votre offre et le succès de vos clients.</p>
       </div>
     </div>
     <div class="row" style="margin-top: 30px">
