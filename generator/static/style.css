@@ -937,7 +937,7 @@ section * {
 }
 @media (max-width: 480px) {
   .header-11-sub h1 {
-    font-size: 36px;
+    font-size: 48px;
     font-weight: normal;
     color: #ffffff;
     margin: 0 0 24px 0;
@@ -1119,12 +1119,22 @@ section * {
   font-weight: 600;
   text-align: center;
 }
+@media (max-width: 480px) {
+  .content-2.templatelang h2 {
+    font-size: 48px;
+  }
+}
 .content-2.templatelang p.lead {
   font-size: 36px;
   font-weight: normal;
   color: #ffffff;
   font-weight: 200;
   text-align: center;
+}
+@media (max-width: 480px) {
+  .content-2.templatelang p.lead {
+    font-size: 24px;
+  }
 }
 .content-2.templatelang p {
   color: #FFFFFF;
@@ -1143,6 +1153,11 @@ section * {
   font-weight: 600;
   text-align: center;
 }
+@media (max-width: 480px) {
+  .content-2.expert h2 {
+    font-size: 48px;
+  }
+}
 .content-2.expert h3 {
   font-size: 30px;
   font-weight: normal;
@@ -1157,6 +1172,11 @@ section * {
   color: #ffffff;
   font-weight: 200;
   text-align: center;
+}
+@media (max-width: 480px) {
+  .content-2.expert p.lead {
+    font-size: 24px;
+  }
 }
 .content-2.expert p {
   color: #FFFFFF;
@@ -1178,6 +1198,11 @@ section * {
   font-weight: 600;
   text-align: center;
 }
+@media (max-width: 480px) {
+  .content-2.reports h2 {
+    font-size: 48px;
+  }
+}
 .content-2.reports h3 {
   font-size: 24px;
   font-weight: normal;
@@ -1192,6 +1217,11 @@ section * {
   color: #ffffff;
   font-weight: 200;
   text-align: center;
+}
+@media (max-width: 480px) {
+  .content-2.reports p.lead {
+    font-size: 24px;
+  }
 }
 .content-2.reports p {
   font-weight: 200;
@@ -1221,6 +1251,11 @@ section * {
 .content-2.features h2 {
   font-size: 68px;
   margin-bottom: 35px;
+}
+@media (max-width: 480px) {
+  .content-2.features h2 {
+    font-size: 48px;
+  }
 }
 .content-2.features h3 {
   font-size: 24px;
@@ -1274,6 +1309,11 @@ section * {
   .content-2 .lead {
     text-align: center;
     margin: 0px !important;
+  }
+}
+@media (max-width: 480px) {
+  .content-2 .lead {
+    font-size: 24px;
   }
 }
 .content-2 .feature {
@@ -1573,6 +1613,11 @@ section * {
   color: #444444;
   font-weight: 600;
 }
+@media (max-width: 480px) {
+  .content-10 h2 {
+    font-size: 48px;
+  }
+}
 @media (max-width: 991px) {
   .content-10 h2 {
     margin-top: 40px;
@@ -1599,6 +1644,7 @@ section * {
 @media (max-width: 991px) {
   .content-10 p.lead {
     text-align: center;
+    font-size: 24px;
   }
 }
 @media (min-width: 992px) {
@@ -1670,6 +1716,11 @@ section * {
   color: #ffffff;
   font-weight: 600;
 }
+@media (max-width: 480px) {
+  .content-10.support h2 {
+    font-size: 48px;
+  }
+}
 @media (min-width: 768px) {
   .content-10.support h2 {
     margin-top: 40px;
@@ -1692,10 +1743,18 @@ section * {
   font-weight: 200;
   padding-bottom: 40px;
 }
+@media (max-width: 480px) {
+  .content-10.support p.lead {
+    font-size: 24px;
+  }
+}
 @media (min-width: 992px) {
   .content-10.support p.lead {
     padding-bottom: 20px;
   }
+}
+.content-10.support .btn.btn-primary {
+  white-space: normal;
 }
 .content-10.support .rating {
   margin-top: 120px;
@@ -1747,6 +1806,11 @@ section * {
   font-weight: 600;
   text-align: center;
 }
+@media (max-width: 480px) {
+  .content-10.features h1 {
+    font-size: 48px;
+  }
+}
 @media (min-width: 768px) {
   .content-10.features h1 {
     margin-top: 40px;
@@ -1755,6 +1819,11 @@ section * {
 .content-10.features p.lead {
   color: white;
   text-align: center;
+}
+@media (max-width: 480px) {
+  .content-10.features p.lead {
+    font-size: 24px;
+  }
 }
 .content-10.features img {
   padding-top: 20px;
@@ -2075,6 +2144,11 @@ section * {
   font-weight: 600;
   margin-bottom: 4px;
 }
+@media (max-width: 480px) {
+  .content-24.track h2 {
+    font-size: 48px;
+  }
+}
 @media (max-width: 991px) {
   .content-24.track h2 {
     margin-top: 0px;
@@ -2105,6 +2179,7 @@ section * {
 @media (max-width: 991px) {
   .content-24.track p.lead {
     text-align: center;
+    font-size: 24px;
   }
 }
 @media (min-width: 992px) {
@@ -2367,6 +2442,11 @@ section * {
   text-align: center;
   margin-top: 40px;
 }
+@media (max-width: 480px) {
+  .price-2 h2 {
+    font-size: 48px;
+  }
+}
 .price-2 p.lead {
   font-size: 36px;
   font-weight: normal;
@@ -2384,7 +2464,7 @@ section * {
 }
 @media (max-width: 480px) {
   .price-2 p.lead {
-    font-size: 22px;
+    font-size: 24px;
     font-weight: normal;
     color: #3c464d;
     font-weight: 300;
