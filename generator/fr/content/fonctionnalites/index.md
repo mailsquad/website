@@ -13,7 +13,7 @@ menu:
                 <p class="lead">Créez des emails engageants rapidement et simplement!</p>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-                <img src="/img/screenshots/easy-drag-and-drop-designer.jpg" alt="Éditeur drag and drop ultra simplifié">
+                <img src="/img/screenshots/editeur-drag-and-drop-simplifie.jpg" alt="Éditeur drag and drop ultra simplifié">
             </div>
         </div>
     </div>
@@ -62,7 +62,7 @@ menu:
         <div class="row">
             <div class="col-sm-12">
                 <div class="img">
-                    <img src="/img/screenshots/reports-help-create-better-emails.png" alt="Rapports qui vous aident a améliorer vos emailings">
+                    <img src="/img/screenshots/rapport-aident-ameliorer-emailings.png" alt="Rapports qui vous aident a améliorer vos emailings">
                 </div>
             </div>
         </div>
@@ -109,7 +109,7 @@ menu:
                 <p class="lead">Téléchargez votre html, css et les images. Nous hébergeons vos fichiers et on génère une capture d'écran.</p>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-                <img src="/img/screenshots/online-template-code-editor.jpg" alt="Éditeur de template en ligne">
+                <img src="/img/screenshots/editeur-code-template.jpg" alt="Éditeur de template en ligne">
             </div>
         </div>
     </div>
