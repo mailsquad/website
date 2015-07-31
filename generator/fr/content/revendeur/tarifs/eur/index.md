@@ -4,7 +4,7 @@ description: Liste de prix pour les revendeurs de la plateforme de marketing cou
 date: "2015-05-25"
 menu:
     top:
-        identifier: eur
+        identifier: revendeur-eur
         parent: 'prix'
 ---
 <section class="price-2" style="padding-top:20px;">
