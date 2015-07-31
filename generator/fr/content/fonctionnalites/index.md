@@ -10,7 +10,7 @@ menu:
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <h1 style="color: white">Éditeur ultra simplifié</h1>
-                <p class="lead">Créez des emails engageant rapidement et simplement!</p>
+                <p class="lead">Créez des emails engageants rapidement et simplement!</p>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
                 <img src="/img/screenshots/easy-drag-and-drop-designer.jpg" alt="Éditeur drag and drop ultra simplifié">
@@ -87,7 +87,7 @@ menu:
                     </div>
                     <h3>Rapport de livraison</h3>
                 </div>
-                <p>Le rapport de livraison détaillé vous permet desavoir qui a reçu vos emails. On s'occupe de traiter les emails invalides.</p>
+                <p>Le rapport de livraison détaillé vous permet de savoir qui a reçu vos emails. On s'occupe de traiter les emails invalides.</p>
             </div>
             <div class="col-sm-4">
                 <div>
@@ -105,8 +105,8 @@ menu:
     <div class="container">
         <div class="row">
             <div class="col-sm-12" style="text-align:center">
-                <h2>Vous souhaitez utiliser vos propres design personnalisés?</h2>
-                <p class="lead">Téléchargez votre html, css et les images. Nous hébergeons vos fichier et on génère une capture d'écran.</p>
+                <h2>Vous souhaitez utiliser vos propres designs personnalisés?</h2>
+                <p class="lead">Téléchargez votre html, css et les images. Nous hébergeons vos fichiers et on génère une capture d'écran.</p>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
                 <img src="/img/screenshots/online-template-code-editor.jpg" alt="Éditeur de template en ligne">
