@@ -23,6 +23,11 @@
   </url>
   
   <url>
+    <loc>https://mailsquad.com/en/reseller/pricing/eur/</loc>
+    <lastmod>2015-01-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://mailsquad.com/en/reseller/pricing/cad/calculator/</loc>
     <lastmod>2015-01-13T00:00:00+00:00</lastmod>
   </url>
@@ -33,20 +38,15 @@
   </url>
   
   <url>
-    <loc>https://mailsquad.com/en/reseller/pricing/eur/</loc>
-    <lastmod>2015-01-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://mailsquad.com/en/policies/anti-spam/</loc>
   </url>
   
   <url>
-    <loc>https://mailsquad.com/en/contact/</loc>
+    <loc>https://mailsquad.com/en/features/</loc>
   </url>
   
   <url>
-    <loc>https://mailsquad.com/en/features/</loc>
+    <loc>https://mailsquad.com/en/contact/</loc>
   </url>
   
   <url>
@@ -62,19 +62,19 @@
   </url>
   
   <url>
-    <loc>https://mailsquad.com/en/pricing/eur/</loc>
-  </url>
-  
-  <url>
     <loc>https://mailsquad.com/en/pricing/usd/</loc>
   </url>
   
   <url>
-    <loc>https://mailsquad.com/en/reseller/</loc>
+    <loc>https://mailsquad.com/en/pricing/eur/</loc>
   </url>
   
   <url>
     <loc>https://mailsquad.com/en/reseller/features/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mailsquad.com/en/reseller/</loc>
   </url>
   
 </urlset>
