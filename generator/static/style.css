@@ -995,6 +995,9 @@ section * {
 .header-11-sub .additional-links a.active {
   color: #cccccc;
 }
+.header-11-sub .background.fr {
+  background-image: url("common-files/img/header/email_marketing_simplifie.jpg");
+}
 .header-11-sub .background {
   background-image: url("common-files/img/header/email_marketing_made_easy.jpg");
   background-position: 50% 30%;
@@ -1646,6 +1649,13 @@ section * {
 }
 .content-10 .phone-screen span {
   background: url(/common-files/img/content/responsive-email-template.jpg) no-repeat 0 0;
+  background-size: 100%;
+  display: block;
+  padding: 85% 0;
+  width: 100%;
+}
+.content-10 .phone-screen span.fr {
+  background: url(/common-files/img/content/template-adapte-mobile.jpg) no-repeat 0 0;
   background-size: 100%;
   display: block;
   padding: 85% 0;
