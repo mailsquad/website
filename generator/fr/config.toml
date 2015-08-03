@@ -53,3 +53,8 @@ title = "Marketing email pour les agences et professionnels du Web"
 	identifier = "support"
 	url = "http://aide.mailsquad.com"
 	weight = 4
+[[menu.topreseller]]
+	name = "Blogue"
+	identifier = "blogue"
+	url = "/blogue"
+	weight = 5

@@ -16,8 +16,8 @@
                 </form>
                 <ul class="nav pull-left">
                     {{ $currentNode := . }}
-                    {{ range .Site.Menus.top }}
-                    <li {{if or ($currentNode.HasMenuCurrent "top" .) ($currentNode.IsMenuCurrent "top" .) }} class="active" {{end}}><a href="{{.Url}}" >{{.Name}}</a></li>
+                    {{ range .Site.Menus.topreseller }}
+                    <li {{if or ($currentNode.HasMenuCurrent "topreseller" .) ($currentNode.IsMenuCurrent "topreseller" .) }} class="active" {{end}}><a href="{{.Url}}" >{{.Name}}</a></li>
                     {{ end }}
                 </ul>
                 </div>
