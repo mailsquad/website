@@ -34,12 +34,12 @@ title = "Marketing email pour les agences et professionnels du Web"
 	weight = 5
 
 [[menu.topreseller]]
-	name = "Fonctionnalités Revendeur"
+	name = "Fonctionnalités"
 	identifier = "features"
 	url = "/revendeur/fonctionnalites"
 	weight = 1
 [[menu.topreseller]]
-	name = "Tarif revendeur"
+	name = "Tarifs"
 	identifier = "pricing"
 	url = "/revendeur/tarifs"
 	weight = 2
