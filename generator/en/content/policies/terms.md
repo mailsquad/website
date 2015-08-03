@@ -1,7 +1,6 @@
 ---
 title: Terms and Conditions
-description: Terms and Conditions for Our Email Marketing platform MailSquad
-date: "2014-11-20"
+description: Terms and Conditions for Our Email Marketing platform
 ---
 
 <section class="content-26 bg-clouds">

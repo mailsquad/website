@@ -8,7 +8,7 @@
   </url>
   
   <url>
-    <loc>https://mailsquad.com/fr/fonctionnalites/</loc>
+    <loc>https://mailsquad.com/fr/revendeur/fonctionnalites/</loc>
     <lastmod>2015-06-25T00:00:00+00:00</lastmod>
   </url>
   
@@ -18,12 +18,22 @@
   </url>
   
   <url>
-    <loc>https://mailsquad.com/fr/prix/cad/</loc>
+    <loc>https://mailsquad.com/fr/revendeur/tarifs/eur/</loc>
     <lastmod>2015-05-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mailsquad.com/fr/prix/eur/</loc>
+    <loc>https://mailsquad.com/fr/revendeur/tarifs/cad/</loc>
+    <lastmod>2015-05-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mailsquad.com/fr/tarifs/cad/</loc>
+    <lastmod>2015-05-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mailsquad.com/fr/tarifs/eur/</loc>
     <lastmod>2015-05-25T00:00:00+00:00</lastmod>
   </url>
   
@@ -95,6 +105,14 @@
   <url>
     <loc>https://mailsquad.com/fr/support/</loc>
     <lastmod>2014-11-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mailsquad.com/fr/fonctionnalites/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mailsquad.com/fr/revendeur/</loc>
   </url>
   
 </urlset>

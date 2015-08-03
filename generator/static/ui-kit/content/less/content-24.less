@@ -6,7 +6,6 @@
     overflow: hidden;
     h3 {
         .font(30px, white);
-        font-family:@font-family-demo;
         margin-bottom:40px;
         font-weight: 300;
     }
@@ -51,7 +50,6 @@
         counter-increment: my-badass-counter;
         position: absolute;
         left: 0;
-        //top: 0;
         font-size: 36px;
         font-weight: 100;
         line-height: 1;
@@ -81,22 +79,94 @@
         position: relative;
     }
 }
-@media (max-width: 767px) {
+
+.content-24.track {
+    h2 {
+        .font(68px, #FFFFFF);
+        font-weight: 600;
+        margin-bottom:4px;
+
+        @media (max-width: @screen-xs-min) {
+            font-size: 48px;   
+        }
+
+        @media (max-width: @screen-sm-max) {
+            margin-top: 0px;
+            text-align: center;
+        }
+        @media (min-width: 992px) {
+            margin-top: 40px;
+            text-align: left;
+        }
+        @media (min-width: 1200px) {
+          margin-top: 140px;
+        }
+    }
+    p {
+        .line-height(1.46);
+    }
+    p.lead {
+        .font(36px, #FFFFFF);
+        font-weight: 200;
+        margin-bottom: 20px;
+
+        @media (max-width: @screen-sm-max) {
+            text-align: center;
+            font-size: 24px;
+        }
+
+        @media (min-width: 992px) {
+            text-align: left;
+        }
+    }
+
+    .form-group {
+        @media (max-width: @screen-sm-max) {
+            text-align: center;
+        }
+
+        @media (min-width: 992px) {
+            text-align: left;
+        }
+    }
+
+    img.image {
+        @media (max-width: @screen-sm-max) {
+            position:relative;
+            margin-bottom: 48px;
+            padding-left: 40px;
+            padding-right: 40px;
+            right:0;
+        }
+    }
+
+    .btn-primary {
+        background-color: #FFFFFF;
+        color: #0694CC;
+        border: 1px solid #FFFFFF;
+
+        &:hover, &:focus {
+            border: 1px solid #FFFFFF;
+            color: #FFFFFF;
+            background-color: transparent;
+        }
+    }
+}
+
+@media (max-width: 992px) {
     .content-24 {
-        padding:35px;
+        //padding:125px;
+    }
+}
+
+@media (max-width: @screen-sm-max) {
+    .content-24 {
+        // padding:35px;
         img.image {
             position:relative;
             margin-bottom: 48px;
             right:0;
         }
-        // .features.features-clear {
-        //     .features-header {
-        //         margin-bottom: 48px;
-        //     }
-        //     .features-body p {
-        //         margin-bottom: 48px;
-        //     }
-        // }
         .container {
             padding-left: 0;
             padding-right: 0;

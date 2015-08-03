@@ -1,4 +1,4 @@
-baseurl = "https://mailsquad.com/fr"
+baseurl = "https://mailsquad.com/fr/"
 publishdir = "../../html/fr"
 staticdir = "../static"
 canonifyurls = false
@@ -13,9 +13,9 @@ title = "Marketing email pour les agences et professionnels du Web"
 	url = "/fonctionnalites"
 	weight = 1
 [[menu.top]]
-	name = "Prix"
+	name = "Tarifs"
 	identifier = "prix"
-	url = "/prix"
+	url = "/tarifs"
 	weight = 2
 [[menu.top]]
 	name = "Contact"
@@ -32,3 +32,24 @@ title = "Marketing email pour les agences et professionnels du Web"
 	identifier = "blogue"
 	url = "/blogue"
 	weight = 5
+
+[[menu.topreseller]]
+	name = "Fonctionnalités Revendeur"
+	identifier = "features"
+	url = "/revendeur/fonctionnalites"
+	weight = 1
+[[menu.topreseller]]
+	name = "Tarif revendeur"
+	identifier = "pricing"
+	url = "/revendeur/tarifs"
+	weight = 2
+[[menu.topreseller]]
+	name = "Contact"
+	identifier = "contact"
+	url = "/contact"
+	weight = 3
+[[menu.topreseller]]
+	name = "Support"
+	identifier = "support"
+	url = "http://aide.mailsquad.com"
+	weight = 4

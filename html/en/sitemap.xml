@@ -3,13 +3,8 @@
   
   <url>
     <loc>https://mailsquad.com/en/</loc>
-    <lastmod>2015-06-25T00:00:00+00:00</lastmod>
+    <lastmod>2015-04-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://mailsquad.com/en/features/</loc>
-    <lastmod>2015-06-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -23,37 +18,63 @@
   </url>
   
   <url>
-    <loc>https://mailsquad.com/en/pricing/cad/</loc>
+    <loc>https://mailsquad.com/en/reseller/pricing/cad/calculator/</loc>
     <lastmod>2015-01-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mailsquad.com/en/pricing/eur/</loc>
+    <loc>https://mailsquad.com/en/reseller/pricing/eur/</loc>
     <lastmod>2015-01-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mailsquad.com/en/pricing/usd/</loc>
+    <loc>https://mailsquad.com/en/reseller/pricing/usd/</loc>
     <lastmod>2015-01-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mailsquad.com/en/contact/</loc>
-    <lastmod>2014-11-20T00:00:00+00:00</lastmod>
+    <loc>https://mailsquad.com/en/reseller/pricing/cad/</loc>
+    <lastmod>2015-01-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mailsquad.com/en/policies/privacy/</loc>
-    <lastmod>2014-11-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mailsquad.com/en/policies/terms/</loc>
-    <lastmod>2014-11-20T00:00:00+00:00</lastmod>
+    <loc>https://mailsquad.com/en/features/</loc>
   </url>
   
   <url>
     <loc>https://mailsquad.com/en/policies/anti-spam/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mailsquad.com/en/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mailsquad.com/en/policies/privacy/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mailsquad.com/en/policies/terms/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mailsquad.com/en/pricing/usd/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mailsquad.com/en/pricing/eur/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mailsquad.com/en/pricing/cad/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mailsquad.com/en/reseller/features/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mailsquad.com/en/reseller/</loc>
   </url>
   
 </urlset>

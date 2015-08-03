@@ -1,7 +1,6 @@
 ---
 title: Privacy Policy
-description: Privacy Policy for Our Email Marketing platform MailSquad
-date: "2014-11-20"
+description: Privacy Policy for Our Email Marketing platform
 ---
 
 <section class="content-26 bg-clouds">

@@ -1,12 +1,27 @@
 /**
  * Content 11 stylesheet  
  * */
+  .content-11.white {
+    background-color: #FFFFFF;
+    color: #444444;
+
+    .btn-primary {
+        background-color: #0092cd;
+        color: #FFFFFF;
+        margin-left: 35px;
+
+        &:hover, &:focus {
+            background-color: mix(@brand-primary, black, 85%);
+        }
+    }
+  }
+
   .content-11 {
     position:relative;
     text-align: center;
     padding-top: 35px;
     padding-bottom: 35px;
-    background: #0694CC;
+    background: #0092cd;
     .font(24px, #FFFFFF);
     font-family: @font-family-demo;
     font-weight: 300;
@@ -15,11 +30,14 @@
     }
     .btn-primary {
         background-color: #FFFFFF;
-        color: #0694CC;
-        margin-left: 33px;
+        color: #0092cd;
+        border: 1px solid #FFFFFF;
+        margin-left: 35px;
 
         &:hover, &:focus {
-            background-color: mix(#FFFFFF, black, 85%);
+            border: 1px solid #FFFFFF;
+            color: #FFFFFF;
+            background-color: transparent;
         }
     }
     @media (max-width: 480px) {

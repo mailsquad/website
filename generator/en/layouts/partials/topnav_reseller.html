@@ -1,0 +1,28 @@
+<header class="header-11">
+    <div class="container">
+        <div class="row">
+            <nav class="navbar col-sm-12" role="navigation">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle"></button>
+                    <a class="brand" href="/en/">
+                        <img src="/img/mailsquad-color.svg" width="200" alt="MailSquad - White-label Email Marketing Solution For Agencies">
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse pull-right">
+                <form class="navbar-form pull-right">
+                    <a class="btn btn-primary btn-signup" href="https://app.mailsquad.com/login/signup">Sign Up Free</a>
+                    <a class="btn-login" href="https://app.mailsquad.com/login?lang=en">LOGIN</a>
+                    <a style="padding-left:10px;" href="/fr/revendeur/"><img src="/common-files/icons/francais.png" alt="Fran&ccedil;ais" title="Fran&ccedil;ais"></a>
+                </form>
+                <ul class="nav pull-left">
+                    {{ $currentNode := . }}
+                    {{ range .Site.Menus.topreseller }}
+                    <li {{if or ($currentNode.HasMenuCurrent "topreseller" .) ($currentNode.IsMenuCurrent "topreseller" .) }} class="active" {{end}}><a href="{{.Url}}" >{{.Name}}</a></li>
+                    {{ end }}
+                </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="header-background"></div>
+</header>
