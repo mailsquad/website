@@ -34,4 +34,9 @@ EXPOSE 80
 EXPOSE 443
 
 COPY nginx.conf /etc/nginx/nginx.conf
+#COPY mailsquad-com.crt /etc/nginx/mailsquad-com.crt
+#COPY mailsquad-com.key  /etc/nginx/mailsquad-com.key
+#COPY trustchain.crt /etc/nginx/trustchain.crt
+#COPY dhparam.pem /etc/nginx/dhparam.pem
+
 COPY html /usr/share/nginx/html
