@@ -42,4 +42,7 @@ rm -rf common-files
 rm -rf reveal
 rm -rf waq15-golang
 
-cd ../../generator
+cd ..
+cp -rf ../generator/api-doc .
+
+cd ../generator
