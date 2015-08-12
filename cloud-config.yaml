@@ -20,7 +20,7 @@ coreos:
         ExecStartPre=-/usr/bin/docker kill mailsquad-website
         ExecStartPre=-/usr/bin/docker rm mailsquad-website
         ExecStartPre=/usr/bin/docker pull mailsquad/website
-        ExecStart=/usr/bin/docker run --name mailsquad-website -p 80:80 mailsquad/website
+        ExecStart=/usr/bin/docker run --name mailsquad-website -p 80:80 -p 443:443 -v /home/core/ssl:/etc/nginx/ssl mailsquad/website
         ExecStop=/usr/bin/docker stop mailsquad-website
         User=core
         Restart=always
